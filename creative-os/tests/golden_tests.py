@@ -121,6 +121,41 @@ _hx = brand["colors"]
 check("compiler: exact hexes present", _hx["primary"] in c["prompt"] and _hx["background"] in c["prompt"])
 check("compiler: reference attached", len(c["reference_images"]) >= 2)
 
+# Series anchor (anti micro-drift: clone-from-approved-sibling)
+ca = PC.compile_prompt({"topic": "cold email deliverability", "hero_description": "three hanging envelopes, one glowing orange",
+                        "headline": "ONE EMAIL LANDS.", "format": "feed_45"}, brand, entry,
+                       series_anchor="anchors/s01-raw.png")
+check("anchor: attached as PRIMARY reference", ca["reference_images"][0] == "anchors/s01-raw.png")
+check("anchor: content-swap-only clause", "Change ONLY the content layer" in ca["prompt"])
+check("anchor: copy-leak counter-clause", "Do NOT copy any words" in ca["prompt"])
+check("anchor: discipline note emitted", "REFERENCE LOCK ACTIVE" in ca["notes"])
+check("anchor: off by default", "Change ONLY the content layer" not in c["prompt"] and "REFERENCE LOCK" not in c["notes"])
+
+# Reference-Locked Generation Mode (DNA-gated; full vs background lock)
+cb = PC.compile_prompt({"topic": "cold email deliverability", "hero_description": "three hanging envelopes, one glowing orange",
+                        "headline": "ONE EMAIL LANDS.", "format": "feed_45"}, brand, entry,
+                       series_anchor="anchors/bg-master.png", lock_mode="background")
+check("lock: background mode locks bg only", "Reproduce its BACKGROUND" in cb["prompt"] and "do NOT copy the reference's layout" in cb["prompt"])
+check("lock: background mode leaves layout free", "Change ONLY the content layer" not in cb["prompt"])
+check("lock: QA30 registered in rules", any(r["id"] == "QA30" for r in Q.load_rules()["rules"]))
+
+import orchestrator as O
+O._save = lambda r: r  # keep test runs out of registry/
+_anchor = os.path.join(FIX, "good-post-01.png")
+_run = {"dna_id": "HOB_01", "history": [], "run_id": "golden-lock"}
+try:
+    O.set_series_anchor(_run, _anchor)
+    check("lock: DNA gate blocks undeclared repetition", False)
+except ValueError:
+    check("lock: DNA gate blocks undeclared repetition", True)
+O.set_series_anchor(_run, _anchor, force=True)
+check("lock: force sets master with human approval", _run["series_anchors"]["content"]["path"] == _anchor)
+try:
+    O.set_series_anchor(_run, _anchor, force=True)
+    check("lock: master replacement needs revise=True", False)
+except ValueError:
+    check("lock: master replacement needs revise=True", True)
+
 # 5. Hardening guards (from the water-bottle external-agent error register)
 import exporter as X
 import components as CM

@@ -1,43 +1,239 @@
 {
-  "schema_version": "1.0",
-  "_comment": "QA 1-27 from brand/BRAND_SYSTEM.md Sec 8-10, machine-encoded. method: numeric = qa_engine computes; vision = engine emits a vision-task (crops prepared, verdict by vision model); config = checked against configs; human = user gate. layer: A config / B pixel-numeric / C vision-vs-reference / D content / E cross-slide / F release gate.",
-  "fail_policy": "DNA/composition mismatches -> REGENERATE (never patch). Programmatic-element defects -> recomposite. Caps in retry.policy.",
-  "rules": [
-    {"id": "QA01", "layer": "A", "method": "numeric", "name": "canvas size exact per platform policy"},
-    {"id": "QA02", "layer": "B", "method": "numeric", "name": "30px safe margin on all 4 sides", "params": {"margin": 30}},
-    {"id": "QA03", "layer": "B", "method": "numeric", "name": "brand hexes only (+tints)"},
-    {"id": "QA03a", "layer": "B", "method": "numeric", "name": "exact-hex 3-zone sample on solid backgrounds; snap pass before compositing", "params": {"zones": ["top-left", "bottom-left", "swipe-chip corner"], "tolerance": 0}},
-    {"id": "QA03b", "layer": "E", "method": "vision", "name": "micro-detail: repeating labels identical; widgets contrast bg; 100% zoom after any edit"},
-    {"id": "QA04", "layer": "A", "method": "config", "name": "single primary font family (accents per brand kit roles only)"},
-    {"id": "QA05", "layer": "C", "method": "vision", "name": "thumbnail readability, 1-second hierarchy"},
-    {"id": "QA06", "layer": "B", "method": "numeric", "name": "engagement trio equal size (~40px), grid intact, platform policy decides presence"},
-    {"id": "QA07", "layer": "E", "method": "numeric", "name": "swipe marker identical on all non-final slides"},
-    {"id": "QA08", "layer": "D", "method": "config", "name": "profile block last-slide/minimal-post only; no company name/site/logo on personal brand"},
-    {"id": "QA09", "layer": "C", "method": "vision", "name": "layout maps to ONE approved DNA archetype (never hybrid, never invented)"},
-    {"id": "QA10", "layer": "E", "method": "vision", "name": "slide variation present, system consistent"},
-    {"id": "QA11", "layer": "C", "method": "vision", "name": "icons/illustrations one family, recolored to brand (icon_sourcing_policy)"},
-    {"id": "QA12", "layer": "D", "method": "config", "name": "mascot only when character adds creativity"},
-    {"id": "QA13", "layer": "C", "method": "vision", "name": "VISUAL HERO >=40% canvas; typography supports (singles + covers/feature slides)"},
-    {"id": "QA14", "layer": "A", "method": "config", "name": "type-system match: post type -> reference; reference image re-opened with vision pre-gen"},
-    {"id": "QA15", "layer": "C", "method": "vision", "name": "hero optically centered/counter-balanced; no dead half-canvas"},
-    {"id": "QA16", "layer": "E", "method": "numeric", "name": "locked-series exactness: headline size/alignment, hero footprint +/-3%, one shared transform"},
-    {"id": "QA17", "layer": "B", "method": "numeric", "name": "reserved zones (TL pill, BR chip) empty in raw BEFORE compositing; no blind wipes"},
-    {"id": "QA18", "layer": "C", "method": "vision", "name": "numbered list rows carry real text, never empty wireframe bars"},
-    {"id": "QA19", "layer": "E", "method": "numeric", "name": "label hierarchy identical size/placement every slide"},
-    {"id": "QA20", "layer": "A", "method": "config", "name": "DNA-library match before generation; tombstones DNA_16/17/19/22/25/26 hard-blocked", "params": {"tombstones": ["DNA_16", "DNA_17", "DNA_19", "DNA_22", "DNA_25", "DNA_26"]}},
-    {"id": "QA20b", "layer": "A", "method": "config", "name": "image-linked DNA: re-open reference image with vision before using its stage"},
-    {"id": "QA20c", "layer": "A", "method": "config", "name": "collection templates: client-neutral palettes may be kept"},
-    {"id": "QA20d", "layer": "A", "method": "config", "name": "json-only recipes: work from written fields; palettes remap to brand unless brief says else"},
-    {"id": "QA21", "layer": "C", "method": "vision", "name": "device/hero geometry fidelity vs reference (MANDATORY vision compare)"},
-    {"id": "QA22", "layer": "C", "method": "vision", "name": "headline-to-device breathing space matches reference hierarchy"},
-    {"id": "QA23", "layer": "B", "method": "numeric", "name": "inner frames/keylines >=10px clearance from branding strip", "params": {"clearance": 10}},
-    {"id": "QA24", "layer": "A", "method": "config", "name": "business kits source from OLD DNA json, not new collections"},
-    {"id": "QA25", "layer": "B", "method": "numeric", "name": "strip-zone background tonally continuous with artwork above (a: seam scan, b: reserve renders lighter, c: band-fill grain match)"},
-    {"id": "QA26", "layer": "E", "method": "numeric", "name": "series alignment lock: ANY repeating element x/y drift = FAIL (numeral-row-restricted masks)"},
-    {"id": "QA27", "layer": "E", "method": "numeric", "name": "typographic scale lock: size/weight drift across series = FAIL (d: model ceiling -> short-text sibling clone)"}
-  ],
-  "release_gate_F": {
-    "order": ["A", "B", "C", "D", "E"],
-    "rule": "all layers pass -> export; any DNA-level fail -> regenerate (retry caps); programmatic fail -> recomposite; cap exhausted -> escalate to human with audit trail"
+ "schema_version": "1.0",
+ "_comment": "QA 1-27 from brand/BRAND_SYSTEM.md Sec 8-10, machine-encoded. method: numeric = qa_engine computes; vision = engine emits a vision-task (crops prepared, verdict by vision model); config = checked against configs; human = user gate. layer: A config / B pixel-numeric / C vision-vs-reference / D content / E cross-slide / F release gate.",
+ "fail_policy": "DNA/composition mismatches -> REGENERATE (never patch). Programmatic-element defects -> recomposite. Caps in retry.policy.",
+ "rules": [
+  {
+   "id": "QA01",
+   "layer": "A",
+   "method": "numeric",
+   "name": "canvas size exact per platform policy"
+  },
+  {
+   "id": "QA02",
+   "layer": "B",
+   "method": "numeric",
+   "name": "30px safe margin on all 4 sides",
+   "params": {
+    "margin": 30
+   }
+  },
+  {
+   "id": "QA03",
+   "layer": "B",
+   "method": "numeric",
+   "name": "brand hexes only (+tints)"
+  },
+  {
+   "id": "QA03a",
+   "layer": "B",
+   "method": "numeric",
+   "name": "exact-hex 3-zone sample on solid backgrounds; snap pass before compositing",
+   "params": {
+    "zones": [
+     "top-left",
+     "bottom-left",
+     "swipe-chip corner"
+    ],
+    "tolerance": 0
+   }
+  },
+  {
+   "id": "QA03b",
+   "layer": "E",
+   "method": "vision",
+   "name": "micro-detail: repeating labels identical; widgets contrast bg; 100% zoom after any edit"
+  },
+  {
+   "id": "QA04",
+   "layer": "A",
+   "method": "config",
+   "name": "single primary font family (accents per brand kit roles only)"
+  },
+  {
+   "id": "QA05",
+   "layer": "C",
+   "method": "vision",
+   "name": "thumbnail readability, 1-second hierarchy"
+  },
+  {
+   "id": "QA06",
+   "layer": "B",
+   "method": "numeric",
+   "name": "engagement trio equal size (~40px), grid intact, platform policy decides presence"
+  },
+  {
+   "id": "QA07",
+   "layer": "E",
+   "method": "numeric",
+   "name": "swipe marker identical on all non-final slides"
+  },
+  {
+   "id": "QA08",
+   "layer": "D",
+   "method": "config",
+   "name": "profile block last-slide/minimal-post only; no company name/site/logo on personal brand"
+  },
+  {
+   "id": "QA09",
+   "layer": "C",
+   "method": "vision",
+   "name": "layout maps to ONE approved DNA archetype (never hybrid, never invented)"
+  },
+  {
+   "id": "QA10",
+   "layer": "E",
+   "method": "vision",
+   "name": "slide variation present, system consistent"
+  },
+  {
+   "id": "QA11",
+   "layer": "C",
+   "method": "vision",
+   "name": "icons/illustrations one family, recolored to brand (icon_sourcing_policy)"
+  },
+  {
+   "id": "QA12",
+   "layer": "D",
+   "method": "config",
+   "name": "mascot only when character adds creativity"
+  },
+  {
+   "id": "QA13",
+   "layer": "C",
+   "method": "vision",
+   "name": "VISUAL HERO >=40% canvas; typography supports (singles + covers/feature slides)"
+  },
+  {
+   "id": "QA14",
+   "layer": "A",
+   "method": "config",
+   "name": "type-system match: post type -> reference; reference image re-opened with vision pre-gen"
+  },
+  {
+   "id": "QA15",
+   "layer": "C",
+   "method": "vision",
+   "name": "hero optically centered/counter-balanced; no dead half-canvas"
+  },
+  {
+   "id": "QA16",
+   "layer": "E",
+   "method": "numeric",
+   "name": "locked-series exactness: headline size/alignment, hero footprint +/-3%, one shared transform"
+  },
+  {
+   "id": "QA17",
+   "layer": "B",
+   "method": "numeric",
+   "name": "reserved zones (TL pill, BR chip) empty in raw BEFORE compositing; no blind wipes"
+  },
+  {
+   "id": "QA18",
+   "layer": "C",
+   "method": "vision",
+   "name": "numbered list rows carry real text, never empty wireframe bars"
+  },
+  {
+   "id": "QA19",
+   "layer": "E",
+   "method": "numeric",
+   "name": "label hierarchy identical size/placement every slide"
+  },
+  {
+   "id": "QA20",
+   "layer": "A",
+   "method": "config",
+   "name": "DNA-library match before generation; tombstones DNA_16/17/19/22/25/26 hard-blocked",
+   "params": {
+    "tombstones": [
+     "DNA_16",
+     "DNA_17",
+     "DNA_19",
+     "DNA_22",
+     "DNA_25",
+     "DNA_26"
+    ]
+   }
+  },
+  {
+   "id": "QA20b",
+   "layer": "A",
+   "method": "config",
+   "name": "image-linked DNA: re-open reference image with vision before using its stage"
+  },
+  {
+   "id": "QA20c",
+   "layer": "A",
+   "method": "config",
+   "name": "collection templates: client-neutral palettes may be kept"
+  },
+  {
+   "id": "QA20d",
+   "layer": "A",
+   "method": "config",
+   "name": "json-only recipes: work from written fields; palettes remap to brand unless brief says else"
+  },
+  {
+   "id": "QA21",
+   "layer": "C",
+   "method": "vision",
+   "name": "device/hero geometry fidelity vs reference (MANDATORY vision compare)"
+  },
+  {
+   "id": "QA22",
+   "layer": "C",
+   "method": "vision",
+   "name": "headline-to-device breathing space matches reference hierarchy"
+  },
+  {
+   "id": "QA23",
+   "layer": "B",
+   "method": "numeric",
+   "name": "inner frames/keylines >=10px clearance from branding strip",
+   "params": {
+    "clearance": 10
+   }
+  },
+  {
+   "id": "QA24",
+   "layer": "A",
+   "method": "config",
+   "name": "business kits source from OLD DNA json, not new collections"
+  },
+  {
+   "id": "QA25",
+   "layer": "B",
+   "method": "numeric",
+   "name": "strip-zone background tonally continuous with artwork above (a: seam scan, b: reserve renders lighter, c: band-fill grain match)"
+  },
+  {
+   "id": "QA26",
+   "layer": "E",
+   "method": "numeric",
+   "name": "series alignment lock: ANY repeating element x/y drift = FAIL (numeral-row-restricted masks)"
+  },
+  {
+   "id": "QA27",
+   "layer": "E",
+   "method": "numeric",
+   "name": "typographic scale lock: size/weight drift across series = FAIL (d: model ceiling -> short-text sibling clone)"
+  },
+  {
+   "id": "QA30",
+   "layer": "D",
+   "method": "vision",
+   "name": "reference-locked slides match their approved master: background, geometry, spacing, palette, decorative details (Reference-Locked Generation rule 7); not_applicable with justification when no lock is active"
   }
+ ],
+ "release_gate_F": {
+  "order": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "rule": "all layers pass -> export; any DNA-level fail -> regenerate (retry caps); programmatic fail -> recomposite; cap exhausted -> escalate to human with audit trail"
+ }
 }

@@ -42,6 +42,37 @@ def _hex(c):
     return tuple(int(c[i:i + 2], 16) for i in (0, 2, 4))
 
 
+def render_text_block(canvas, brand, text, org, size, role="headline",
+                      color_role="text", align="left", line_spacing=1.15):
+    """Reference-Locked Generation rule 9: when a repeat slide changes ONLY
+    its text, reuse the approved background asset directly and composite the
+    new text here with REAL brand fonts — do not regenerate unchanged visuals
+    and do not ask the image model to re-render exact typography.
+
+    SCOPE GUARD: permitted only over a reused, unchanged approved background
+    within an active reference lock. This is assembly from approved assets —
+    it is NOT a license to rebuild artwork or patch a DNA-mismatched
+    generation (that is still a regenerate, per fail_policy).
+
+    org: (x, y) anchor of the first line; align: left|center|right of org.x;
+    role: typography role from brand config; color_role: brand colors key.
+    Returns the bbox actually painted."""
+    d = ImageDraw.Draw(canvas)
+    font = _font(brand, role, size)
+    fill = _hex(brand["colors"][color_role])
+    x, y = org
+    painted = None
+    for line in str(text).split("\n"):
+        bb = d.textbbox((0, 0), line, font=font)
+        w = bb[2] - bb[0]
+        lx = {"left": x, "center": x - w // 2, "right": x - w}[align]
+        d.text((lx - bb[0], y - bb[1]), line, font=font, fill=fill)
+        box = (lx, y, lx + w, y + (bb[3] - bb[1]))
+        painted = box if painted is None else (min(painted[0], box[0]), painted[1], max(painted[2], box[2]), box[3])
+        y += int(size * line_spacing)
+    return painted
+
+
 def dp_circle(brand, size):
     """Real DP image, circle-masked. Never initials (hard rule)."""
     dp = Image.open(os.path.join(WS, brand["assets"]["dp_circle"])).convert("RGBA")

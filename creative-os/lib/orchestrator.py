@@ -79,7 +79,13 @@ def compile_stage(run):
     entry = prompt_compiler.get_entry(reg, run["dna_id"])
     brief = dict(run["brief"])
     brief.setdefault("hero_description", entry.get("working_label", "the DNA hero"))
-    compiled = prompt_compiler.compile_prompt(brief, brand, entry, bg_variant=run["brief"].get("bg_variant", "A"))
+    a = run.get("series_anchors", {}).get(brief.get("slide_class", "content"))
+    if isinstance(a, str):  # pre-lock_mode runs stored a bare path
+        a = {"path": a, "lock_mode": "full"}
+    compiled = prompt_compiler.compile_prompt(brief, brand, entry,
+                                              bg_variant=run["brief"].get("bg_variant", "A"),
+                                              series_anchor=(a or {}).get("path"),
+                                              lock_mode=(a or {}).get("lock_mode", "full"))
     out = run["brief"].get("output_path", f"/tmp/{run['run_id']}.png")
     job_path, job = provider.new_job(compiled, run["dna_id"], run["run_id"], out)
     run.update({"stage": "job_emitted", "job_path": job_path, "compiled_canvas": compiled["canvas"],
@@ -109,6 +115,53 @@ def report_qa(run, failed_rules, slide_id=None, results=None):
                           + (f", unresolved={unknown}" if unknown else "") + f" -> {action}")
     _save(run)
     return action
+
+
+def set_series_anchor(run, anchor_path, slide_class="content", lock_mode="full",
+                      force=False, revise=False):
+    """Reference-Locked Generation Mode (docs/REFERENCE-LOCKED-GENERATION.md).
+
+    Lock an APPROVED raw slide as the Master Reference for every remaining
+    sibling of its repeat family in this run (anti micro-drift).
+
+    DNA GATE (rule 1): this mode is NOT default. It activates only when the
+    selected DNA/recipe declares repeat requirements (entry field
+    'repetition', or a locked constraint mentioning repeat/same background).
+    Pass force=True only on explicit human approval for a DNA that doesn't
+    declare them. Never assume all slides share one layout — hook and closing
+    slides keep their own treatments (their own slide_class) unless the DNA
+    says otherwise.
+
+    lock_mode: 'full' (repeat the whole design, swap content only) or
+    'background' (repeat background only, layout free per DNA).
+
+    Doctrine: the master is the SAME DNA instance, not a second DNA. Set only
+    after the slide passed full QA + vision review; pass the RAW
+    pre-compositing image, never a composited final; siblings always clone
+    from this ORIGINAL master, never from slide N-1. Replacing an existing
+    master requires revise=True (an explicitly approved revised master)."""
+    if not os.path.exists(anchor_path):
+        raise FileNotFoundError(f"series anchor not found: {anchor_path}")
+    if lock_mode not in ("full", "background"):
+        raise ValueError(f"unknown lock_mode '{lock_mode}' (use 'full' or 'background')")
+    if not force:
+        entry = prompt_compiler.get_entry(prompt_compiler.load_registry(), run["dna_id"])
+        declared = bool(entry.get("repetition")) or any(
+            ("repeat" in str(c).lower() or "same background" in str(c).lower())
+            for c in entry.get("constraints", {}).get("locked", []))
+        if not declared:
+            raise ValueError(
+                f"DNA {run['dna_id']} declares no repeat requirements — Reference-Locked "
+                "Generation is DNA-gated (rule 1). Pass force=True only with human approval.")
+    anchors = run.setdefault("series_anchors", {})
+    if slide_class in anchors and not revise:
+        raise ValueError(
+            f"master for class '{slide_class}' already set — replacing it requires an "
+            "explicitly approved revised master (revise=True), never the latest generation.")
+    anchors[slide_class] = {"path": anchor_path, "lock_mode": lock_mode}
+    run["history"].append(f"master reference set for family '{slide_class}' "
+                          f"(mode={lock_mode}{', revised' if revise else ''}): {anchor_path}")
+    return _save(run)
 
 
 def mark_released(run, final_paths):
