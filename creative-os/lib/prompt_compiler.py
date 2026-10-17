@@ -50,6 +50,14 @@ def compile_prompt(brief, brand, entry, bg_variant="A"):
     locked = entry.get("constraints", {}).get("locked", [])
     if locked:
         p.append("Non-negotiable composition traits: " + "; ".join(locked) + ".")
+    # 3b. Anti-dilution clause (lesson: run-1792215268 — a bold infographic DNA
+    # drifted into a minimalist editorial read; rhythm counts and
+    # illustration-first scale weakened while every numeric check still passed)
+    p.append("Match the reference's composition DENSITY, SCALE and RHYTHM faithfully: "
+             "if the reference is illustration-first, artwork must dominate over text; "
+             "if it uses a repeated card or numbered-step rhythm, reproduce that exact "
+             "rhythm and count. Do not simplify, minimalize or editorialize the "
+             "reference layout.")
     # 4. Typography
     p.append(f"Headline text: \"{brief['headline']}\" in clean {brand['typography']['primary_family']}-style "
              f"geometric sans, strong hierarchy, readable at thumbnail size.")
