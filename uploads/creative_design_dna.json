@@ -1,0 +1,628 @@
+{
+  "schema_version": "1.0",
+  "document_type": "social_creative_visual_dna",
+  "purpose": "Reusable visual and art-direction specifications for an AI agent to generate original creatives inspired by the supplied references.",
+  "global_rules": {
+    "scope": "Creative visual DNA only",
+    "exclude_from_all_designs": [
+      "logos and brand marks",
+      "social media handles and platform icons",
+      "phone numbers, email addresses, URLs and physical addresses",
+      "watermarks and unrelated brand identifiers"
+    ],
+    "text_guidance": "Use the supplied message concept or replace it with concise, relevant copy. Preserve clear hierarchy and legibility; avoid inventing contact details.",
+    "originality": "Recreate the visual principles, not exact artwork, identifiable people, or existing brand assets."
+  },
+  "designs": [
+    {
+      "id": "design_01",
+      "reference_file": "48643.jpg",
+      "creative_type": "Bold editorial advice poster with human cutout photography",
+      "core_concept": "Choose quality over cheapness; make the advice feel direct, confident, and memorable.",
+      "format": {
+        "orientation": "portrait",
+        "aspect_ratio": "approximately 3:4"
+      },
+      "composition": {
+        "structure": "Large headline in the upper third, two grayscale human cutouts facing one another in the lower half, small supporting insight between them, and a strong blue footer block.",
+        "reading_path": [
+          "headline",
+          "contrasting human figures",
+          "small supporting statement",
+          "bottom color block"
+        ],
+        "balance": "Asymmetrical but stable; the two figures create a central conversational tension.",
+        "negative_space": "Light, paper-like space around the headline and between the figures."
+      },
+      "palette": {
+        "primary": [
+          "electric royal blue",
+          "black",
+          "white"
+        ],
+        "secondary": [
+          "cool gray",
+          "soft paper gray"
+        ],
+        "usage": "Blue highlights one keyword, outlines photo cutouts, and anchors the bottom edge; black carries most typography."
+      },
+      "typography": {
+        "headline": "Heavy bold italic sans serif, tight line spacing, large mixed-case and uppercase phrases.",
+        "emphasis": "One key word sits inside a solid blue rectangle with white lettering; a thin hand-drawn blue underline adds energy.",
+        "supporting_text": "Compact bold sans serif, with a short phrase highlighted in blue.",
+        "character": "Assertive, conversational, high contrast."
+      },
+      "imagery": {
+        "style": "Black-and-white photographic cutouts with visible texture.",
+        "subjects": "Two adult figures in profile facing each other; one is engaged in a grooming action while the other looks downward.",
+        "treatment": "Thick hand-cut royal-blue contour around each person; figures overlap a blue lower band.",
+        "visual_metaphor": "The opposing figures dramatize a choice or comparison."
+      },
+      "background_and_graphics": {
+        "background": "Off-white lightly textured paper.",
+        "details": [
+          "very faint oversized ghost lettering",
+          "subtle sketched decorative marks",
+          "dashed curved arrow between figures",
+          "small simple idea/lightbulb icon"
+        ],
+        "effects": "Cut-paper collage feeling, minimal shadows, rough-edged editorial energy."
+      },
+      "layout_rules": [
+        "Keep the headline dominant and readable at phone size.",
+        "Use blue sparingly as a directional accent rather than a full-page background.",
+        "Keep the people in the lower half and let their outlines create separation from the background.",
+        "Avoid crowding the supporting insight."
+      ],
+      "prompt_blueprint": "Portrait editorial social poster on lightly textured off-white paper, oversized bold italic black headline with one key word reversed out in a royal-blue rectangle, thin blue underline, two grayscale photographic adult cutouts facing each other in the lower half with thick blue contour strokes, a dashed curved arrow and tiny idea icon between them, solid royal-blue footer band, strong negative space, punchy high-contrast art direction."
+    },
+    {
+      "id": "design_02",
+      "reference_file": "47814.jpg",
+      "creative_type": "Calendar-led seasonal announcement",
+      "core_concept": "Make a holiday date feel immediate and culturally grounded through a calendar interface and overhead event photography.",
+      "format": {
+        "orientation": "portrait",
+        "aspect_ratio": "approximately 3:4"
+      },
+      "composition": {
+        "structure": "Full-bleed overhead photograph as the background; large white rounded calendar card centered over it; oversized holiday title crosses the calendar grid.",
+        "reading_path": [
+          "holiday title",
+          "calendar month and date",
+          "circled date",
+          "small inset photographs"
+        ],
+        "balance": "Centered UI card against a busy, richly textured background.",
+        "depth": "Foreground calendar card is clearly separated from the photographic scene."
+      },
+      "palette": {
+        "primary": [
+          "warm carpet reds",
+          "rust",
+          "deep brown",
+          "white",
+          "black"
+        ],
+        "accent": [
+          "fluorescent yellow-green"
+        ],
+        "usage": "The neon highlight creates a strong interruption across the otherwise realistic warm scene."
+      },
+      "typography": {
+        "headline": "Very large clean sans serif, mostly black, laid over a neon yellow-green rectangle.",
+        "calendar_labels": "Simple modern sans serif with strong numerals and generous spacing.",
+        "character": "Contemporary, calendar-app minimalism paired with documentary warmth."
+      },
+      "imagery": {
+        "background": "Top-down view of a large group gathered on patterned prayer rugs in a communal religious setting.",
+        "insets": "Small instant-photo-style snapshots pinned onto selected calendar rows.",
+        "treatment": "Background has natural photographic detail and slight motion/softness; calendar remains crisp."
+      },
+      "background_and_graphics": {
+        "calendar_card": "Large white rounded rectangle with fine gray dividers and restrained interface symbols.",
+        "date_marker": "Hand-drawn black circle around a selected day.",
+        "inset_treatment": "White instant-photo borders with slight tilt and tape-like details.",
+        "depth_effects": "Soft shadow beneath the calendar card."
+      },
+      "layout_rules": [
+        "Keep the calendar grid legible but subordinate to the holiday name.",
+        "Allow the headline highlight to extend beyond the calendar's internal grid for impact.",
+        "Use a single fluorescent accent and avoid adding competing bright colors.",
+        "Maintain a clear distinction between photographic background and clean UI card."
+      ],
+      "prompt_blueprint": "Portrait seasonal announcement, overhead documentary photograph of a communal gathering on richly patterned red and brown rugs, centered oversized white calendar app card with rounded corners and thin gray grid lines, huge black holiday title on a fluorescent yellow-green highlight strip, one date circled with a hand-drawn black line, two small tilted instant-photo inserts with white borders, restrained interface icons, soft card shadow, crisp contemporary editorial design."
+    },
+    {
+      "id": "design_03",
+      "reference_file": "47803.jpg",
+      "creative_type": "Conceptual person-and-object advertising poster",
+      "core_concept": "Communicate speed and marketing performance through a visual pun: a person hiding behind an oversized publication that resembles a social feed and inbox.",
+      "format": {
+        "orientation": "portrait",
+        "aspect_ratio": "approximately 3:4"
+      },
+      "composition": {
+        "structure": "Minimal headline at top; central human figure mostly hidden behind a giant open newspaper/magazine; object fills the middle and lower center.",
+        "reading_path": [
+          "short introductory line",
+          "large blue headline block",
+          "supporting phrase",
+          "oversized publication object"
+        ],
+        "balance": "Centered, poster-like symmetry with the human figure as the anchor.",
+        "negative_space": "Large clean white margins around the headline and central object."
+      },
+      "palette": {
+        "primary": [
+          "white",
+          "cobalt blue",
+          "black"
+        ],
+        "secondary": [
+          "neutral gray"
+        ],
+        "usage": "Blue is used for one oversized headline word and a large graphic panel on the publication; black provides contrast."
+      },
+      "typography": {
+        "headline": "Bold sans serif with mixed weights and sizes; one key word in white inside a cobalt-blue rectangle.",
+        "supporting_text": "Black and blue sans serif, with one strategic word emphasized in blue.",
+        "object_copy": "Small editorial-style copy blocks and simple interface symbols printed on the oversized paper object.",
+        "character": "Smart, playful, high-contrast, agency-style."
+      },
+      "imagery": {
+        "subject": "A seated adult in a vivid blue sweater holding an oversized open publication that obscures most of the face.",
+        "hero_object": "A large white newspaper/magazine designed with simplified social-feed panels and an envelope symbol.",
+        "treatment": "Photorealistic person and prop, clean studio lighting, realistic hands and folds."
+      },
+      "background_and_graphics": {
+        "background": "Pure or near-white studio wall.",
+        "accents": [
+          "small blue hand-drawn emphasis rays",
+          "oversized envelope icon",
+          "small notification badge",
+          "subtle gray sofa edge along the bottom"
+        ],
+        "effects": "High-key lighting and minimal shadows; crisp, cutout-friendly subject."
+      },
+      "layout_rules": [
+        "Headline must remain readable and distinct from the hero prop.",
+        "The prop should be oversized enough to become the main visual metaphor.",
+        "Keep the background nearly empty.",
+        "Do not allow tiny text on the prop to compete with the main message."
+      ],
+      "prompt_blueprint": "Portrait minimalist advertising poster on a white studio background, bold black sans-serif headline with one enormous word in white on a cobalt-blue rectangle, supporting line with a blue emphasized keyword, photorealistic seated person in a bright blue sweater hiding behind an oversized open white newspaper designed like a social-media feed and email inbox, large simple envelope icon and small notification badge, tiny decorative blue emphasis strokes, clean lighting, crisp commercial photography, abundant negative space."
+    },
+    {
+      "id": "design_04",
+      "reference_file": "47799.jpg",
+      "creative_type": "High-energy service explainer with social-post panel",
+      "core_concept": "Show a complex, high-volume workflow being organized by a service, using exaggerated objects and a central message panel.",
+      "format": {
+        "orientation": "portrait",
+        "aspect_ratio": "approximately 3:4"
+      },
+      "composition": {
+        "structure": "Bright red upper and lower fields; two photographic people and oversized containers occupy the top and bottom; a wide white rounded message panel crosses the center.",
+        "reading_path": [
+          "top oversized object",
+          "floating task labels",
+          "central statement",
+          "bottom person and container"
+        ],
+        "balance": "Dynamic vertical composition with the central white strip stabilizing the scene.",
+        "depth": "Layered foreground labels, people, papers, and props."
+      },
+      "palette": {
+        "primary": [
+          "vivid red",
+          "white",
+          "black"
+        ],
+        "secondary": [
+          "soft gray"
+        ],
+        "usage": "Red creates urgency and brand-like energy; white cards provide contrast and black carries the main copy."
+      },
+      "typography": {
+        "headline": "Modern sans serif, mixed weights, with selected words emphasized in red.",
+        "task_labels": "Small bold sans serif on floating white rounded pills.",
+        "character": "Energetic, commercial, approachable, slightly playful."
+      },
+      "imagery": {
+        "subjects": "Two professional call-center workers wearing headsets, one at the top-right and one near the lower-left.",
+        "props": [
+          "oversized tipped red cylinder filled with paper slips",
+          "large dark woven basket overflowing with paper slips"
+        ],
+        "treatment": "Bright studio-style commercial photography with composited surreal scale."
+      },
+      "background_and_graphics": {
+        "background": "Solid vivid red field.",
+        "center_panel": "Wide white horizontal card with rounded corners and a subtle shadow.",
+        "floating_labels": "White rounded rectangles with small red service-related icons and short labels.",
+        "social_ui": "A few simple reaction/comment/share/save glyphs at the upper edge of the central panel, without platform branding."
+      },
+      "layout_rules": [
+        "Keep the main message inside the central white strip.",
+        "Use floating labels to suggest capabilities, not as a dense feature list.",
+        "The oversized paper props should frame rather than obscure the people.",
+        "Use red emphasis in the message sparingly."
+      ],
+      "prompt_blueprint": "Portrait high-energy service explainer on a vivid red background, two photorealistic professional headset-wearing workers placed in the upper-right and lower-left, surreal oversized red cylinder and dark woven basket overflowing with paper slips, a wide white rounded message panel across the middle with a bold black sentence and selected red keywords, several floating white pill labels with tiny red line icons, subtle social interaction glyphs, clean studio lighting, crisp compositing, strong visual hierarchy."
+    },
+    {
+      "id": "design_05",
+      "reference_file": "47795.jpg",
+      "creative_type": "Minimal typographic insight infographic",
+      "core_concept": "Explain how quickly an audience evaluates a brand by presenting a few direct questions as contrasting speech panels.",
+      "format": {
+        "orientation": "portrait",
+        "aspect_ratio": "approximately 3:4"
+      },
+      "composition": {
+        "structure": "Centered headline in the upper third; two opposing rounded text panels in the middle; short concluding statement near the bottom.",
+        "reading_path": [
+          "large headline",
+          "outlined white question panel",
+          "solid blue question panel",
+          "conclusion with blue highlight"
+        ],
+        "balance": "Mostly symmetrical typography with panels staggered diagonally for motion.",
+        "negative_space": "Generous white space around all major elements."
+      },
+      "palette": {
+        "primary": [
+          "white",
+          "black",
+          "royal blue"
+        ],
+        "secondary": [
+          "pale blue-gray"
+        ],
+        "usage": "Blue emphasizes a key word in the headline, fills the second panel, and highlights the final phrase."
+      },
+      "typography": {
+        "headline": "Large geometric sans serif, heavy weight, tightly stacked; one key word in blue.",
+        "panel_copy": "Medium-weight sans serif with clear line spacing and small blue asterisk bullets.",
+        "conclusion": "Medium-large black text followed by a white-on-blue highlighted phrase.",
+        "character": "Analytical, calm, crisp, modern."
+      },
+      "imagery": {
+        "style": "No photographic hero image; relies on typography and interface-like graphic elements.",
+        "icons": "Small circular question mark above the headline and simple outlined directional arrows near the panels."
+      },
+      "background_and_graphics": {
+        "background": "White with very subtle cool-blue edge gradients.",
+        "panels": [
+          "white rounded panel with thin blue outline and slight tilt",
+          "solid royal-blue rounded panel with white copy"
+        ],
+        "effects": "Very soft shadows, clean vector-like edges, minimal ornament."
+      },
+      "layout_rules": [
+        "Make the headline the first and largest element.",
+        "Use two panels with distinct treatments to separate question groups.",
+        "Keep bullets, arrows, and icons simple and consistent.",
+        "The final takeaway should feel like a clear conclusion rather than another headline."
+      ],
+      "prompt_blueprint": "Portrait minimalist infographic on a clean white background with a faint cool-blue edge glow, large centered black geometric sans-serif headline with one keyword in royal blue, small blue circle containing a question mark, two staggered rounded question panels—one white with thin blue outline and blue star bullets, one solid royal blue with white text—simple black outlined directional arrows, bottom takeaway with final phrase reversed out in a blue rectangle, soft subtle shadows, precise spacing, no photography."
+    },
+    {
+      "id": "design_06",
+      "reference_file": "47793.jpg",
+      "creative_type": "Number-led educational poster with flat vector illustration",
+      "core_concept": "Package a list of practical social-media lessons as a confident, editorial mini-guide.",
+      "format": {
+        "orientation": "portrait",
+        "aspect_ratio": "approximately 3:4"
+      },
+      "composition": {
+        "structure": "Large two-digit number at upper-left; stacked uppercase title beneath; short explanatory paragraph; lower-right vector illustration with a looping arrow.",
+        "reading_path": [
+          "large number",
+          "stacked title",
+          "supporting paragraph",
+          "illustration and call-to-action shape"
+        ],
+        "balance": "Left-heavy text block balanced by illustration and blue curved arrow on the right.",
+        "negative_space": "White background leaves room around the large type and illustration."
+      },
+      "palette": {
+        "primary": [
+          "white",
+          "black",
+          "bright blue"
+        ],
+        "secondary": [
+          "light gray"
+        ],
+        "usage": "Black dominates the headline; blue highlights small illustration details and key graphic accents."
+      },
+      "typography": {
+        "number": "Extremely large, heavy black sans serif.",
+        "title": "Condensed or compact heavy uppercase sans serif, stacked tightly.",
+        "body": "Small clean sans serif with short line lengths.",
+        "character": "Instructional, direct, contemporary."
+      },
+      "imagery": {
+        "style": "Simple outlined vector illustration with a large megaphone and small people interacting around it.",
+        "details": [
+          "blue panels on the megaphone",
+          "tiny notification/social symbols",
+          "simple human figures"
+        ],
+        "treatment": "Thin black outlines, flat blue fills, restrained detail."
+      },
+      "background_and_graphics": {
+        "background": "Plain white.",
+        "graphics": [
+          "large blue hand-drawn looping arrow",
+          "simple abstract blue corner shape",
+          "black rounded pill-like call-to-action block with blue lettering"
+        ],
+        "effects": "Flat design with almost no shadows."
+      },
+      "layout_rules": [
+        "Keep the number and title aligned to the left margin.",
+        "Do not let the illustration overpower the text.",
+        "Use the blue arrow to guide the eye from headline to illustration.",
+        "Keep supporting copy brief and easy to scan."
+      ],
+      "prompt_blueprint": "Portrait educational social-media poster on white, huge black two-digit numeral in the upper-left, bold condensed uppercase title stacked underneath, short black explanatory paragraph, bright blue looping hand-drawn arrow occupying the right side, simple black-outline vector illustration of a megaphone and small people with flat blue accents, a compact black pill-shaped CTA with blue text near the bottom, editorial grid, ample white space."
+    },
+    {
+      "id": "design_07",
+      "reference_file": "47791.jpg",
+      "creative_type": "Question-led engagement graphic with layered ribbon options",
+      "core_concept": "Invite the viewer to self-identify a challenge by presenting several clear choices as connected ribbons.",
+      "format": {
+        "orientation": "portrait",
+        "aspect_ratio": "approximately 3:4"
+      },
+      "composition": {
+        "structure": "Large centered question headline at top; four horizontal rounded rectangular ribbons staggered down the middle; faint human silhouette behind them.",
+        "reading_path": [
+          "question headline",
+          "four option ribbons from top to bottom",
+          "small footer area"
+        ],
+        "balance": "Centered headline with a flowing, interwoven ribbon path creating movement.",
+        "negative_space": "Pale background and translucent layers maintain breathing room despite overlapping shapes."
+      },
+      "palette": {
+        "primary": [
+          "deep navy",
+          "violet",
+          "lavender",
+          "off-white"
+        ],
+        "secondary": [
+          "soft gray"
+        ],
+        "usage": "Alternating purple tones distinguish options while preserving a single-color-family identity."
+      },
+      "typography": {
+        "headline": "Large bold sans serif, dark navy, with one key word in italic purple.",
+        "options": "Medium-weight white sans serif, each preceded by a circled number.",
+        "character": "Reflective, conversational, polished."
+      },
+      "imagery": {
+        "style": "Faint monochrome human silhouette centered behind the option ribbons.",
+        "treatment": "Low opacity so the silhouette remains atmospheric and never competes with the text."
+      },
+      "background_and_graphics": {
+        "background": "Very light gray-white with faint grid or planning-document texture.",
+        "ribbons": "Rounded rectangles with alternating purple fills, slight rotation, soft shadows, and subtle transparency.",
+        "connector": "Large looping purple line weaving behind and between the ribbons.",
+        "effects": "Layered translucent overlays and gentle depth."
+      },
+      "layout_rules": [
+        "The question must be readable before the viewer reaches the options.",
+        "Use consistent numbering and similar ribbon heights.",
+        "Keep the connector line behind the text panels.",
+        "Preserve sufficient contrast between white copy and purple fills."
+      ],
+      "prompt_blueprint": "Portrait engagement graphic on a pale off-white planning-paper background, large centered dark-navy question headline with one italic lavender keyword, four staggered rounded purple ribbons containing short white options and circled numbers, alternating deep violet and lighter purple fills, a large looping purple connector line behind the ribbons, faint low-opacity human silhouette in the center, subtle grid texture and soft shadows, elegant clean sans-serif typography."
+    },
+    {
+      "id": "design_08",
+      "reference_file": "47792.jpg",
+      "creative_type": "Desktop-workspace flat-lay with callout bubbles",
+      "core_concept": "Summarize a small set of success principles using a familiar work setup and bold red callouts.",
+      "format": {
+        "orientation": "portrait",
+        "aspect_ratio": "approximately 3:4"
+      },
+      "composition": {
+        "structure": "Large stacked headline at the top; overhead laptop and hands centered in the middle; three red callout bubbles positioned around the laptop; small secondary objects near the edges.",
+        "reading_path": [
+          "large title",
+          "three callouts",
+          "laptop and hands",
+          "small footer details"
+        ],
+        "balance": "Centered flat-lay object with callouts extending laterally.",
+        "perspective": "Direct overhead, almost orthographic."
+      },
+      "palette": {
+        "primary": [
+          "white",
+          "black",
+          "vivid red"
+        ],
+        "secondary": [
+          "silver gray",
+          "natural skin tones",
+          "dark coffee brown"
+        ],
+        "usage": "Red speech bubbles are the strongest accent and carry the key principles."
+      },
+      "typography": {
+        "headline": "Heavy condensed uppercase sans serif; one numeral is oversized and red.",
+        "callouts": "White uppercase condensed sans serif inside red rounded speech bubbles.",
+        "character": "Practical, energetic, bold, slightly editorial."
+      },
+      "imagery": {
+        "style": "Photorealistic top-down desk scene.",
+        "objects": [
+          "open silver laptop with dark keyboard",
+          "hands typing",
+          "smartphone",
+          "cup of black coffee"
+        ],
+        "treatment": "Natural soft shadows and clean studio flat-lay lighting."
+      },
+      "background_and_graphics": {
+        "background": "White tabletop.",
+        "callouts": "Three red pill-shaped bubbles with pointed tails, angled in different directions.",
+        "effects": "Subtle object shadows, no heavy textures."
+      },
+      "layout_rules": [
+        "Keep the title in a narrow left-aligned text block.",
+        "Position callouts around the laptop without obscuring the hands completely.",
+        "Make the three principles short enough to fit comfortably.",
+        "Maintain a clean white tabletop with few props."
+      ],
+      "prompt_blueprint": "Portrait overhead flat-lay poster on a white desk, huge black condensed uppercase headline at upper-left with a large red numeral, centered silver laptop and realistic hands typing, smartphone at one side and black coffee cup at the other, three vivid-red rounded speech-bubble callouts with short white uppercase phrases arranged around the laptop, soft natural shadows, clean high-key product photography, crisp editorial composition."
+    },
+    {
+      "id": "design_09",
+      "reference_file": "16988.jpg",
+      "creative_type": "Multi-tile campaign system / social content grid",
+      "core_concept": "Show a cohesive campaign made from multiple posts, balancing educational messages, aspirational student imagery, surreal hero visuals, and high-contrast brand-color layouts.",
+      "format": {
+        "orientation": "portrait",
+        "aspect_ratio": "approximately 3:4 for the overall grid"
+      },
+      "composition": {
+        "structure": "A tightly packed three-column by three-row mosaic of distinct square or near-square campaign tiles.",
+        "reading_path": "Each tile works independently, while repeated colors and typography create a unified campaign system.",
+        "balance": "Alternating blue-dominant and white-dominant tiles; some use people, some use objects or illustrations.",
+        "density": "High information density with carefully separated tile boundaries."
+      },
+      "palette": {
+        "primary": [
+          "electric blue",
+          "white",
+          "black"
+        ],
+        "secondary": [
+          "pale blue",
+          "gray",
+          "natural photographic colors"
+        ],
+        "usage": "Electric blue is the dominant campaign color; white fields provide contrast and black supports detail."
+      },
+      "typography": {
+        "headline": "Oversized heavy sans serif, often uppercase, with compact line breaks.",
+        "supporting_text": "Small sans serif captions and short explanatory lines.",
+        "treatments": [
+          "white text on blue fields",
+          "blue text on white fields",
+          "vertical or rotated words in selected tiles"
+        ],
+        "character": "Youthful, ambitious, energetic, modern campaign design."
+      },
+      "imagery": {
+        "variety": [
+          "aspirational student portrait",
+          "surreal astronaut or space-themed figure",
+          "graduation imagery",
+          "melting clock or time metaphor",
+          "relaxed person in a bold blue chair",
+          "surreal head or thought-cloud metaphor",
+          "architectural/interior design object",
+          "stylized mascot-like animal character",
+          "simple infographic icons"
+        ],
+        "treatment": "Blend photographic cutouts, surreal 3D renders, and clean illustrations while retaining a shared blue-white visual language."
+      },
+      "background_and_graphics": {
+        "backgrounds": "Alternate solid electric-blue tiles with white or pale-blue tiles.",
+        "details": [
+          "scribbled arrows",
+          "thin doodles",
+          "small circular icons",
+          "simple labels",
+          "graphic blocks and cropped typography"
+        ],
+        "effects": "Mix clean vector layouts with dimensional 3D objects and selective glow."
+      },
+      "layout_rules": [
+        "Treat each tile as a standalone message with one dominant idea.",
+        "Keep repeated blue, white, and black typography consistent across the grid.",
+        "Alternate visual types to prevent adjacent tiles from feeling identical.",
+        "Use surreal imagery selectively as the attention-grabbing anchor.",
+        "Do not add logos, handles, or contact details."
+      ],
+      "prompt_blueprint": "A cohesive 3-by-3 social campaign grid for an education or youth-focused brand, alternating electric-blue and white tiles, oversized bold sans-serif headlines, compact supporting copy, a mix of aspirational student photography, surreal 3D objects, space-themed imagery, graduation and time metaphors, a stylized animal mascot, simple line icons, scribbled arrows and small doodles, high contrast, consistent blue-white-black palette, each tile visually distinct but part of one campaign system."
+    },
+    {
+      "id": "design_10",
+      "reference_file": "16996.jpg",
+      "creative_type": "Nine-tile digital-marketing agency content grid",
+      "core_concept": "Present a range of digital services and brand-building ideas through a consistent purple campaign system that mixes typography, humorous imagery, and practical content.",
+      "format": {
+        "orientation": "portrait",
+        "aspect_ratio": "approximately 3:4 for the overall grid"
+      },
+      "composition": {
+        "structure": "Three-column by three-row grid of separate social tiles, alternating purple-dominant and white-dominant layouts.",
+        "reading_path": "Each tile has one short headline and one clear image or graphic; the grid is read as a collection rather than a single poster.",
+        "balance": "Alternation between text-led and image-led tiles creates rhythm.",
+        "density": "Moderate-to-high, with clear tile boundaries and consistent footer bars."
+      },
+      "palette": {
+        "primary": [
+          "deep purple",
+          "vivid violet",
+          "lavender",
+          "white"
+        ],
+        "secondary": [
+          "black",
+          "gray"
+        ],
+        "usage": "Purple gradients and lavender typography establish continuity; white tiles act as visual rests."
+      },
+      "typography": {
+        "headline": "Large bold or condensed sans serif, often uppercase; some tiles use tall display lettering.",
+        "supporting_text": "Small, compact sans serif paragraphs.",
+        "emphasis": "Selected words use oversized lavender letters or contrasting purple blocks.",
+        "character": "Playful, internet-aware, contemporary, slightly irreverent."
+      },
+      "imagery": {
+        "variety": [
+          "friendly futuristic robot",
+          "black-and-white crowd photograph",
+          "cat using a megaphone",
+          "hand presenting a web/social ecosystem diagram",
+          "classical sculpture using a laptop",
+          "confident person standing out from a crowd",
+          "newspaper-reading figure",
+          "business handshake"
+        ],
+        "treatment": "Mix monochrome photography, photorealistic composites, surreal humor, and clean diagrams."
+      },
+      "background_and_graphics": {
+        "backgrounds": "Deep-purple gradients and textured purple fields alternate with clean white or pale-lavender fields.",
+        "details": [
+          "thin contour lines",
+          "subtle glow",
+          "small abstract UI labels",
+          "rounded white footer strips with tiny generic interface glyphs"
+        ],
+        "effects": "Soft gradients, selective grain, cutout photography, restrained drop shadows."
+      },
+      "layout_rules": [
+        "Give every tile one headline and one primary visual metaphor.",
+        "Alternate purple-heavy tiles with light tiles to create a strong mosaic rhythm.",
+        "Use oversized display type but retain enough contrast for mobile readability.",
+        "Use humor and unexpected visual pairings without clutter.",
+        "Omit all brand marks, handles, URLs, and contact information."
+      ],
+      "prompt_blueprint": "A 3-by-3 social media campaign grid for a digital-marketing service, alternating deep-purple gradient tiles and white or pale-lavender tiles, oversized bold condensed headlines, small concise supporting copy, playful surreal visuals including a friendly robot, monochrome crowd, cat with megaphone, hand presenting a digital ecosystem diagram, classical sculpture using a laptop, confident person in a crowd, newspaper reader, and handshake, subtle contour lines, restrained glow and shadows, consistent purple-lavender-white-black palette, crisp modern agency art direction."
+    }
+  ]
+}

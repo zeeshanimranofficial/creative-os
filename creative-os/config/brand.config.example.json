@@ -1,0 +1,60 @@
+{
+ "schema_version": "1.0",
+ "_comment": "EXAMPLE brand config \u2014 output of first-run onboarding. Real configs are gitignored.",
+ "brand": {
+  "name": "Acme Studio",
+  "role_line": "Design & Growth Partner",
+  "handle": "@acmestudio",
+  "company_branding_allowed": false
+ },
+ "colors": {
+  "primary": "#2D5BFF",
+  "background": "#F7F7F5",
+  "text": "#141414",
+  "sale_accent": null,
+  "policy": "exact hexes only; generated art must be prompted with these hexes; composited elements use them literally"
+ },
+ "typography": {
+  "primary_family": "Poppins",
+  "font_dir": "brand/fonts",
+  "roles": {
+   "headline": "Poppins-Bold.ttf",
+   "subhead": "Poppins-SemiBold.ttf",
+   "body": "Poppins-Regular.ttf",
+   "label": "Poppins-Medium.ttf"
+  },
+  "accent_families": {
+   "condensed_display": "Anton-Regular.ttf",
+   "serif_editorial": "PlayfairDisplay-Bold.ttf",
+   "script": "DancingScript-Bold.ttf"
+  },
+  "accent_policy": "accent roles only; primary family always dominates"
+ },
+ "assets": {
+  "dp_circle": "brand/dp-circle.png",
+  "font_specimen": "brand/font-specimen.png",
+  "icons_dir": "brand/icons",
+  "dp_policy": "profile circles ALWAYS use the real DP image, never initials/placeholders"
+ },
+ "layout_hard_rules": {
+  "margin_px": 30,
+  "keyline_clearance_px": 10,
+  "profile_heading_placement": "last slide of carousel or minimal post ONLY"
+ },
+ "restrictions": [
+  "never render competitor/reference brand names, logos, handles",
+  "no company name/logo on personal-profile creatives",
+  "mascot: Spider-Man blocked by image models \u2014 use approved fallbacks"
+ ],
+ "export": {
+  "carousel_format": "pdf",
+  "post_format": "png",
+  "naming": "{week|campaign}/{slot}-{type}.{ext}"
+ },
+ "background_system": {
+  "A_primary": "#F7F7F5 flat / subtle paper grain",
+  "B_contrast": "#141414 dark studio",
+  "C_expressive": "DNA-gated: #2D5BFF field, texture, collage, duotone photo",
+  "rule": "one variant family per carousel; DNA gates variant choice"
+ }
+}

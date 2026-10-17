@@ -1,0 +1,2993 @@
+{
+ "meta": {
+  "version": "1.0",
+  "built": "2026-10-17",
+  "builder": "M1 vision mapping pass",
+  "policies": {
+   "no_dna_invention": true,
+   "no_dna_mixing": true,
+   "purged_hard_block": [
+    "DNA_16",
+    "DNA_17",
+    "DNA_19",
+    "DNA_22",
+    "DNA_25",
+    "DNA_26"
+   ],
+   "missing_dna_policy": "suggest nearest + pre-approval",
+   "autonomy": "full (locked 2026-10-17)"
+  },
+  "id_namespacing": "DNA_xx / CD1_xx / CD2_xx / SAGE_xx / SKIN_xx (fixes cross-collection ID collisions)",
+  "m1_closeout": "mappings approved; duplicates removed; eid + 2 sheets promoted to draft collections (2026-10-17)",
+  "bulk_approval_2026-10-17": "64 drafts promoted to active (EID 8, YBIZ 8, RSOC 16, batch1 12, batch2 20)"
+ },
+ "counts": {
+  "total_active": 81,
+  "purged_tombstones": 6,
+  "image_linked": 22,
+  "sheet_crop": 39,
+  "json_only": 20
+ },
+ "entries": [
+  {
+   "registry_id": "DNA_01",
+   "collection": "design_dna_library",
+   "source_id": "DNA_01",
+   "name": "Dark Editorial Calendar Announcement",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#design_dna_library",
+   "archetype_tags": [],
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/ff92a580-ace1-41c3-b481-746d5e352e5b.jpeg",
+    "confidence": "high",
+    "mapped_by": "vision pass 2026-10-17",
+    "note": "dark \"July is here\" pinned-note monthly announcement",
+    "approval": "APPROVED by user 2026-10-17"
+   }
+  },
+  {
+   "registry_id": "DNA_02",
+   "collection": "design_dna_library",
+   "source_id": "DNA_02",
+   "name": "Tactile Calendar Editorial Collage",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#design_dna_library",
+   "archetype_tags": [],
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/f107126f-cf2f-4ac1-94f3-98429380b220.jpeg",
+    "confidence": "medium",
+    "mapped_by": "vision pass 2026-10-17",
+    "note": "holiday pre-booking tactile calendar collage; near-variant idx36 (Black Friday save-the-date)",
+    "approval": "APPROVED by user 2026-10-17"
+   }
+  },
+  {
+   "registry_id": "DNA_03",
+   "collection": "design_dna_library",
+   "source_id": "DNA_03",
+   "name": "Photographic Calendar Event Poster",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#design_dna_library",
+   "archetype_tags": [],
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/f7f54fda-3a8c-4d96-94a9-612af41c1ea5.jpeg",
+    "confidence": "high",
+    "mapped_by": "vision pass 2026-10-17",
+    "note": "Eid al-Fitr oversized digital calendar over crowd photo",
+    "approval": "APPROVED by user 2026-10-17"
+   }
+  },
+  {
+   "registry_id": "DNA_04",
+   "collection": "design_dna_library",
+   "source_id": "DNA_04",
+   "name": "Oversized Typography Testimonial",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#design_dna_library",
+   "archetype_tags": [],
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/180a26d7-ff44-4072-9db4-93b47bb49bcf.jpeg",
+    "confidence": "high",
+    "mapped_by": "vision pass 2026-10-17",
+    "note": "green #review oversized-typography testimonial",
+    "approval": "APPROVED by user 2026-10-17"
+   }
+  },
+  {
+   "registry_id": "DNA_05",
+   "collection": "design_dna_library",
+   "source_id": "DNA_05",
+   "name": "Minimal White 3D Service Orbital",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#design_dna_library",
+   "archetype_tags": [],
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/a38629e8-a082-4dd4-8af8-4f2442105574.jpeg",
+    "confidence": "high",
+    "mapped_by": "vision pass 2026-10-17",
+    "note": "\"7 Services 1 Solution\" lightbulb orbital with service chips",
+    "approval": "APPROVED by user 2026-10-17"
+   }
+  },
+  {
+   "registry_id": "DNA_06",
+   "collection": "design_dna_library",
+   "source_id": "DNA_06",
+   "name": "Blue Modular Service Blocks",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#design_dna_library",
+   "archetype_tags": [],
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/034b278e-5cd1-4338-b756-8599c8a0e93e.jpeg",
+    "confidence": "medium",
+    "mapped_by": "vision pass 2026-10-17",
+    "note": "Unify Wizards interlocking service blocks",
+    "approval": "APPROVED by user 2026-10-17"
+   }
+  },
+  {
+   "registry_id": "DNA_07",
+   "collection": "design_dna_library",
+   "source_id": "DNA_07",
+   "name": "Red Photorealistic Social Advertising Composite",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#design_dna_library",
+   "archetype_tags": [],
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/a2dde747-d8a1-4165-9d4b-583f67aa7284.jpeg",
+    "confidence": "high",
+    "mapped_by": "vision pass 2026-10-17",
+    "note": "Callerdesk red bucket \"hundreds of conversations\" composite",
+    "approval": "APPROVED by user 2026-10-17"
+   }
+  },
+  {
+   "registry_id": "DNA_08",
+   "collection": "design_dna_library",
+   "source_id": "DNA_08",
+   "name": "Minimal Blue Paper Note",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#design_dna_library",
+   "archetype_tags": [],
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/0646ca95-e682-4b08-83cd-4c5890621f49.jpeg",
+    "confidence": "high",
+    "mapped_by": "vision pass 2026-10-17",
+    "note": "blue folder + taped paper note insight",
+    "approval": "APPROVED by user 2026-10-17"
+   }
+  },
+  {
+   "registry_id": "DNA_09",
+   "collection": "design_dna_library",
+   "source_id": "DNA_09",
+   "name": "Clean Blue Editorial Explainer",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#design_dna_library",
+   "archetype_tags": [],
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/3b76f906-a4e5-41d7-8432-8fee64fcec03.jpeg",
+    "confidence": "high",
+    "mapped_by": "vision pass 2026-10-17",
+    "note": "\"Your Audience Decides in Seconds\" blue explainer",
+    "approval": "APPROVED by user 2026-10-17"
+   }
+  },
+  {
+   "registry_id": "DNA_10",
+   "collection": "design_dna_library",
+   "source_id": "DNA_10",
+   "name": "Blue Clipboard Typography Poster",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#design_dna_library",
+   "archetype_tags": [],
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/c16f99a3-88c8-4242-af74-d9979ddc088a.jpeg",
+    "confidence": "high",
+    "mapped_by": "vision pass 2026-10-17",
+    "note": "\"Ask These 4 Questions\" paper+clip clipboard poster on blue",
+    "approval": "APPROVED by user 2026-10-17"
+   }
+  },
+  {
+   "registry_id": "DNA_11",
+   "collection": "design_dna_library",
+   "source_id": "DNA_11",
+   "name": "Purple Layered Social Media Challenge Poll",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#design_dna_library",
+   "archetype_tags": [],
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/a09067a3-ee97-4d22-8c2e-ac968514353a.jpeg",
+    "confidence": "high",
+    "mapped_by": "vision pass 2026-10-17",
+    "note": "purple \"What's harder for you right now?\" 4-option poll; exact duplicate idx37",
+    "approval": "APPROVED by user 2026-10-17"
+   }
+  },
+  {
+   "registry_id": "DNA_12",
+   "collection": "design_dna_library",
+   "source_id": "DNA_12",
+   "name": "Affordable Design Mascot Poster",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#design_dna_library",
+   "archetype_tags": [],
+   "linkage": {
+    "mode": "json_only",
+    "source_image": null,
+    "note": "reference image never uploaded; recipe-driven like CD2 (vision QA vs goldens)"
+   }
+  },
+  {
+   "registry_id": "DNA_13",
+   "collection": "design_dna_library",
+   "source_id": "DNA_13",
+   "name": "Brand Spotlight With Press Microphones",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#design_dna_library",
+   "archetype_tags": [],
+   "linkage": {
+    "mode": "json_only",
+    "source_image": null,
+    "note": "reference image never uploaded; recipe-driven like CD2 (vision QA vs goldens)"
+   }
+  },
+  {
+   "registry_id": "DNA_14",
+   "collection": "design_dna_library",
+   "source_id": "DNA_14",
+   "name": "360 Degree Solutions Typography Wheel",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#design_dna_library",
+   "archetype_tags": [],
+   "linkage": {
+    "mode": "json_only",
+    "source_image": null,
+    "note": "reference image never uploaded; recipe-driven like CD2 (vision QA vs goldens)"
+   }
+  },
+  {
+   "registry_id": "DNA_15",
+   "collection": "design_dna_library",
+   "source_id": "DNA_15",
+   "name": "Red Chain Link Brand Growth Poster",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#design_dna_library",
+   "archetype_tags": [],
+   "linkage": {
+    "mode": "json_only",
+    "source_image": null,
+    "note": "reference image never uploaded; recipe-driven like CD2 (vision QA vs goldens)"
+   }
+  },
+  {
+   "registry_id": "DNA_18",
+   "collection": "design_dna_library",
+   "source_id": "DNA_18",
+   "name": "Relaxed Cat Astronaut Campaign",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#design_dna_library",
+   "archetype_tags": [],
+   "linkage": {
+    "mode": "json_only",
+    "source_image": null,
+    "note": "reference image never uploaded; recipe-driven like CD2 (vision QA vs goldens)"
+   }
+  },
+  {
+   "registry_id": "DNA_20",
+   "collection": "design_dna_library",
+   "source_id": "DNA_20",
+   "name": "Friendly Red Service Mascot",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#design_dna_library",
+   "archetype_tags": [],
+   "linkage": {
+    "mode": "json_only",
+    "source_image": null,
+    "note": "reference image never uploaded; recipe-driven like CD2 (vision QA vs goldens)"
+   }
+  },
+  {
+   "registry_id": "DNA_21",
+   "collection": "design_dna_library",
+   "source_id": "DNA_21",
+   "name": "Purple Oversized Trust Statement With Device Mockups",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#design_dna_library",
+   "archetype_tags": [],
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/b7ec5021-aba0-46d9-b622-a3a226eb9ea9.jpeg",
+    "confidence": "high",
+    "mapped_by": "vision pass 2026-10-17",
+    "note": "Phyntx \"You can trust us.\" purple type + device mockups",
+    "approval": "APPROVED by user 2026-10-17"
+   }
+  },
+  {
+   "registry_id": "DNA_23",
+   "collection": "design_dna_library",
+   "source_id": "DNA_23",
+   "name": "Start Creating Astronaut Editorial Collage",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#design_dna_library",
+   "archetype_tags": [],
+   "linkage": {
+    "mode": "json_only",
+    "source_image": null,
+    "note": "reference image never uploaded; recipe-driven like CD2 (vision QA vs goldens)"
+   }
+  },
+  {
+   "registry_id": "DNA_24",
+   "collection": "design_dna_library",
+   "source_id": "DNA_24",
+   "name": "Build Your Own Platform Pixel Disintegration",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#design_dna_library",
+   "archetype_tags": [],
+   "linkage": {
+    "mode": "json_only",
+    "source_image": null,
+    "note": "reference image never uploaded; recipe-driven like CD2 (vision QA vs goldens)"
+   }
+  },
+  {
+   "registry_id": "DNA_27",
+   "collection": "design_dna_library",
+   "source_id": "DNA_27",
+   "name": "Opportunity Torch Editorial Collage",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#design_dna_library",
+   "archetype_tags": [],
+   "linkage": {
+    "mode": "json_only",
+    "source_image": null,
+    "note": "reference image never uploaded; recipe-driven like CD2 (vision QA vs goldens)"
+   }
+  },
+  {
+   "registry_id": "DNA_28",
+   "collection": "design_dna_library",
+   "source_id": "DNA_28",
+   "name": "One Percent Action Carousel Cover",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#design_dna_library",
+   "archetype_tags": [],
+   "linkage": {
+    "mode": "json_only",
+    "source_image": null,
+    "note": "reference image never uploaded; recipe-driven like CD2 (vision QA vs goldens)"
+   }
+  },
+  {
+   "registry_id": "DNA_16",
+   "collection": "design_dna_library",
+   "source_id": "DNA_16",
+   "name": "(purged)",
+   "status": "purged",
+   "recipe_pointer": null,
+   "linkage": {
+    "mode": "none",
+    "note": "PERMANENTLY EXCLUDED per user order 2026-10-15 (Kit-3 rejection). Hard block: never select, never regenerate."
+   }
+  },
+  {
+   "registry_id": "DNA_17",
+   "collection": "design_dna_library",
+   "source_id": "DNA_17",
+   "name": "(purged)",
+   "status": "purged",
+   "recipe_pointer": null,
+   "linkage": {
+    "mode": "none",
+    "note": "PERMANENTLY EXCLUDED per user order 2026-10-15 (Kit-3 rejection). Hard block: never select, never regenerate."
+   }
+  },
+  {
+   "registry_id": "DNA_19",
+   "collection": "design_dna_library",
+   "source_id": "DNA_19",
+   "name": "(purged)",
+   "status": "purged",
+   "recipe_pointer": null,
+   "linkage": {
+    "mode": "none",
+    "note": "PERMANENTLY EXCLUDED per user order 2026-10-15 (Kit-3 rejection). Hard block: never select, never regenerate."
+   }
+  },
+  {
+   "registry_id": "DNA_22",
+   "collection": "design_dna_library",
+   "source_id": "DNA_22",
+   "name": "(purged)",
+   "status": "purged",
+   "recipe_pointer": null,
+   "linkage": {
+    "mode": "none",
+    "note": "PERMANENTLY EXCLUDED per user order 2026-10-15 (Kit-3 rejection). Hard block: never select, never regenerate."
+   }
+  },
+  {
+   "registry_id": "DNA_25",
+   "collection": "design_dna_library",
+   "source_id": "DNA_25",
+   "name": "(purged)",
+   "status": "purged",
+   "recipe_pointer": null,
+   "linkage": {
+    "mode": "none",
+    "note": "PERMANENTLY EXCLUDED per user order 2026-10-15 (Kit-3 rejection). Hard block: never select, never regenerate."
+   }
+  },
+  {
+   "registry_id": "DNA_26",
+   "collection": "design_dna_library",
+   "source_id": "DNA_26",
+   "name": "(purged)",
+   "status": "purged",
+   "recipe_pointer": null,
+   "linkage": {
+    "mode": "none",
+    "note": "PERMANENTLY EXCLUDED per user order 2026-10-15 (Kit-3 rejection). Hard block: never select, never regenerate."
+   }
+  },
+  {
+   "registry_id": "CD1_01",
+   "collection": "creative_design_dna",
+   "source_id": "design_01",
+   "name": "",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#creative_design_dna.designs",
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/6e60b92d-ec6c-46bc-9636-d2720cee7d11.jpeg",
+    "confidence": "exact",
+    "note": "path verified present"
+   }
+  },
+  {
+   "registry_id": "CD1_02",
+   "collection": "creative_design_dna",
+   "source_id": "design_02",
+   "name": "",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#creative_design_dna.designs",
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/We Create Brands That Get Noticed Online.jpeg",
+    "confidence": "exact",
+    "note": "path verified present"
+   }
+  },
+  {
+   "registry_id": "CD1_03",
+   "collection": "creative_design_dna",
+   "source_id": "design_03",
+   "name": "",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#creative_design_dna.designs",
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/2766dd8c-2c4b-487d-99a2-61f1f11fca66.jpeg",
+    "confidence": "exact",
+    "note": "path verified present"
+   }
+  },
+  {
+   "registry_id": "CD1_04",
+   "collection": "creative_design_dna",
+   "source_id": "design_04",
+   "name": "",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#creative_design_dna.designs",
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/4e97c249-11c9-4d08-8754-839d38664121.jpeg",
+    "confidence": "exact",
+    "note": "path verified present"
+   }
+  },
+  {
+   "registry_id": "CD1_05",
+   "collection": "creative_design_dna",
+   "source_id": "design_05",
+   "name": "",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#creative_design_dna.designs",
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/BrandKa.jpeg",
+    "confidence": "exact",
+    "note": "path verified present"
+   }
+  },
+  {
+   "registry_id": "CD1_06",
+   "collection": "creative_design_dna",
+   "source_id": "design_06",
+   "name": "",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#creative_design_dna.designs",
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/86b6ec14-17e9-414c-bf7e-74ecde086e95.jpeg",
+    "confidence": "exact",
+    "note": "path verified present"
+   }
+  },
+  {
+   "registry_id": "CD1_07",
+   "collection": "creative_design_dna",
+   "source_id": "design_07",
+   "name": "",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#creative_design_dna.designs",
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/890de4d2-87ec-4aa4-8359-b76cfe2e9d23.jpeg",
+    "confidence": "exact",
+    "note": "path verified present"
+   }
+  },
+  {
+   "registry_id": "CD1_08",
+   "collection": "creative_design_dna",
+   "source_id": "design_08",
+   "name": "",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#creative_design_dna.designs",
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/Not Every Like Builds Business_ 🚫❤️ We turn engagement into leads, trust & conversions. 📈.jpg",
+    "confidence": "exact",
+    "note": "path verified present"
+   }
+  },
+  {
+   "registry_id": "CD1_09",
+   "collection": "creative_design_dna",
+   "source_id": "design_09",
+   "name": "",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#creative_design_dna.designs",
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/3328e975-9b90-439b-a3e8-99b1f7e3da6c.jpeg",
+    "confidence": "exact",
+    "note": "path verified present"
+   }
+  },
+  {
+   "registry_id": "CD1_10",
+   "collection": "creative_design_dna",
+   "source_id": "design_10",
+   "name": "",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#creative_design_dna.designs",
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/86582d21-2c20-4fb2-b83c-cf17a3d95a31.jpeg",
+    "confidence": "exact",
+    "note": "path verified present"
+   }
+  },
+  {
+   "registry_id": "CD2_01",
+   "collection": "creative_design_dna_v2",
+   "source_id": "design_01",
+   "name": "Bold editorial advice poster with human cutout photography",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#creative_design_dna_v2.designs",
+   "linkage": {
+    "mode": "json_only",
+    "source_image": null,
+    "note": "declared ref 48643.jpg phantom; prompt_blueprint-driven; PROVEN in production (FB kit + Week1)"
+   }
+  },
+  {
+   "registry_id": "CD2_02",
+   "collection": "creative_design_dna_v2",
+   "source_id": "design_02",
+   "name": "Calendar-led seasonal announcement",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#creative_design_dna_v2.designs",
+   "linkage": {
+    "mode": "json_only",
+    "source_image": null,
+    "note": "declared ref 47814.jpg phantom; prompt_blueprint-driven; PROVEN in production (FB kit + Week1)"
+   }
+  },
+  {
+   "registry_id": "CD2_03",
+   "collection": "creative_design_dna_v2",
+   "source_id": "design_03",
+   "name": "Conceptual person-and-object advertising poster",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#creative_design_dna_v2.designs",
+   "linkage": {
+    "mode": "json_only",
+    "source_image": null,
+    "note": "declared ref 47803.jpg phantom; prompt_blueprint-driven; PROVEN in production (FB kit + Week1)"
+   }
+  },
+  {
+   "registry_id": "CD2_04",
+   "collection": "creative_design_dna_v2",
+   "source_id": "design_04",
+   "name": "High-energy service explainer with social-post panel",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#creative_design_dna_v2.designs",
+   "linkage": {
+    "mode": "json_only",
+    "source_image": null,
+    "note": "declared ref 47799.jpg phantom; prompt_blueprint-driven; PROVEN in production (FB kit + Week1)"
+   }
+  },
+  {
+   "registry_id": "CD2_05",
+   "collection": "creative_design_dna_v2",
+   "source_id": "design_05",
+   "name": "Minimal typographic insight infographic",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#creative_design_dna_v2.designs",
+   "linkage": {
+    "mode": "json_only",
+    "source_image": null,
+    "note": "declared ref 47795.jpg phantom; prompt_blueprint-driven; PROVEN in production (FB kit + Week1)"
+   }
+  },
+  {
+   "registry_id": "CD2_06",
+   "collection": "creative_design_dna_v2",
+   "source_id": "design_06",
+   "name": "Number-led educational poster with flat vector illustration",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#creative_design_dna_v2.designs",
+   "linkage": {
+    "mode": "json_only",
+    "source_image": null,
+    "note": "declared ref 47793.jpg phantom; prompt_blueprint-driven; PROVEN in production (FB kit + Week1)"
+   }
+  },
+  {
+   "registry_id": "CD2_07",
+   "collection": "creative_design_dna_v2",
+   "source_id": "design_07",
+   "name": "Question-led engagement graphic with layered ribbon options",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#creative_design_dna_v2.designs",
+   "linkage": {
+    "mode": "json_only",
+    "source_image": null,
+    "note": "declared ref 47791.jpg phantom; prompt_blueprint-driven; PROVEN in production (FB kit + Week1)"
+   }
+  },
+  {
+   "registry_id": "CD2_08",
+   "collection": "creative_design_dna_v2",
+   "source_id": "design_08",
+   "name": "Desktop-workspace flat-lay with callout bubbles",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#creative_design_dna_v2.designs",
+   "linkage": {
+    "mode": "json_only",
+    "source_image": null,
+    "note": "declared ref 47792.jpg phantom; prompt_blueprint-driven; PROVEN in production (FB kit + Week1)"
+   }
+  },
+  {
+   "registry_id": "CD2_09",
+   "collection": "creative_design_dna_v2",
+   "source_id": "design_09",
+   "name": "Multi-tile campaign system / social content grid",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#creative_design_dna_v2.designs",
+   "linkage": {
+    "mode": "json_only",
+    "source_image": null,
+    "note": "declared ref 16988.jpg phantom; prompt_blueprint-driven; PROVEN in production (FB kit + Week1)"
+   }
+  },
+  {
+   "registry_id": "CD2_10",
+   "collection": "creative_design_dna_v2",
+   "source_id": "design_10",
+   "name": "Nine-tile digital-marketing agency content grid",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#creative_design_dna_v2.designs",
+   "linkage": {
+    "mode": "json_only",
+    "source_image": null,
+    "note": "declared ref 16996.jpg phantom; prompt_blueprint-driven; PROVEN in production (FB kit + Week1)"
+   }
+  },
+  {
+   "registry_id": "SAGE_01",
+   "collection": "sage_green_collection",
+   "source_id": "creative_01",
+   "name": "giveaway alert with three phone frames",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#sage_green_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop",
+    "source_image": "uploads/10+ Modern Green Instagram Post Templates for Canva _ Stylish Grid & Branding Designs.jpeg",
+    "crop_box": [
+     0,
+     0,
+     184,
+     184
+    ],
+    "confidence": "high",
+    "note": "4x6 flush grid; row-major order matches label order (vision-verified 2026-10-17)"
+   }
+  },
+  {
+   "registry_id": "SAGE_02",
+   "collection": "sage_green_collection",
+   "source_id": "creative_02",
+   "name": "numbered text list on sage background",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#sage_green_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop",
+    "source_image": "uploads/10+ Modern Green Instagram Post Templates for Canva _ Stylish Grid & Branding Designs.jpeg",
+    "crop_box": [
+     184,
+     0,
+     368,
+     184
+    ],
+    "confidence": "high",
+    "note": "4x6 flush grid; row-major order matches label order (vision-verified 2026-10-17)"
+   }
+  },
+  {
+   "registry_id": "SAGE_03",
+   "collection": "sage_green_collection",
+   "source_id": "creative_03",
+   "name": "free offer with angled phone mockup",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#sage_green_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop",
+    "source_image": "uploads/10+ Modern Green Instagram Post Templates for Canva _ Stylish Grid & Branding Designs.jpeg",
+    "crop_box": [
+     368,
+     0,
+     552,
+     184
+    ],
+    "confidence": "high",
+    "note": "4x6 flush grid; row-major order matches label order (vision-verified 2026-10-17)"
+   }
+  },
+  {
+   "registry_id": "SAGE_04",
+   "collection": "sage_green_collection",
+   "source_id": "creative_04",
+   "name": "botanical reminder card",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#sage_green_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop",
+    "source_image": "uploads/10+ Modern Green Instagram Post Templates for Canva _ Stylish Grid & Branding Designs.jpeg",
+    "crop_box": [
+     552,
+     0,
+     736,
+     184
+    ],
+    "confidence": "high",
+    "note": "4x6 flush grid; row-major order matches label order (vision-verified 2026-10-17)"
+   }
+  },
+  {
+   "registry_id": "SAGE_05",
+   "collection": "sage_green_collection",
+   "source_id": "creative_05",
+   "name": "minimal question search bar",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#sage_green_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop",
+    "source_image": "uploads/10+ Modern Green Instagram Post Templates for Canva _ Stylish Grid & Branding Designs.jpeg",
+    "crop_box": [
+     0,
+     184,
+     184,
+     368
+    ],
+    "confidence": "high",
+    "note": "4x6 flush grid; row-major order matches label order (vision-verified 2026-10-17)"
+   }
+  },
+  {
+   "registry_id": "SAGE_06",
+   "collection": "sage_green_collection",
+   "source_id": "creative_06",
+   "name": "circular lifestyle portrait on forest green",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#sage_green_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop",
+    "source_image": "uploads/10+ Modern Green Instagram Post Templates for Canva _ Stylish Grid & Branding Designs.jpeg",
+    "crop_box": [
+     184,
+     184,
+     368,
+     368
+    ],
+    "confidence": "high",
+    "note": "4x6 flush grid; row-major order matches label order (vision-verified 2026-10-17)"
+   }
+  },
+  {
+   "registry_id": "SAGE_07",
+   "collection": "sage_green_collection",
+   "source_id": "creative_07",
+   "name": "daily reminders over botanical photo",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#sage_green_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop",
+    "source_image": "uploads/10+ Modern Green Instagram Post Templates for Canva _ Stylish Grid & Branding Designs.jpeg",
+    "crop_box": [
+     368,
+     184,
+     552,
+     368
+    ],
+    "confidence": "high",
+    "note": "4x6 flush grid; row-major order matches label order (vision-verified 2026-10-17)"
+   }
+  },
+  {
+   "registry_id": "SAGE_08",
+   "collection": "sage_green_collection",
+   "source_id": "creative_08",
+   "name": "circular plant or lifestyle image",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#sage_green_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop",
+    "source_image": "uploads/10+ Modern Green Instagram Post Templates for Canva _ Stylish Grid & Branding Designs.jpeg",
+    "crop_box": [
+     552,
+     184,
+     736,
+     368
+    ],
+    "confidence": "high",
+    "note": "4x6 flush grid; row-major order matches label order (vision-verified 2026-10-17)"
+   }
+  },
+  {
+   "registry_id": "SAGE_09",
+   "collection": "sage_green_collection",
+   "source_id": "creative_09",
+   "name": "desktop and mobile device promotion",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#sage_green_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop",
+    "source_image": "uploads/10+ Modern Green Instagram Post Templates for Canva _ Stylish Grid & Branding Designs.jpeg",
+    "crop_box": [
+     0,
+     368,
+     184,
+     552
+    ],
+    "confidence": "high",
+    "note": "4x6 flush grid; row-major order matches label order (vision-verified 2026-10-17)"
+   }
+  },
+  {
+   "registry_id": "SAGE_10",
+   "collection": "sage_green_collection",
+   "source_id": "creative_10",
+   "name": "four-step list on botanical background",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#sage_green_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop",
+    "source_image": "uploads/10+ Modern Green Instagram Post Templates for Canva _ Stylish Grid & Branding Designs.jpeg",
+    "crop_box": [
+     184,
+     368,
+     368,
+     552
+    ],
+    "confidence": "high",
+    "note": "4x6 flush grid; row-major order matches label order (vision-verified 2026-10-17)"
+   }
+  },
+  {
+   "registry_id": "SAGE_11",
+   "collection": "sage_green_collection",
+   "source_id": "creative_11",
+   "name": "social post mockup with pet photo",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#sage_green_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop",
+    "source_image": "uploads/10+ Modern Green Instagram Post Templates for Canva _ Stylish Grid & Branding Designs.jpeg",
+    "crop_box": [
+     368,
+     368,
+     552,
+     552
+    ],
+    "confidence": "high",
+    "note": "4x6 flush grid; row-major order matches label order (vision-verified 2026-10-17)"
+   }
+  },
+  {
+   "registry_id": "SAGE_12",
+   "collection": "sage_green_collection",
+   "source_id": "creative_12",
+   "name": "repeat device promotion variation",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#sage_green_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop",
+    "source_image": "uploads/10+ Modern Green Instagram Post Templates for Canva _ Stylish Grid & Branding Designs.jpeg",
+    "crop_box": [
+     552,
+     368,
+     736,
+     552
+    ],
+    "confidence": "high",
+    "note": "4x6 flush grid; row-major order matches label order (vision-verified 2026-10-17)"
+   }
+  },
+  {
+   "registry_id": "SAGE_13",
+   "collection": "sage_green_collection",
+   "source_id": "creative_13",
+   "name": "free offer phone mockup variation",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#sage_green_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop",
+    "source_image": "uploads/10+ Modern Green Instagram Post Templates for Canva _ Stylish Grid & Branding Designs.jpeg",
+    "crop_box": [
+     0,
+     552,
+     184,
+     736
+    ],
+    "confidence": "high",
+    "note": "4x6 flush grid; row-major order matches label order (vision-verified 2026-10-17)"
+   }
+  },
+  {
+   "registry_id": "SAGE_14",
+   "collection": "sage_green_collection",
+   "source_id": "creative_14",
+   "name": "giveaway alert phone trio variation",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#sage_green_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop",
+    "source_image": "uploads/10+ Modern Green Instagram Post Templates for Canva _ Stylish Grid & Branding Designs.jpeg",
+    "crop_box": [
+     184,
+     552,
+     368,
+     736
+    ],
+    "confidence": "high",
+    "note": "4x6 flush grid; row-major order matches label order (vision-verified 2026-10-17)"
+   }
+  },
+  {
+   "registry_id": "SAGE_15",
+   "collection": "sage_green_collection",
+   "source_id": "creative_15",
+   "name": "numbered information list variation",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#sage_green_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop",
+    "source_image": "uploads/10+ Modern Green Instagram Post Templates for Canva _ Stylish Grid & Branding Designs.jpeg",
+    "crop_box": [
+     368,
+     552,
+     552,
+     736
+    ],
+    "confidence": "high",
+    "note": "4x6 flush grid; row-major order matches label order (vision-verified 2026-10-17)"
+   }
+  },
+  {
+   "registry_id": "SAGE_16",
+   "collection": "sage_green_collection",
+   "source_id": "creative_16",
+   "name": "minimal reminder confirmation dialog",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#sage_green_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop",
+    "source_image": "uploads/10+ Modern Green Instagram Post Templates for Canva _ Stylish Grid & Branding Designs.jpeg",
+    "crop_box": [
+     552,
+     552,
+     736,
+     736
+    ],
+    "confidence": "high",
+    "note": "4x6 flush grid; row-major order matches label order (vision-verified 2026-10-17)"
+   }
+  },
+  {
+   "registry_id": "SAGE_17",
+   "collection": "sage_green_collection",
+   "source_id": "creative_17",
+   "name": "botanical reminder card variation",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#sage_green_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop",
+    "source_image": "uploads/10+ Modern Green Instagram Post Templates for Canva _ Stylish Grid & Branding Designs.jpeg",
+    "crop_box": [
+     0,
+     736,
+     184,
+     920
+    ],
+    "confidence": "high",
+    "note": "4x6 flush grid; row-major order matches label order (vision-verified 2026-10-17)"
+   }
+  },
+  {
+   "registry_id": "SAGE_18",
+   "collection": "sage_green_collection",
+   "source_id": "creative_18",
+   "name": "hello January editorial greeting",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#sage_green_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop",
+    "source_image": "uploads/10+ Modern Green Instagram Post Templates for Canva _ Stylish Grid & Branding Designs.jpeg",
+    "crop_box": [
+     184,
+     736,
+     368,
+     920
+    ],
+    "confidence": "high",
+    "note": "4x6 flush grid; row-major order matches label order (vision-verified 2026-10-17)"
+   }
+  },
+  {
+   "registry_id": "SAGE_19",
+   "collection": "sage_green_collection",
+   "source_id": "creative_19",
+   "name": "lifestyle photo with lower text panel",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#sage_green_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop",
+    "source_image": "uploads/10+ Modern Green Instagram Post Templates for Canva _ Stylish Grid & Branding Designs.jpeg",
+    "crop_box": [
+     368,
+     736,
+     552,
+     920
+    ],
+    "confidence": "high",
+    "note": "4x6 flush grid; row-major order matches label order (vision-verified 2026-10-17)"
+   }
+  },
+  {
+   "registry_id": "SAGE_20",
+   "collection": "sage_green_collection",
+   "source_id": "creative_20",
+   "name": "social post mockup pet variation",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#sage_green_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop",
+    "source_image": "uploads/10+ Modern Green Instagram Post Templates for Canva _ Stylish Grid & Branding Designs.jpeg",
+    "crop_box": [
+     552,
+     736,
+     736,
+     920
+    ],
+    "confidence": "high",
+    "note": "4x6 flush grid; row-major order matches label order (vision-verified 2026-10-17)"
+   }
+  },
+  {
+   "registry_id": "SAGE_21",
+   "collection": "sage_green_collection",
+   "source_id": "creative_21",
+   "name": "reminder confirmation dialog variation",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#sage_green_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop",
+    "source_image": "uploads/10+ Modern Green Instagram Post Templates for Canva _ Stylish Grid & Branding Designs.jpeg",
+    "crop_box": [
+     0,
+     920,
+     184,
+     1104
+    ],
+    "confidence": "high",
+    "note": "4x6 flush grid; row-major order matches label order (vision-verified 2026-10-17)"
+   }
+  },
+  {
+   "registry_id": "SAGE_22",
+   "collection": "sage_green_collection",
+   "source_id": "creative_22",
+   "name": "circular lifestyle portrait variation",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#sage_green_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop",
+    "source_image": "uploads/10+ Modern Green Instagram Post Templates for Canva _ Stylish Grid & Branding Designs.jpeg",
+    "crop_box": [
+     184,
+     920,
+     368,
+     1104
+    ],
+    "confidence": "high",
+    "note": "4x6 flush grid; row-major order matches label order (vision-verified 2026-10-17)"
+   }
+  },
+  {
+   "registry_id": "SAGE_23",
+   "collection": "sage_green_collection",
+   "source_id": "creative_23",
+   "name": "question search bar variation",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#sage_green_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop",
+    "source_image": "uploads/10+ Modern Green Instagram Post Templates for Canva _ Stylish Grid & Branding Designs.jpeg",
+    "crop_box": [
+     368,
+     920,
+     552,
+     1104
+    ],
+    "confidence": "high",
+    "note": "4x6 flush grid; row-major order matches label order (vision-verified 2026-10-17)"
+   }
+  },
+  {
+   "registry_id": "SAGE_24",
+   "collection": "sage_green_collection",
+   "source_id": "creative_24",
+   "name": "stacked green option buttons",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#sage_green_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop",
+    "source_image": "uploads/10+ Modern Green Instagram Post Templates for Canva _ Stylish Grid & Branding Designs.jpeg",
+    "crop_box": [
+     552,
+     920,
+     736,
+     1104
+    ],
+    "confidence": "high",
+    "note": "4x6 flush grid; row-major order matches label order (vision-verified 2026-10-17)"
+   }
+  },
+  {
+   "registry_id": "SKIN_01",
+   "collection": "skincare_neutral_collection",
+   "source_id": "creative_01",
+   "name": "new skincare product with circular still life",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#skincare_neutral_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "source_image": "uploads/✨ Glow Up Your Feed_ Aesthetic Skincare Templates for Instagram (Canva Friendly!).jpeg",
+    "crop_box": [
+     35,
+     95,
+     257,
+     314
+    ],
+    "confidence": "medium",
+    "note": "photographed poster, slight perspective skew; 3x5 row-major matches label order (vision-verified); refine crop on first use"
+   }
+  },
+  {
+   "registry_id": "SKIN_02",
+   "collection": "skincare_neutral_collection",
+   "source_id": "creative_02",
+   "name": "new arrival with sculptural product close-up",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#skincare_neutral_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "source_image": "uploads/✨ Glow Up Your Feed_ Aesthetic Skincare Templates for Instagram (Canva Friendly!).jpeg",
+    "crop_box": [
+     257,
+     95,
+     478,
+     314
+    ],
+    "confidence": "medium",
+    "note": "photographed poster, slight perspective skew; 3x5 row-major matches label order (vision-verified); refine crop on first use"
+   }
+  },
+  {
+   "registry_id": "SKIN_03",
+   "collection": "skincare_neutral_collection",
+   "source_id": "creative_03",
+   "name": "product features in rounded information card",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#skincare_neutral_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "source_image": "uploads/✨ Glow Up Your Feed_ Aesthetic Skincare Templates for Instagram (Canva Friendly!).jpeg",
+    "crop_box": [
+     478,
+     95,
+     700,
+     314
+    ],
+    "confidence": "medium",
+    "note": "photographed poster, slight perspective skew; 3x5 row-major matches label order (vision-verified); refine crop on first use"
+   }
+  },
+  {
+   "registry_id": "SKIN_04",
+   "collection": "skincare_neutral_collection",
+   "source_id": "creative_04",
+   "name": "special skincare sale with layered product photography",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#skincare_neutral_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "source_image": "uploads/✨ Glow Up Your Feed_ Aesthetic Skincare Templates for Instagram (Canva Friendly!).jpeg",
+    "crop_box": [
+     35,
+     314,
+     257,
+     533
+    ],
+    "confidence": "medium",
+    "note": "photographed poster, slight perspective skew; 3x5 row-major matches label order (vision-verified); refine crop on first use"
+   }
+  },
+  {
+   "registry_id": "SKIN_05",
+   "collection": "skincare_neutral_collection",
+   "source_id": "creative_05",
+   "name": "skincare glowing serum product triptych",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#skincare_neutral_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "source_image": "uploads/✨ Glow Up Your Feed_ Aesthetic Skincare Templates for Instagram (Canva Friendly!).jpeg",
+    "crop_box": [
+     257,
+     314,
+     478,
+     533
+    ],
+    "confidence": "medium",
+    "note": "photographed poster, slight perspective skew; 3x5 row-major matches label order (vision-verified); refine crop on first use"
+   }
+  },
+  {
+   "registry_id": "SKIN_06",
+   "collection": "skincare_neutral_collection",
+   "source_id": "creative_06",
+   "name": "beauty product promotion with model",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#skincare_neutral_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "source_image": "uploads/✨ Glow Up Your Feed_ Aesthetic Skincare Templates for Instagram (Canva Friendly!).jpeg",
+    "crop_box": [
+     478,
+     314,
+     700,
+     533
+    ],
+    "confidence": "medium",
+    "note": "photographed poster, slight perspective skew; 3x5 row-major matches label order (vision-verified); refine crop on first use"
+   }
+  },
+  {
+   "registry_id": "SKIN_07",
+   "collection": "skincare_neutral_collection",
+   "source_id": "creative_07",
+   "name": "skincare cream close-up with offer",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#skincare_neutral_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "source_image": "uploads/✨ Glow Up Your Feed_ Aesthetic Skincare Templates for Instagram (Canva Friendly!).jpeg",
+    "crop_box": [
+     35,
+     533,
+     257,
+     752
+    ],
+    "confidence": "medium",
+    "note": "photographed poster, slight perspective skew; 3x5 row-major matches label order (vision-verified); refine crop on first use"
+   }
+  },
+  {
+   "registry_id": "SKIN_08",
+   "collection": "skincare_neutral_collection",
+   "source_id": "creative_08",
+   "name": "face spray launch with model",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#skincare_neutral_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "source_image": "uploads/✨ Glow Up Your Feed_ Aesthetic Skincare Templates for Instagram (Canva Friendly!).jpeg",
+    "crop_box": [
+     257,
+     533,
+     478,
+     752
+    ],
+    "confidence": "medium",
+    "note": "photographed poster, slight perspective skew; 3x5 row-major matches label order (vision-verified); refine crop on first use"
+   }
+  },
+  {
+   "registry_id": "SKIN_09",
+   "collection": "skincare_neutral_collection",
+   "source_id": "creative_09",
+   "name": "beauty skincare promo with round product scene",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#skincare_neutral_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "source_image": "uploads/✨ Glow Up Your Feed_ Aesthetic Skincare Templates for Instagram (Canva Friendly!).jpeg",
+    "crop_box": [
+     478,
+     533,
+     700,
+     752
+    ],
+    "confidence": "medium",
+    "note": "photographed poster, slight perspective skew; 3x5 row-major matches label order (vision-verified); refine crop on first use"
+   }
+  },
+  {
+   "registry_id": "SKIN_10",
+   "collection": "skincare_neutral_collection",
+   "source_id": "creative_10",
+   "name": "all beauty skincare last-day sale",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#skincare_neutral_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "source_image": "uploads/✨ Glow Up Your Feed_ Aesthetic Skincare Templates for Instagram (Canva Friendly!).jpeg",
+    "crop_box": [
+     35,
+     752,
+     257,
+     971
+    ],
+    "confidence": "medium",
+    "note": "photographed poster, slight perspective skew; 3x5 row-major matches label order (vision-verified); refine crop on first use"
+   }
+  },
+  {
+   "registry_id": "SKIN_11",
+   "collection": "skincare_neutral_collection",
+   "source_id": "creative_11",
+   "name": "skin tips with photo and stacked advice cards",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#skincare_neutral_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "source_image": "uploads/✨ Glow Up Your Feed_ Aesthetic Skincare Templates for Instagram (Canva Friendly!).jpeg",
+    "crop_box": [
+     257,
+     752,
+     478,
+     971
+    ],
+    "confidence": "medium",
+    "note": "photographed poster, slight perspective skew; 3x5 row-major matches label order (vision-verified); refine crop on first use"
+   }
+  },
+  {
+   "registry_id": "SKIN_12",
+   "collection": "skincare_neutral_collection",
+   "source_id": "creative_12",
+   "name": "testimonial card beside phone mockup",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#skincare_neutral_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "source_image": "uploads/✨ Glow Up Your Feed_ Aesthetic Skincare Templates for Instagram (Canva Friendly!).jpeg",
+    "crop_box": [
+     478,
+     752,
+     700,
+     971
+    ],
+    "confidence": "medium",
+    "note": "photographed poster, slight perspective skew; 3x5 row-major matches label order (vision-verified); refine crop on first use"
+   }
+  },
+  {
+   "registry_id": "SKIN_13",
+   "collection": "skincare_neutral_collection",
+   "source_id": "creative_13",
+   "name": "new beauty podcast episode",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#skincare_neutral_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "source_image": "uploads/✨ Glow Up Your Feed_ Aesthetic Skincare Templates for Instagram (Canva Friendly!).jpeg",
+    "crop_box": [
+     35,
+     971,
+     257,
+     1190
+    ],
+    "confidence": "medium",
+    "note": "photographed poster, slight perspective skew; 3x5 row-major matches label order (vision-verified); refine crop on first use"
+   }
+  },
+  {
+   "registry_id": "SKIN_14",
+   "collection": "skincare_neutral_collection",
+   "source_id": "creative_14",
+   "name": "skincare giveaway steps",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#skincare_neutral_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "source_image": "uploads/✨ Glow Up Your Feed_ Aesthetic Skincare Templates for Instagram (Canva Friendly!).jpeg",
+    "crop_box": [
+     257,
+     971,
+     478,
+     1190
+    ],
+    "confidence": "medium",
+    "note": "photographed poster, slight perspective skew; 3x5 row-major matches label order (vision-verified); refine crop on first use"
+   }
+  },
+  {
+   "registry_id": "SKIN_15",
+   "collection": "skincare_neutral_collection",
+   "source_id": "creative_15",
+   "name": "beauty livestream announcement",
+   "status": "active",
+   "recipe_pointer": "brand/reference-dna.json#skincare_neutral_collection.creatives",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "source_image": "uploads/✨ Glow Up Your Feed_ Aesthetic Skincare Templates for Instagram (Canva Friendly!).jpeg",
+    "crop_box": [
+     478,
+     971,
+     700,
+     1190
+    ],
+    "confidence": "medium",
+    "note": "photographed poster, slight perspective skew; 3x5 row-major matches label order (vision-verified); refine crop on first use"
+   }
+  },
+  {
+   "id": "EID_01",
+   "collection": "occasions_eid_islamic",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "minimal mono prayer-beads greeting",
+   "composition_dna": "Minimal white studio; monochrome hand holding tasbih as centered hero; brand-color type block lower-left: bold uppercase EID greeting + script accent word + one small blessing line.",
+   "constraints": {
+    "locked": [
+     "monochrome object photography",
+     "generous white space",
+     "lower-left type block"
+    ],
+    "flexible": [
+     "hero object (beads/lantern/dates)",
+     "occasion wording",
+     "accent color -> brand"
+    ]
+   },
+   "shared_rules": {
+    "palette": "remap accents to target brand hexes",
+    "never_copy": "reference brand names/logos/handles",
+    "calligraphy": "authentic Arabic Eid calligraphy, never pseudo-Arabic glyphs"
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/17dc2c0d-514d-4123-a2b4-c92327224a0f.jpeg"
+   }
+  },
+  {
+   "id": "EID_02",
+   "collection": "occasions_eid_islamic",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "split-panel qurbani animal peek",
+   "composition_dna": "Vertical split: clean panel with witty first-person headline (accent word in brand color) + narrow photo strip where a photoreal sacrificial animal peeks with horns/hooves overlapping the panel edge; warm glow; Arabic calligraphy stamp bottom-right.",
+   "constraints": {
+    "locked": [
+     "split composition",
+     "animal overlapping panel edge",
+     "headline-left hierarchy"
+    ],
+    "flexible": [
+     "animal (goat/ram/cow)",
+     "headline copy",
+     "accent color"
+    ]
+   },
+   "shared_rules": {
+    "palette": "remap accents to target brand hexes",
+    "never_copy": "reference brand names/logos/handles",
+    "calligraphy": "authentic Arabic Eid calligraphy, never pseudo-Arabic glyphs"
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/44137709-87e3-45b6-be0b-1567d618b6c5.jpeg"
+   }
+  },
+  {
+   "id": "EID_03",
+   "collection": "occasions_eid_islamic",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "flat-color door peek humor",
+   "composition_dna": "Flat saturated background; stacked playful bold white type with googly-eyes accent; photoreal wooden door ajar with animal peeking and hoof on the edge; social handle chip bottom-left.",
+   "constraints": {
+    "locked": [
+     "flat bg + photoreal door contrast",
+     "type-left / door-right",
+     "humor register"
+    ],
+    "flexible": [
+     "bg color -> brand",
+     "animal",
+     "copy"
+    ]
+   },
+   "shared_rules": {
+    "palette": "remap accents to target brand hexes",
+    "never_copy": "reference brand names/logos/handles",
+    "calligraphy": "authentic Arabic Eid calligraphy, never pseudo-Arabic glyphs"
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/5a0390ae-062b-49a9-95e9-0376bf7c3106.jpeg"
+   }
+  },
+  {
+   "id": "EID_04",
+   "collection": "occasions_eid_islamic",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "editorial monochrome mosque + red calligraphy",
+   "composition_dna": "Vertical monochrome mosque photo strip on light canvas; solid accent sun disc; oversized expressive Arabic calligraphy overlapping strip; one thin congratulations line; small social/barcode footer.",
+   "constraints": {
+    "locked": [
+     "mono photo strip",
+     "oversized calligraphy overlap",
+     "single accent color"
+    ],
+    "flexible": [
+     "mosque image",
+     "accent -> brand red/orange",
+     "occasion (Fitr/Adha)"
+    ]
+   },
+   "shared_rules": {
+    "palette": "remap accents to target brand hexes",
+    "never_copy": "reference brand names/logos/handles",
+    "calligraphy": "authentic Arabic Eid calligraphy, never pseudo-Arabic glyphs"
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/69bf444b-ab0b-4adc-9ad1-f8603ea32e15.jpeg"
+   }
+  },
+  {
+   "id": "EID_05",
+   "collection": "occasions_eid_islamic",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "notification-card greeting",
+   "composition_dna": "Deep gradient field; large white Arabic calligraphy upper; glossy app-notification card centered with brand logo + short greeting message; quote line + contact footer.",
+   "constraints": {
+    "locked": [
+     "UI notification card as hero",
+     "calligraphy above card",
+     "gradient field"
+    ],
+    "flexible": [
+     "gradient -> brand colors",
+     "card copy",
+     "footer details"
+    ]
+   },
+   "shared_rules": {
+    "palette": "remap accents to target brand hexes",
+    "never_copy": "reference brand names/logos/handles",
+    "calligraphy": "authentic Arabic Eid calligraphy, never pseudo-Arabic glyphs"
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/7eac3653-03b9-4c66-859f-f1ddd176334c.jpeg"
+   }
+  },
+  {
+   "id": "EID_06",
+   "collection": "occasions_eid_islamic",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "flat amber dome lineart + halftone mosque",
+   "composition_dna": "Flat warm field; thin white mosque-dome arch lineart framing Arabic calligraphy; monochrome halftone mosque photo cutout anchored at bottom; one centered blessing line.",
+   "constraints": {
+    "locked": [
+     "dome lineart frame",
+     "halftone mosque base",
+     "flat single-color field"
+    ],
+    "flexible": [
+     "field color -> brand",
+     "blessing copy"
+    ]
+   },
+   "shared_rules": {
+    "palette": "remap accents to target brand hexes",
+    "never_copy": "reference brand names/logos/handles",
+    "calligraphy": "authentic Arabic Eid calligraphy, never pseudo-Arabic glyphs"
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/8593102e-d351-4cf3-8304-be2fb8fbf7d3.jpeg"
+   }
+  },
+  {
+   "id": "EID_07",
+   "collection": "occasions_eid_islamic",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "date + crescent shadow still life",
+   "composition_dna": "Warm neutral field; brown Arabic calligraphy + blessing line top; hero still life: single date fruit whose curved shadow forms a crescent moon illusion; brand footer strip.",
+   "constraints": {
+    "locked": [
+     "object+shadow metaphor hero",
+     "calligraphy top, object center",
+     "warm neutral palette"
+    ],
+    "flexible": [
+     "object (date/food/brand product)",
+     "footer"
+    ]
+   },
+   "shared_rules": {
+    "palette": "remap accents to target brand hexes",
+    "never_copy": "reference brand names/logos/handles",
+    "calligraphy": "authentic Arabic Eid calligraphy, never pseudo-Arabic glyphs"
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/91af0a8e-9957-4d24-af1a-9be63615be2a.jpeg"
+   }
+  },
+  {
+   "id": "EID_08",
+   "collection": "occasions_eid_islamic",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "product-cable calligraphy (tech twist)",
+   "composition_dna": "Brand-color field; a product cable (mouse/charger) physically forms the Arabic Eid calligraphy outline, with faint mosque line motif behind; friendly headline + one wish line; profile chip top-right.",
+   "constraints": {
+    "locked": [
+     "brand product forms the calligraphy",
+     "single-color field",
+     "headline above hero"
+    ],
+    "flexible": [
+     "product (by target brand)",
+     "field color",
+     "copy"
+    ]
+   },
+   "shared_rules": {
+    "palette": "remap accents to target brand hexes",
+    "never_copy": "reference brand names/logos/handles",
+    "calligraphy": "authentic Arabic Eid calligraphy, never pseudo-Arabic glyphs"
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/b578a3ba-07c8-421f-886e-62ffaea8b0ce.jpeg"
+   }
+  },
+  {
+   "id": "YBIZ_01",
+   "collection": "yellow_business_sheet",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "5 critical hard skills cover",
+   "linkage": {
+    "mode": "sheet_crop",
+    "sheet": "uploads/carousel refernce.jpg",
+    "crop_box": [
+     11,
+     282,
+     469,
+     849
+    ]
+   }
+  },
+  {
+   "id": "YBIZ_02",
+   "collection": "yellow_business_sheet",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "data visualization tools",
+   "linkage": {
+    "mode": "sheet_crop",
+    "sheet": "uploads/carousel refernce.jpg",
+    "crop_box": [
+     527,
+     282,
+     984,
+     849
+    ]
+   }
+  },
+  {
+   "id": "YBIZ_03",
+   "collection": "yellow_business_sheet",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "SQL and database management",
+   "linkage": {
+    "mode": "sheet_crop",
+    "sheet": "uploads/carousel refernce.jpg",
+    "crop_box": [
+     1022,
+     282,
+     1484,
+     849
+    ]
+   }
+  },
+  {
+   "id": "YBIZ_04",
+   "collection": "yellow_business_sheet",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "business process modeling (photo variant)",
+   "linkage": {
+    "mode": "sheet_crop",
+    "sheet": "uploads/carousel refernce.jpg",
+    "crop_box": [
+     1533,
+     282,
+     1993,
+     849
+    ]
+   }
+  },
+  {
+   "id": "YBIZ_05",
+   "collection": "yellow_business_sheet",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "business process modeling v2",
+   "linkage": {
+    "mode": "sheet_crop",
+    "sheet": "uploads/carousel refernce.jpg",
+    "crop_box": [
+     11,
+     900,
+     469,
+     1467
+    ]
+   }
+  },
+  {
+   "id": "YBIZ_06",
+   "collection": "yellow_business_sheet",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "statistical analysis",
+   "linkage": {
+    "mode": "sheet_crop",
+    "sheet": "uploads/carousel refernce.jpg",
+    "crop_box": [
+     527,
+     900,
+     984,
+     1467
+    ]
+   }
+  },
+  {
+   "id": "YBIZ_07",
+   "collection": "yellow_business_sheet",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "requirements management",
+   "linkage": {
+    "mode": "sheet_crop",
+    "sheet": "uploads/carousel refernce.jpg",
+    "crop_box": [
+     1022,
+     900,
+     1484,
+     1467
+    ]
+   }
+  },
+  {
+   "id": "YBIZ_08",
+   "collection": "yellow_business_sheet",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "bonus agile methodologies",
+   "linkage": {
+    "mode": "sheet_crop",
+    "sheet": "uploads/carousel refernce.jpg",
+    "crop_box": [
+     1533,
+     900,
+     1993,
+     1467
+    ]
+   }
+  },
+  {
+   "id": "RSOC_01",
+   "collection": "red_social_sheet",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "science behind good design",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "sheet": "uploads/post design.png",
+    "crop_box": [
+     0,
+     274,
+     237,
+     580
+    ]
+   }
+  },
+  {
+   "id": "RSOC_02",
+   "collection": "red_social_sheet",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "what is personal branding",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "sheet": "uploads/post design.png",
+    "crop_box": [
+     247,
+     274,
+     489,
+     580
+    ]
+   }
+  },
+  {
+   "id": "RSOC_03",
+   "collection": "red_social_sheet",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "beginners guide step list",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "sheet": "uploads/post design.png",
+    "crop_box": [
+     500,
+     274,
+     742,
+     580
+    ]
+   }
+  },
+  {
+   "id": "RSOC_04",
+   "collection": "red_social_sheet",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "myth vs fact toggles",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "sheet": "uploads/post design.png",
+    "crop_box": [
+     761,
+     274,
+     1000,
+     580
+    ]
+   }
+  },
+  {
+   "id": "RSOC_05",
+   "collection": "red_social_sheet",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "quick start guide collage",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "sheet": "uploads/post design.png",
+    "crop_box": [
+     0,
+     605,
+     237,
+     911
+    ]
+   }
+  },
+  {
+   "id": "RSOC_06",
+   "collection": "red_social_sheet",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "best practices highlight list",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "sheet": "uploads/post design.png",
+    "crop_box": [
+     247,
+     605,
+     489,
+     911
+    ]
+   }
+  },
+  {
+   "id": "RSOC_07",
+   "collection": "red_social_sheet",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "our services tray hand",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "sheet": "uploads/post design.png",
+    "crop_box": [
+     500,
+     605,
+     742,
+     911
+    ]
+   }
+  },
+  {
+   "id": "RSOC_08",
+   "collection": "red_social_sheet",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "our services notebook stamps",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "sheet": "uploads/post design.png",
+    "crop_box": [
+     761,
+     605,
+     1000,
+     911
+    ]
+   }
+  },
+  {
+   "id": "RSOC_09",
+   "collection": "red_social_sheet",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "FAQ chat bubbles",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "sheet": "uploads/post design.png",
+    "crop_box": [
+     0,
+     939,
+     237,
+     1242
+    ]
+   }
+  },
+  {
+   "id": "RSOC_10",
+   "collection": "red_social_sheet",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "did you know stat card",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "sheet": "uploads/post design.png",
+    "crop_box": [
+     247,
+     939,
+     489,
+     1242
+    ]
+   }
+  },
+  {
+   "id": "RSOC_11",
+   "collection": "red_social_sheet",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "step-by-step caption pills",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "sheet": "uploads/post design.png",
+    "crop_box": [
+     500,
+     939,
+     742,
+     1242
+    ]
+   }
+  },
+  {
+   "id": "RSOC_12",
+   "collection": "red_social_sheet",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "numbers dont lie big stat",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "sheet": "uploads/post design.png",
+    "crop_box": [
+     761,
+     939,
+     1000,
+     1242
+    ]
+   }
+  },
+  {
+   "id": "RSOC_13",
+   "collection": "red_social_sheet",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "simple fixes low engagement",
+   "intake_note": "bottom row partially clipped in source sheet",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "sheet": "uploads/post design.png",
+    "crop_box": [
+     0,
+     1270,
+     237,
+     1500
+    ]
+   }
+  },
+  {
+   "id": "RSOC_14",
+   "collection": "red_social_sheet",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "Q&A oversized letters",
+   "intake_note": "bottom row partially clipped in source sheet",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "sheet": "uploads/post design.png",
+    "crop_box": [
+     247,
+     1270,
+     489,
+     1500
+    ]
+   }
+  },
+  {
+   "id": "RSOC_15",
+   "collection": "red_social_sheet",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "why personal branding matters",
+   "intake_note": "bottom row partially clipped in source sheet",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "sheet": "uploads/post design.png",
+    "crop_box": [
+     500,
+     1270,
+     742,
+     1500
+    ]
+   }
+  },
+  {
+   "id": "RSOC_16",
+   "collection": "red_social_sheet",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "how email marketing works steps",
+   "intake_note": "bottom row partially clipped in source sheet",
+   "linkage": {
+    "mode": "sheet_crop_approx",
+    "sheet": "uploads/post design.png",
+    "crop_box": [
+     761,
+     1270,
+     1000,
+     1500
+    ]
+   }
+  },
+  {
+   "id": "ANN_01",
+   "collection": "announcements_teasers",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "curtain-reveal tug-of-war teaser",
+   "composition_dna": "Square canvas split by a realistic white curtain being pulled; dark teaser scene + script type half-hidden behind curtain edge; two photoreal figures in brand-color shirts pulling a rope that cinches the curtain; hashtag announcement block bottom-right.",
+   "constraints": {
+    "locked": [
+     "curtain conceals the reveal",
+     "real figures pulling rope as hero",
+     "teaser copy half-hidden"
+    ],
+    "flexible": [
+     "revealed scene/topic",
+     "figure wardrobe -> brand colors",
+     "announcement copy"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/1fcd0581857c907ee882e3d235df9a63.png"
+   }
+  },
+  {
+   "id": "LST_01",
+   "collection": "listicle_cards",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "tilted numbered myth cards on grid",
+   "composition_dna": "Saturated single-color field with blueprint grid + halftone corners; two large tilted white rounded cards, oversized serif numerals 01/02, gradient text panels with serif-italic myth headline + sans body; dashed connector path between cards; contact header + site footer.",
+   "constraints": {
+    "locked": [
+     "tilted card pair",
+     "oversized numeral hierarchy",
+     "dashed connector",
+     "grid field"
+    ],
+    "flexible": [
+     "field color -> brand",
+     "card count 2-3",
+     "myth/fact copy"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/598db882a7add8e676ed41380ac26852.jpg"
+   }
+  },
+  {
+   "id": "BA_01",
+   "collection": "before_after",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "clipboard week-proof product results",
+   "composition_dna": "Photoreal clipboard flat-lay on marble; two polaroid-style result photos labeled Week 1 / Week 2 stacked right; bold claim headline left with accent words; product bottle breaking frame bottom-left; handwritten annotations + doodle icons with arrows right margin.",
+   "constraints": {
+    "locked": [
+     "clipboard stage",
+     "sequential labeled proof photos",
+     "product breaks frame",
+     "handwritten annotation layer"
+    ],
+    "flexible": [
+     "product & proof imagery",
+     "claim copy",
+     "accent color"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/6fef0717fe2f0b896b33a5b5882058e8.jpg"
+   }
+  },
+  {
+   "id": "BA_02",
+   "collection": "before_after",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "dark editorial BEFORE/AFTER polaroids",
+   "composition_dna": "Black chalk-textured canvas; massive cream condensed BEFORE top / AFTER bottom, letterforms clipped by frame; two taped polaroids — plain product shot vs vivid AI-styled shot — rotated opposing angles; handwritten white labels + sketch arrow; follow chip top-left.",
+   "constraints": {
+    "locked": [
+     "giant clipped BEFORE/AFTER type",
+     "taped polaroid pair",
+     "dark textured field",
+     "handwritten connectors"
+    ],
+    "flexible": [
+     "subject of transformation",
+     "accent styling of AFTER shot",
+     "chip copy"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/3dde3e6e468dd6b3d6f27520a044e34f.jpg"
+   }
+  },
+  {
+   "id": "BA_03",
+   "collection": "before_after",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "typographic before/after split (text-selection motif)",
+   "composition_dna": "Horizontal 50/50 split, two near-identical minimal panels: tool icon(s) centered top, giant two-line sans headline with the changing word wrapped in a UI text-selection highlight with drag handles; author chip bottom; contrast comes from icon row growth between panels.",
+   "constraints": {
+    "locked": [
+     "mirrored panel pair",
+     "text-selection highlight motif",
+     "minimal field"
+    ],
+    "flexible": [
+     "before/after wording",
+     "icon row contents (realtime-sourced logos)",
+     "panel tints"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/36cb35c7cd576aa02a27ab660c315197.jpg"
+   }
+  },
+  {
+   "id": "BA_04",
+   "collection": "before_after",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "minimal polaroid before/after pair",
+   "composition_dna": "Light neutral field; two overlapping tilted polaroids — left monochrome (before), right full color (after); oversized accent-color Before and After words anchored to each photo; curved arrows + small benefit captions; corner meta (company, CTA, phone, handle).",
+   "constraints": {
+    "locked": [
+     "mono-vs-color polaroid logic",
+     "oversized word anchors",
+     "curved arrow annotations"
+    ],
+    "flexible": [
+     "photo subject",
+     "accent color -> brand",
+     "captions/meta"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/83f09dd432cf6bbb02ea6b39272bfda0.png"
+   }
+  },
+  {
+   "id": "BA_05",
+   "collection": "before_after",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "torn-paper emotional split",
+   "composition_dna": "Vertical torn-paper split: left desaturated grey scene with stressed person + clutter props; right saturated brand-color scene with same person celebrating; sticker-style outlined labels on each side; shared desk/laptop bridges both halves; website/social footer.",
+   "constraints": {
+    "locked": [
+     "torn edge divider",
+     "desaturated-vs-brand-color emotional contrast",
+     "same subject both sides",
+     "sticker labels"
+    ],
+    "flexible": [
+     "scenario & props",
+     "label copy",
+     "right-side color -> brand"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/0e7e9faa724dff7e917128483fd22e33.jpg"
+   }
+  },
+  {
+   "id": "MCK_01",
+   "collection": "mockup_scenes",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "giant 3D social-post mockup held outdoors",
+   "composition_dna": "Photoreal outdoor scene (waterfront/city); person holds a giant 3D-extruded Instagram post card; the card is a real UI mockup — header with handle, brand-color body with stacked service copy in rounded inner panel, live engagement row + caption; cracked-ground detail sells the weight; logo top.",
+   "constraints": {
+    "locked": [
+     "giant physical post mockup as hero",
+     "real person interacting",
+     "authentic platform UI anatomy"
+    ],
+    "flexible": [
+     "environment",
+     "platform skin",
+     "card copy -> brand services"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/5b5af541115e73df20f9417341572865.jpg"
+   }
+  },
+  {
+   "id": "INF_01",
+   "collection": "infographics",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "pencil ribbon services infographic",
+   "composition_dna": "Light studio field; giant photoreal pencil center with brand-color ribbon spiraling around it carrying service names; alternating left/right solid bars with white line icons + service labels; hashtag line + website/phone footer bar.",
+   "constraints": {
+    "locked": [
+     "central vertical hero object",
+     "spiral ribbon carrying labels",
+     "alternating side bars with icons"
+    ],
+    "flexible": [
+     "hero object (pencil/rocket/pen)",
+     "service list",
+     "bar color -> brand"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/7ef10e68e424eb51ee17db3f61699c22.jpg"
+   }
+  },
+  {
+   "id": "INF_02",
+   "collection": "infographics",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "tall flat-illustration listicle infographic",
+   "composition_dna": "Tall single-color field with doodle accents; headline block top + intro line; 4-stat icon row; five alternating numbered cards (bold two-tone headlines + short body) each paired with a flat human illustration + mini UI props; dashed connectors; rocket finale.",
+   "constraints": {
+    "locked": [
+     "numbered alternating card rhythm",
+     "flat illustration family",
+     "stat row",
+     "single-hue field"
+    ],
+    "flexible": [
+     "stat values",
+     "card topics",
+     "hue -> brand",
+     "illustration subjects"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/6e91c0724c51acced7c919870aa00494.png"
+   }
+  },
+  {
+   "id": "MTR_01",
+   "collection": "occasions_month_transition",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "two-tone wall month transition",
+   "composition_dna": "Vertical split wall in two month colors; giant ghost numerals (outgoing faint on left, incoming bold on right); vertical month names running up each side; photoreal person mid-stride crossing the color boundary; wax-seal logo stamp + greeting block top; handle + hashtag footer.",
+   "constraints": {
+    "locked": [
+     "two-tone wall + walking figure crossing",
+     "vertical month typography",
+     "ghost numerals"
+    ],
+    "flexible": [
+     "month pair + colors (one slot -> brand)",
+     "figure styling",
+     "greeting copy"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/d9e27ca132ca09026e32d51c895b375c.jpg"
+   }
+  },
+  {
+   "id": "HOB_01",
+   "collection": "hero_objects",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "hanging bulbs — one lit",
+   "composition_dna": "Paper-texture light field; three hanging bulbs, two glass-clear and one brand-color lit with ray ticks; dashed flight path with paper-plane loops down to a highlight-bar headline stack (bar + bold two-tone line + kicker); hashtag line; footer bar with site + socials.",
+   "constraints": {
+    "locked": [
+     "odd-one-lit metaphor",
+     "dashed connector path",
+     "highlight-bar headline stack"
+    ],
+    "flexible": [
+     "bulb color -> brand",
+     "headline copy",
+     "footer"
+    ]
+   },
+   "intake_note": "distinct from DNA_05 (orbital) — kept as separate profile",
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/b82d822af4ba75eb65a77491be7487eb.jpg"
+   }
+  },
+  {
+   "id": "INF_03",
+   "collection": "infographics_extended",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "orbital ring satellites infographic",
+   "composition_dna": "Light grey field; large embossed 3D disc center with title; multicolor arc path around it carrying small node dots; 5 ringed satellite circles (each own hue, white core) with bold label + body text, arranged on the lower arc; logo top-right.",
+   "constraints": {
+    "locked": [
+     "central disc + orbiting labeled rings",
+     "arc connector with nodes",
+     "one hue per item"
+    ],
+    "flexible": [
+     "item count 4-6",
+     "hues -> brand tints",
+     "topic labels"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/f665c6389b0ab4a2002c31c0abd0db55.jpg"
+   }
+  },
+  {
+   "id": "INF_04",
+   "collection": "infographics_extended",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "past vs future dual-circle comparison",
+   "composition_dna": "Dark textured field; solid brand-color circle (PAST) vs dashed outline circle (FUTURE) side by side; cross-marked claims radiate left, check-marked claims right; glowing hero object below; massive headline block with highlight-bar word; save chip top-right, footer contact pill.",
+   "constraints": {
+    "locked": [
+     "solid-vs-dashed circle metaphor",
+     "cross/check radiating claims",
+     "dark field + single accent"
+    ],
+    "flexible": [
+     "claims copy",
+     "hero object",
+     "accent -> brand"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/9a728083c40c3f4f0a43c1b0d85a8fb0.jpg"
+   }
+  },
+  {
+   "id": "INF_05",
+   "collection": "infographics_extended",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "semicircle timeline arrow tabs over photo",
+   "composition_dna": "Blurred photo background; big soft-white circle left with title + body; thin arc through 5 numbered dark arrow tabs stepping down-right, each with white icon circle, title + body; numbered rings on each tab.",
+   "constraints": {
+    "locked": [
+     "arc-stepped arrow tabs",
+     "icon circle per step",
+     "photo-blur backdrop"
+    ],
+    "flexible": [
+     "step count 3-6",
+     "photo subject",
+     "tab tint -> brand"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/7c74290bc3f1cd3e231a5a92351f7633.jpg"
+   }
+  },
+  {
+   "id": "INF_06",
+   "collection": "infographics_extended",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "segmented donut wheel listicle",
+   "composition_dna": "Paper-texture light field; donut wheel of alternating brand-color/charcoal segments, each with rotated label + thin line icon; solid center disc with topic title; oversized numeral + kicker text at the wheel gap right; floating glossy social-icon pucks around; hashtag + footer bar.",
+   "constraints": {
+    "locked": [
+     "alternating-segment donut",
+     "rotated in-segment labels",
+     "numeral at gap"
+    ],
+    "flexible": [
+     "segment count",
+     "two alternating colors -> brand pair",
+     "floating pucks optional"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/6e0e72ab616a489ab9806ba8a288b20d.jpg"
+   }
+  },
+  {
+   "id": "INF_07",
+   "collection": "infographics_extended",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "editorial data-art paint swirls",
+   "composition_dna": "Off-white speckled art-paper field; serif headline + sub; 7 photoreal paint-swirl balls sitting in concentric ring targets, scattered organically; curved hand-written labels around each; black % flags on bent connector lines all tracing down to a monochrome hand holding them like balloons; tiny scale legend; source line bottom.",
+   "constraints": {
+    "locked": [
+     "objects-in-ring-targets as data points",
+     "connector lines to single anchor",
+     "editorial serif + handwritten mix",
+     "% flags"
+    ],
+    "flexible": [
+     "data objects (paint/coins/leaves)",
+     "values + labels",
+     "palette accents"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/291ed612fbfd82d02b3835e23e27d00d.png"
+   }
+  },
+  {
+   "id": "INF_08",
+   "collection": "infographics_extended",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "zigzag dotted-path 3 steps",
+   "composition_dna": "Deep brand-color field with flowing light waves; big white headline question; 3 white rounded step cards alternating left/right with glossy icon pucks, giant STEP numerals opposite each card; dotted S-path with ring nodes connecting them; follow/contact footer.",
+   "constraints": {
+    "locked": [
+     "alternating card/numeral zigzag",
+     "dotted path with nodes",
+     "glossy icon pucks"
+    ],
+    "flexible": [
+     "step count 3-4",
+     "field color -> brand",
+     "copy"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/69fdb5d3a3c2b8d96faadbc3632e8873.jpg"
+   }
+  },
+  {
+   "id": "NAT_01",
+   "collection": "occasions_national_days",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "numeral-photo fusion national day",
+   "composition_dna": "Textured off-white field; giant date numeral with photoreal worker cutouts emerging from/behind it (bag carrier, wrench hand), vertical month tag; oversized serif DAY wordmark with rotated side word + script-crossed letter; white-on-accent subline bar; faint duotone scene silhouettes at base.",
+   "constraints": {
+    "locked": [
+     "numeral + human cutout fusion",
+     "serif oversized wordmark mix",
+     "faint base silhouettes"
+    ],
+    "flexible": [
+     "occasion + date",
+     "photo subjects",
+     "accent color -> brand"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/f6366c9b940f91e7e85c98e1f08a5121.jpg"
+   }
+  },
+  {
+   "id": "NAT_02",
+   "collection": "occasions_national_days",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "duotone legend tribute day",
+   "composition_dna": "Warm cream field; letterspaced two-line title (one line accent); central duotone-screened portrait of the honored figure rising from a ghost emblem circle; small label tag at shoulder; rotated photo cards fanned behind on dotted arc; solid ribbon banner with tagline below; serif+sans body line footer.",
+   "constraints": {
+    "locked": [
+     "duotone portrait hero",
+     "fanned photo cards on arc",
+     "ribbon banner"
+    ],
+    "flexible": [
+     "figure + photos",
+     "duotone pair -> brand",
+     "occasion copy"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/2febcdab0a1b6392fbbe5dee88213e92.jpg"
+   }
+  },
+  {
+   "id": "NAT_03",
+   "collection": "occasions_national_days",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "monument collage independence day",
+   "composition_dna": "Light textured field; monochrome national monuments collage overlapping offset accent-color blocks; country map outline behind; calligraphy wordmark + script subline top-left; waving mono flag; centered italic serif greeting + date + body lines below.",
+   "constraints": {
+    "locked": [
+     "mono monument collage + flat color blocks",
+     "map outline layer",
+     "calligraphy accent"
+    ],
+    "flexible": [
+     "country/monuments",
+     "block color -> brand",
+     "greeting copy"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/1a4aa7b409f39c668c16b2ed3bbbd236.png"
+   }
+  },
+  {
+   "id": "FUN_01",
+   "collection": "occasions_fun_days",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "product-twist fun day wit",
+   "composition_dna": "Deep brand-color field with faint splash/product motifs; italic witty quote lines top; hero: the ocassion object SWAPPED with the profession object (keyboard wrapped in torn chocolate foil); script greeting line below; handle + icons footer.",
+   "constraints": {
+    "locked": [
+     "object-swap visual pun",
+     "foil/wrapper realism",
+     "script greeting"
+    ],
+    "flexible": [
+     "pun objects per occasion/brand",
+     "field color",
+     "quote copy"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/e005710baa62b23bf768ae1e7e972ba5.jpg"
+   }
+  },
+  {
+   "id": "FUN_02",
+   "collection": "occasions_fun_days",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "ring-box proposal pun",
+   "composition_dna": "Flat deep-red field; illustrated 3D hands opening a velvet ring box; inside sits the brand/food object instead of a ring; split headline \"Will you...\" top / punchline bottom in friendly rounded type; watermark top-left.",
+   "constraints": {
+    "locked": [
+     "ring-box reveal pun",
+     "illustrated hands style",
+     "split question/punchline"
+    ],
+    "flexible": [
+     "boxed object",
+     "field color",
+     "copy"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/2e27b1b42142f1135c535c2be12c4b1d.jpg"
+   }
+  },
+  {
+   "id": "ANN_02",
+   "collection": "announcements_extended",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "giant flip-calendar milestone",
+   "composition_dna": "Vivid single-color studio field with soft light sweeps; giant rounded-triangle desk flip-calendar hero showing month + huge date; headline above with hand-drawn circle around key word; logo top-center.",
+   "constraints": {
+    "locked": [
+     "oversized physical calendar hero",
+     "circled keyword headline",
+     "single-hue studio field"
+    ],
+    "flexible": [
+     "date/month",
+     "field color -> brand",
+     "headline copy"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/4000fe23698f97c4a3cda80f74182ef8.jpg"
+   }
+  },
+  {
+   "id": "ANN_03",
+   "collection": "announcements_extended",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "torn-calendar save the date",
+   "composition_dna": "Dark gradient field; white UI month-grid card centered, paper TORN OPEN at middle revealing accent-color core with script \"It's Official\" + giant date; one grid cell highlighted; bold Save The Date title above; event logo top-left, theme stamp top-right, handle footer.",
+   "constraints": {
+    "locked": [
+     "calendar UI torn-reveal",
+     "highlighted grid cell",
+     "script + giant date in core"
+    ],
+    "flexible": [
+     "event/date",
+     "core color -> brand",
+     "theme stamp"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/0e4a708960ffa0680e25a681f72f72f0.png"
+   }
+  },
+  {
+   "id": "ANN_04",
+   "collection": "announcements_extended",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "countdown clock day-to-go",
+   "composition_dna": "White field with accent arc shapes; giant condensed \"1 DAY TO GO\" interlocked with numeral; oversized analog clock breaking bottom frame, event details (date/time/zone) set INSIDE the clock face; small flying motifs; logo + event badge top corners.",
+   "constraints": {
+    "locked": [
+     "numeral+text interlock",
+     "clock face carrying event details",
+     "bottom frame break"
+    ],
+    "flexible": [
+     "countdown number",
+     "clock color -> brand",
+     "event details"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/(2) Instagram.jfif"
+   }
+  },
+  {
+   "id": "ANN_05",
+   "collection": "announcements_extended",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "taped tilted date card teaser",
+   "composition_dna": "Cream field with faint grid; bold charcoal \"Something's Brewing...\" top-left; large tilted accent-color rounded card taped with translucent washi strips carrying huge date + day + \"Block your date!\"; dashed doodle arrow; partnership logo footer.",
+   "constraints": {
+    "locked": [
+     "tilted taped date card",
+     "teaser headline",
+     "dashed doodle arrow"
+    ],
+    "flexible": [
+     "date + copy",
+     "card color -> brand",
+     "partner strip"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/3d5435081d31e62acf4adf3cc3e7a7d0.png"
+   }
+  },
+  {
+   "id": "ANN_06",
+   "collection": "announcements_extended",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "location-pin city launch",
+   "composition_dna": "Warm neutral field with faint map lines; giant location-pin shape filled with mono city-landmark collage + accent pin core, landmark signboard and local props popping out; bold stacked \"WE ARE COMING TO YOUR CITY!\" right with accent word + city line; dashed journey path with heart loop; brown corner sweep + site footer.",
+   "constraints": {
+    "locked": [
+     "pin-shaped landmark collage",
+     "dashed journey path",
+     "stacked launch copy"
+    ],
+    "flexible": [
+     "city/landmarks",
+     "accent -> brand",
+     "copy"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/b49b2010f6a3d08db437115835645c3f.jpg"
+   }
+  },
+  {
+   "id": "ANN_07",
+   "collection": "announcements_extended",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "3D numeral anniversary",
+   "composition_dna": "Clean white field; glossy 3D numeral on draped pedestal with ribbon swirls + falling confetti right; left text stack: script \"Celebrating\", highlighted numeral-days chip, boxed keyword, plain sub + contact; logo top-left.",
+   "constraints": {
+    "locked": [
+     "3D numeral + ribbon hero",
+     "script/highlight/box type stack",
+     "white field"
+    ],
+    "flexible": [
+     "milestone number",
+     "accent -> brand",
+     "copy"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/1793d6d0bb192d62c11549ccae6cc7d1.jpg"
+   }
+  },
+  {
+   "id": "COM_01",
+   "collection": "community_giveaway",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "winner announcement pinned polaroids",
+   "composition_dna": "Plastic-wrap textured cream top / solid accent bottom split; stacked highlight-bar title \"IT'S WINNER TIME!\"; three pinned polaroids of winners with rank rosettes (1 center-raised), names below; bunting + confetti doodles; thank-you line + handle/contact pill footer.",
+   "constraints": {
+    "locked": [
+     "pinned ranked polaroids",
+     "highlight-bar stacked title",
+     "two-zone split field"
+    ],
+    "flexible": [
+     "winner count/photos",
+     "accent -> brand",
+     "copy"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/d6d256e1d8b18424bb9490da7e897b40.jpg"
+   }
+  },
+  {
+   "id": "MCK_02",
+   "collection": "mockup_scenes_extended",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "device-pair trust statement",
+   "composition_dna": "Clean white field; giant left-aligned 3-line statement, trust words in accent color; photoreal laptop top-right + phone bottom-left both showing the SAME real landing page; thin divider + two-line service tagline; hashtag footer.",
+   "constraints": {
+    "locked": [
+     "oversized statement + accent words",
+     "diagonal laptop/phone pair",
+     "real UI on screens"
+    ],
+    "flexible": [
+     "statement copy",
+     "accent -> brand",
+     "screen content"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/903af49755ed8f657e5a525a800f765a.jpg"
+   }
+  },
+  {
+   "id": "HOB_02",
+   "collection": "hero_objects_extended",
+   "status": "active",
+   "approval": "APPROVED by user (bulk) 2026-10-17",
+   "working_label": "giant clock-rim rider",
+   "composition_dna": "Soft cream studio field; massive tilted analog clock filling lower half, photoreal delivery rider driving ON the clock rim; layered headline (accent word + bold black + light sub); three icon-benefit chips along bottom; logo top-center.",
+   "constraints": {
+    "locked": [
+     "vehicle-on-clock-rim scale play",
+     "lower-half giant object",
+     "benefit chip row"
+    ],
+    "flexible": [
+     "rider/product",
+     "accent -> brand",
+     "benefit copy"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "uploads/5884f5fd927dce4cfe441b069995f2c8.jpg"
+   }
+  }
+ ],
+ "unassigned_reference_images": {
+  "ip_study_routine_carousel": {
+   "files": [
+    "uploads/09c0d5351b9a2f52cc6620768beab366.jpg",
+    "uploads/2fa3d65a76a1d78968b7fa202bab917a.jpg",
+    "uploads/313e2893-8b44-419e-b6bd-834410aed795.jpeg",
+    "uploads/536672e3cd00aa351aac645f883c935a.jpg",
+    "uploads/60ed9adf5d0c726437ca701bcc780af1.jpg",
+    "uploads/c4c6ce222ad95e12e31ea15d8296c805.jpg",
+    "uploads/d56c40d53ab2ac4492c56f732ccf8558.jpg"
+   ],
+   "status": "candidate_reference — human approval required before any DNA extraction/use",
+   "note": "one 7-slide study/focus carousel system (iP brand): STATE 1-4 + BOTTOM LINE + typographic blur + cover"
+  },
+  "holagraphics_paper_carousel": {
+   "files": [
+    "uploads/5defb919a63e683d67eb6ee5e7176e94.jpg",
+    "uploads/7eddb65da396b404bd6f52663e26d86e.jpg",
+    "uploads/b027ff7fac73e3cc3197533c046ae5f5.jpg",
+    "uploads/fddbe9cc6c5e034cf46673f69dc2faf8.jpg"
+   ],
+   "status": "candidate_reference — human approval required before any DNA extraction/use",
+   "note": "4-slide purple paper-note creative-energy series"
+  },
+  "misc_singles": {
+   "files": [
+    "uploads/214633e8-d719-4866-a559-62888f456b99.jpeg",
+    "uploads/620308bf-6562-465f-8dd5-82bbc967c54a.jpeg",
+    "uploads/7137df27-8b70-4ecf-abc0-de77fb39ebf2.jpeg",
+    "uploads/b44e3c04501e3f3f40c3c5b0a47af5da.jpg",
+    "uploads/c63e97ded17b8171598a0daee929da46.jpg",
+    "uploads/c764c967-0755-45d3-93ed-9cd103c732c5.jpeg",
+    "uploads/dc8d1a256a979ecbe35863a104690a70.jpg",
+    "uploads/efa3b64e3c2195f95eafc9521fa0f882.jpg",
+    "uploads/f8596d42eafeab0424e113dd9ad5a659.jpg",
+    "uploads/reference.jpg"
+   ],
+   "status": "candidate_reference — human approval required before any DNA extraction/use",
+   "note": "standalone candidates; idx14 number-led resembles CD2_06, idx32 flat-lay resembles CD2_08, idx37 duplicate of DNA_11 ref, idx36 variant of DNA_02 ref | duplicates (DNA_02 variant, DNA_11 dup) DELETED per user order 2026-10-17"
+  },
+  "brand_assets_not_references": {
+   "files": [
+    "uploads/ChatGPT Image Sep 27, 2026, 07_41_44 PM.png"
+   ],
+   "status": "candidate_reference — human approval required before any DNA extraction/use",
+   "note": "DP source portrait (ChatGPT image) — asset, not a design reference"
+  }
+ },
+ "archived_duplicates": [
+  "uploads/creative_design_dna.json",
+  "uploads/design_dna_library_extended.json"
+ ],
+ "promoted_to_draft_collections": {
+  "occasions_eid_islamic": 8,
+  "yellow_business_sheet": 8,
+  "red_social_sheet": 16,
+  "file": "collections-draft.json"
+ },
+ "collections_meta": {
+  "yellow_business_sheet": {
+   "style": "flat vivid yellow/black/white business-analysis carousel: bold condensed headlines, outlined doodle icons, hand-drawn arrows, author strip BL, arrow chip BR",
+   "grid": "2 rows x 4 cols, header excluded",
+   "sheet_size": [
+    2000,
+    1566
+   ]
+  },
+  "red_social_sheet": {
+   "style": "bold red/white social branding set: serif+sans mix, chat bubbles, toggles, step pills, big-stat typography, tape/collage accents",
+   "grid": "4 rows x 4 cols, header excluded",
+   "sheet_size": [
+    1000,
+    1500
+   ]
+  }
+ }
+}

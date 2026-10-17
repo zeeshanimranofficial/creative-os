@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "_comment": "Platform = canvas policy + component policy + export policy. Ratio changes REQUIRE independent re-layout + full QA re-run; stretching is prohibited (hard rule).",
+  "linkedin": {
+    "canvases": { "carousel": [1080, 1350], "post": [1080, 1080] },
+    "components": {
+      "engagement_icons": "default_on (Save/Repost/Like, brand icon set, ~40px, all three equal size)",
+      "profile_strip": "last slide / minimal post",
+      "nav_kit": "counter tab + swipe marker, consistent within a carousel"
+    },
+    "export": { "carousel": "pdf", "post": "png" }
+  },
+  "instagram": {
+    "canvases": { "feed": [1080, 1350], "square": [1080, 1080], "story_reel": [1080, 1920] },
+    "components": {
+      "engagement_icons": "design_motivated_only — never a default strip (platform UI already shows them)",
+      "profile_strip": "per DNA/kit",
+      "nav_kit": "counter tab + swipe marker on carousels"
+    },
+    "safe_zones": { "story_reel": "top 250px and bottom 250px free of critical text (UI overlays)" },
+    "export": { "feed": "png", "story_reel": "png sequence" }
+  },
+  "facebook": {
+    "canvases": { "feed": [1080, 1350], "story_reel": [1080, 1920] },
+    "components": {
+      "engagement_icons": "design_motivated_only (FB UI shows its own buttons) — proven policy, Week 1 2026-10",
+      "profile_strip": "bottom strip: DP 96px + name Bold38 + role Regular24 (1080x1350 spec)"
+    },
+    "export": { "feed": "png", "story_reel": "png sequence" }
+  },
+  "tiktok": {
+    "canvases": { "video_frame": [1080, 1920] },
+    "components": { "engagement_icons": "never (native UI)", "safe_zones": "right rail 180px + bottom 320px free of critical content" },
+    "export": { "frames": "png sequence" }
+  },
+  "ratio_conversion_rules": {
+    "4:5_to_9:16": "independent re-layout per slide; re-run full QA stack; never stretch",
+    "sequence_reuse": "9:16 slide sequences only for carousel-topic posts (user policy 2026-10-16)"
+  }
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+creative-os/registry/runs/
+creative-os/registry/jobs/
+creative-os/registry/audit-trail.jsonl
+# real (non-sample) brand configs stay private
+creative-os/config/brand.*.json
+!creative-os/config/brand.config.example.json

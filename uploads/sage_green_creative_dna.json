@@ -1,0 +1,1203 @@
+{
+  "schema_version": "1.0",
+  "file_title": "Sage Green Botanical Social Creative DNA",
+  "source_reference": "48652.jpg",
+  "purpose": "AI-agent-ready creative DNA for 24 individual creatives visible in the supplied reference collage.",
+  "scope": {
+    "included": [
+      "layout",
+      "visual style",
+      "palette",
+      "typography",
+      "background treatment",
+      "hero imagery",
+      "graphic devices",
+      "visual hierarchy",
+      "generation rules"
+    ],
+    "excluded": [
+      "logos",
+      "brand names",
+      "social handles",
+      "contact details",
+      "URLs",
+      "watermarks",
+      "creator attribution"
+    ]
+  },
+  "agent_instruction": "Treat each creative_dna entry as a separate design recipe. Generate only the selected tile's visual structure, adapt copy to the user's requested topic, and do not reproduce any logo, handle, URL, watermark, or contact detail. When source text is unreadable, use user-provided copy instead of guessing.",
+  "overall_collection_dna": {
+    "style": "muted sage botanical lifestyle templates",
+    "core_palette": {
+      "base": "sage green and muted olive",
+      "dark": "forest green",
+      "light": "warm ivory / pale stone",
+      "text": "deep forest green or charcoal",
+      "accent": "white rounded panels",
+      "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+    },
+    "visual_language": [
+      "sage and forest green",
+      "warm white cards",
+      "editorial serif headlines",
+      "rounded UI panels",
+      "botanical photography",
+      "phone and desktop mockups",
+      "quiet lifestyle mood"
+    ],
+    "common_avoidances": [
+      "neon colors",
+      "hard saturated contrast",
+      "busy decorative clutter",
+      "unrequested brand marks"
+    ]
+  },
+  "creatives": [
+    {
+      "id": "creative_01",
+      "working_label": "giveaway alert with three phone frames",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Centered serif headline and tiny subtitle at top; three upright rounded phone/photo frames across the center, middle frame largest; small footer note.",
+        "palette": {
+          "base": "sage green and muted olive",
+          "dark": "forest green",
+          "light": "warm ivory / pale stone",
+          "text": "deep forest green or charcoal",
+          "accent": "white rounded panels",
+          "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+        },
+        "background_treatment": {
+          "surface": "flat sage green",
+          "texture": "matte subtle grain"
+        },
+        "typography": {
+          "headline": "elegant editorial serif, often title case",
+          "supporting": "small clean sans serif",
+          "body": "compact readable sans serif",
+          "contrast": "dark forest green or charcoal on sage/ivory, white on dark green"
+        },
+        "hero_visual": {
+          "subject": "beauty or wellness lifestyle photos displayed inside smartphone frames",
+          "framing": "three phones with center phone dominant",
+          "lighting": "natural, soft lifestyle photography"
+        },
+        "graphic_devices": [
+          "rounded phone outlines",
+          "centered alignment",
+          "small subtitle"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a muted sage, olive, forest-green, and warm-white palette.",
+          "Combine natural botanical photography with simple flat social-template layouts.",
+          "Use white rounded cards or pills for readable content over busy imagery.",
+          "Keep shadows soft and photography calm, natural, and slightly desaturated.",
+          "Use restrained serif headlines paired with clean sans-serif supporting text.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_02",
+      "working_label": "numbered text list on sage background",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Centered serif title; four horizontal white pill-shaped rows stacked vertically, each with a dark-green numbered circle and short copy.",
+        "palette": {
+          "base": "sage green and muted olive",
+          "dark": "forest green",
+          "light": "warm ivory / pale stone",
+          "text": "deep forest green or charcoal",
+          "accent": "white rounded panels",
+          "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+        },
+        "background_treatment": {
+          "surface": "muted sage with soft tonal gradient"
+        },
+        "typography": {
+          "headline": "elegant editorial serif, often title case",
+          "supporting": "small clean sans serif",
+          "body": "compact readable sans serif",
+          "contrast": "dark forest green or charcoal on sage/ivory, white on dark green"
+        },
+        "hero_visual": {
+          "subject": "typographic list; no large photo required",
+          "framing": "centered stacked cards"
+        },
+        "graphic_devices": [
+          "four white rounded rows",
+          "dark green number badges",
+          "even vertical spacing"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a muted sage, olive, forest-green, and warm-white palette.",
+          "Combine natural botanical photography with simple flat social-template layouts.",
+          "Use white rounded cards or pills for readable content over busy imagery.",
+          "Keep shadows soft and photography calm, natural, and slightly desaturated.",
+          "Use restrained serif headlines paired with clean sans-serif supporting text.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_03",
+      "working_label": "free offer with angled phone mockup",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Small rounded offer label at top-left; double chevron arrows point toward a large tilted smartphone image filling right-center; dark green background.",
+        "palette": {
+          "base": "sage green and muted olive",
+          "dark": "forest green",
+          "light": "warm ivory / pale stone",
+          "text": "deep forest green or charcoal",
+          "accent": "white rounded panels",
+          "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+        },
+        "background_treatment": {
+          "surface": "deep forest green"
+        },
+        "typography": {
+          "headline": "white serif text inside sage pill",
+          "supporting": "minimal sans serif"
+        },
+        "hero_visual": {
+          "subject": "wellness or beauty image in a black-framed phone",
+          "framing": "large phone angled slightly clockwise, cropped at lower edge"
+        },
+        "graphic_devices": [
+          "double white chevrons",
+          "rounded offer badge",
+          "large black phone frame"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a muted sage, olive, forest-green, and warm-white palette.",
+          "Combine natural botanical photography with simple flat social-template layouts.",
+          "Use white rounded cards or pills for readable content over busy imagery.",
+          "Keep shadows soft and photography calm, natural, and slightly desaturated.",
+          "Use restrained serif headlines paired with clean sans-serif supporting text.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_04",
+      "working_label": "botanical reminder card",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Full-bleed close-up green leaves; centered white rounded rectangle with a slim forest-green title strip and short reminder text.",
+        "palette": {
+          "base": "sage green and muted olive",
+          "dark": "forest green",
+          "light": "warm ivory / pale stone",
+          "text": "deep forest green or charcoal",
+          "accent": "white rounded panels",
+          "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+        },
+        "background_treatment": {
+          "surface": "full-bleed botanical photo"
+        },
+        "typography": {
+          "headline": "small white serif on green strip",
+          "body": "centered dark sans serif"
+        },
+        "hero_visual": {
+          "subject": "lush glossy houseplant leaves",
+          "framing": "full-frame botanical photograph"
+        },
+        "graphic_devices": [
+          "white rounded panel",
+          "dark green title strip"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a muted sage, olive, forest-green, and warm-white palette.",
+          "Combine natural botanical photography with simple flat social-template layouts.",
+          "Use white rounded cards or pills for readable content over busy imagery.",
+          "Keep shadows soft and photography calm, natural, and slightly desaturated.",
+          "Use restrained serif headlines paired with clean sans-serif supporting text.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_05",
+      "working_label": "minimal question search bar",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Soft neutral botanical texture; a single long white rounded search field centered horizontally with magnifying-glass icon and short question.",
+        "palette": {
+          "base": "sage green and muted olive",
+          "dark": "forest green",
+          "light": "warm ivory / pale stone",
+          "text": "deep forest green or charcoal",
+          "accent": "white rounded panels",
+          "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+        },
+        "background_treatment": {
+          "surface": "pale sage-beige texture with botanical shadows"
+        },
+        "typography": {
+          "interface": "clean sans serif inside white pill"
+        },
+        "hero_visual": {
+          "subject": "soft-focus leaf shadows on woven or stone-like neutral surface",
+          "framing": "background-only texture"
+        },
+        "graphic_devices": [
+          "search icon",
+          "white pill field",
+          "soft shadow"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a muted sage, olive, forest-green, and warm-white palette.",
+          "Combine natural botanical photography with simple flat social-template layouts.",
+          "Use white rounded cards or pills for readable content over busy imagery.",
+          "Keep shadows soft and photography calm, natural, and slightly desaturated.",
+          "Use restrained serif headlines paired with clean sans-serif supporting text.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_06",
+      "working_label": "circular lifestyle portrait on forest green",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Centered serif title and tiny subtitle; circular portrait in middle with pale mint crescent behind; thin flowing white line crosses lower portion.",
+        "palette": {
+          "base": "sage green and muted olive",
+          "dark": "forest green",
+          "light": "warm ivory / pale stone",
+          "text": "deep forest green or charcoal",
+          "accent": "white rounded panels",
+          "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+        },
+        "background_treatment": {
+          "surface": "solid forest green"
+        },
+        "typography": {
+          "headline": "elegant editorial serif, often title case",
+          "supporting": "small clean sans serif",
+          "body": "compact readable sans serif",
+          "contrast": "dark forest green or charcoal on sage/ivory, white on dark green"
+        },
+        "hero_visual": {
+          "subject": "woman in natural-light wellness or beauty portrait",
+          "framing": "large central circular crop"
+        },
+        "graphic_devices": [
+          "pale mint crescent",
+          "thin wavy white line"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a muted sage, olive, forest-green, and warm-white palette.",
+          "Combine natural botanical photography with simple flat social-template layouts.",
+          "Use white rounded cards or pills for readable content over busy imagery.",
+          "Keep shadows soft and photography calm, natural, and slightly desaturated.",
+          "Use restrained serif headlines paired with clean sans-serif supporting text.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_07",
+      "working_label": "daily reminders over botanical photo",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Full-bleed tropical leaf photograph; translucent white panel centered; serif title and four checklist rows with pill toggles.",
+        "palette": {
+          "base": "sage green and muted olive",
+          "dark": "forest green",
+          "light": "warm ivory / pale stone",
+          "text": "deep forest green or charcoal",
+          "accent": "white rounded panels",
+          "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+        },
+        "background_treatment": {
+          "surface": "full-bleed dark green leaf photograph"
+        },
+        "typography": {
+          "headline": "serif title",
+          "list": "clean sans serif",
+          "controls": "small toggle switches"
+        },
+        "hero_visual": {
+          "subject": "large tropical palm leaves photographed from above",
+          "framing": "full-bleed leafy background"
+        },
+        "graphic_devices": [
+          "semi-opaque white card",
+          "four toggle controls",
+          "soft shadow"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a muted sage, olive, forest-green, and warm-white palette.",
+          "Combine natural botanical photography with simple flat social-template layouts.",
+          "Use white rounded cards or pills for readable content over busy imagery.",
+          "Keep shadows soft and photography calm, natural, and slightly desaturated.",
+          "Use restrained serif headlines paired with clean sans-serif supporting text.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_08",
+      "working_label": "circular plant or lifestyle image",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Centered serif heading at top; circular botanical/lifestyle photo in center; small line of supporting text below on flat sage background.",
+        "palette": {
+          "base": "sage green and muted olive",
+          "dark": "forest green",
+          "light": "warm ivory / pale stone",
+          "text": "deep forest green or charcoal",
+          "accent": "white rounded panels",
+          "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+        },
+        "background_treatment": {
+          "surface": "solid muted sage"
+        },
+        "typography": {
+          "headline": "elegant editorial serif, often title case",
+          "supporting": "small clean sans serif",
+          "body": "compact readable sans serif",
+          "contrast": "dark forest green or charcoal on sage/ivory, white on dark green"
+        },
+        "hero_visual": {
+          "subject": "hands caring for a plant or a calm natural lifestyle scene",
+          "framing": "medium centered circular crop"
+        },
+        "graphic_devices": [
+          "circular photo mask",
+          "small centered caption"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a muted sage, olive, forest-green, and warm-white palette.",
+          "Combine natural botanical photography with simple flat social-template layouts.",
+          "Use white rounded cards or pills for readable content over busy imagery.",
+          "Keep shadows soft and photography calm, natural, and slightly desaturated.",
+          "Use restrained serif headlines paired with clean sans-serif supporting text.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_09",
+      "working_label": "desktop and mobile device promotion",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Centered headline; desktop monitor centered in lower-middle with matching smartphone overlapping lower-right; short rounded dark-green CTA underneath.",
+        "palette": {
+          "base": "sage green and muted olive",
+          "dark": "forest green",
+          "light": "warm ivory / pale stone",
+          "text": "deep forest green or charcoal",
+          "accent": "white rounded panels",
+          "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+        },
+        "background_treatment": {
+          "surface": "solid sage green"
+        },
+        "typography": {
+          "headline": "elegant editorial serif, often title case",
+          "supporting": "small clean sans serif",
+          "body": "compact readable sans serif",
+          "contrast": "dark forest green or charcoal on sage/ivory, white on dark green"
+        },
+        "hero_visual": {
+          "subject": "neutral beauty, lifestyle, or wellness image shown on screen",
+          "framing": "front-facing desktop monitor and phone mockup"
+        },
+        "graphic_devices": [
+          "black device frames",
+          "overlapping phone",
+          "dark green pill CTA"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a muted sage, olive, forest-green, and warm-white palette.",
+          "Combine natural botanical photography with simple flat social-template layouts.",
+          "Use white rounded cards or pills for readable content over busy imagery.",
+          "Keep shadows soft and photography calm, natural, and slightly desaturated.",
+          "Use restrained serif headlines paired with clean sans-serif supporting text.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_10",
+      "working_label": "four-step list on botanical background",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Full-bleed dark tropical leaves; white rounded card centered with serif title and four stacked dark-green rounded list buttons.",
+        "palette": {
+          "base": "sage green and muted olive",
+          "dark": "forest green",
+          "light": "warm ivory / pale stone",
+          "text": "deep forest green or charcoal",
+          "accent": "white rounded panels",
+          "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+        },
+        "background_treatment": {
+          "surface": "dark leafy photo"
+        },
+        "typography": {
+          "headline": "elegant editorial serif, often title case",
+          "supporting": "small clean sans serif",
+          "body": "compact readable sans serif",
+          "contrast": "dark forest green or charcoal on sage/ivory, white on dark green"
+        },
+        "hero_visual": {
+          "subject": "tropical leaves as photographic background",
+          "framing": "full-bleed"
+        },
+        "graphic_devices": [
+          "large white card",
+          "four green pill rows",
+          "small bullet/number markers"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a muted sage, olive, forest-green, and warm-white palette.",
+          "Combine natural botanical photography with simple flat social-template layouts.",
+          "Use white rounded cards or pills for readable content over busy imagery.",
+          "Keep shadows soft and photography calm, natural, and slightly desaturated.",
+          "Use restrained serif headlines paired with clean sans-serif supporting text.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_11",
+      "working_label": "social post mockup with pet photo",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Minimal light background; centered social-media post card with tiny profile header, large square pet photograph, and small interaction icons below.",
+        "palette": {
+          "base": "sage green and muted olive",
+          "dark": "forest green",
+          "light": "warm ivory / pale stone",
+          "text": "deep forest green or charcoal",
+          "accent": "white rounded panels",
+          "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+        },
+        "background_treatment": {
+          "surface": "warm ivory with soft diagonal light and shadow"
+        },
+        "typography": {
+          "interface": "tiny sans serif UI labels",
+          "caption": "minimal or omitted"
+        },
+        "hero_visual": {
+          "subject": "sleeping orange cat on soft bedding",
+          "framing": "square photo inside white rounded social post frame"
+        },
+        "graphic_devices": [
+          "white rounded post card",
+          "small circular avatar",
+          "simple heart icon"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a muted sage, olive, forest-green, and warm-white palette.",
+          "Combine natural botanical photography with simple flat social-template layouts.",
+          "Use white rounded cards or pills for readable content over busy imagery.",
+          "Keep shadows soft and photography calm, natural, and slightly desaturated.",
+          "Use restrained serif headlines paired with clean sans-serif supporting text.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_12",
+      "working_label": "repeat device promotion variation",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Centered serif headline; desktop monitor and overlapping smartphone centered; dark green CTA pill beneath; symmetrical template.",
+        "palette": {
+          "base": "sage green and muted olive",
+          "dark": "forest green",
+          "light": "warm ivory / pale stone",
+          "text": "deep forest green or charcoal",
+          "accent": "white rounded panels",
+          "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+        },
+        "background_treatment": {
+          "surface": "muted sage"
+        },
+        "typography": {
+          "headline": "elegant editorial serif, often title case",
+          "supporting": "small clean sans serif",
+          "body": "compact readable sans serif",
+          "contrast": "dark forest green or charcoal on sage/ivory, white on dark green"
+        },
+        "hero_visual": {
+          "subject": "neutral interior or wellness image on screen",
+          "framing": "desktop monitor plus phone mockup"
+        },
+        "graphic_devices": [
+          "black device frames",
+          "dark green rounded CTA"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a muted sage, olive, forest-green, and warm-white palette.",
+          "Combine natural botanical photography with simple flat social-template layouts.",
+          "Use white rounded cards or pills for readable content over busy imagery.",
+          "Keep shadows soft and photography calm, natural, and slightly desaturated.",
+          "Use restrained serif headlines paired with clean sans-serif supporting text.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_13",
+      "working_label": "free offer phone mockup variation",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Deep green panel; pale offer pill at top-left; double chevrons enter from left; large tilted phone crop dominates right side.",
+        "palette": {
+          "base": "sage green and muted olive",
+          "dark": "forest green",
+          "light": "warm ivory / pale stone",
+          "text": "deep forest green or charcoal",
+          "accent": "white rounded panels",
+          "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+        },
+        "background_treatment": {
+          "surface": "forest green"
+        },
+        "typography": {
+          "headline": "elegant editorial serif, often title case",
+          "supporting": "small clean sans serif",
+          "body": "compact readable sans serif",
+          "contrast": "dark forest green or charcoal on sage/ivory, white on dark green"
+        },
+        "hero_visual": {
+          "subject": "wellness portrait inside smartphone",
+          "framing": "cropped large tilted device"
+        },
+        "graphic_devices": [
+          "double chevrons",
+          "pale rounded label",
+          "black device frame"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a muted sage, olive, forest-green, and warm-white palette.",
+          "Combine natural botanical photography with simple flat social-template layouts.",
+          "Use white rounded cards or pills for readable content over busy imagery.",
+          "Keep shadows soft and photography calm, natural, and slightly desaturated.",
+          "Use restrained serif headlines paired with clean sans-serif supporting text.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_14",
+      "working_label": "giveaway alert phone trio variation",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Sage background with centered giveaway headline; three phone frames at midline with larger center image; tiny caption below.",
+        "palette": {
+          "base": "sage green and muted olive",
+          "dark": "forest green",
+          "light": "warm ivory / pale stone",
+          "text": "deep forest green or charcoal",
+          "accent": "white rounded panels",
+          "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+        },
+        "background_treatment": {
+          "surface": "sage green"
+        },
+        "typography": {
+          "headline": "elegant editorial serif, often title case",
+          "supporting": "small clean sans serif",
+          "body": "compact readable sans serif",
+          "contrast": "dark forest green or charcoal on sage/ivory, white on dark green"
+        },
+        "hero_visual": {
+          "subject": "three beauty/lifestyle photographs",
+          "framing": "three rounded vertical phone crops"
+        },
+        "graphic_devices": [
+          "phone frame outlines",
+          "center phone larger"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a muted sage, olive, forest-green, and warm-white palette.",
+          "Combine natural botanical photography with simple flat social-template layouts.",
+          "Use white rounded cards or pills for readable content over busy imagery.",
+          "Keep shadows soft and photography calm, natural, and slightly desaturated.",
+          "Use restrained serif headlines paired with clean sans-serif supporting text.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_15",
+      "working_label": "numbered information list variation",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Centered serif title; four white horizontal pills with numbered green circles, aligned as a neat vertical list.",
+        "palette": {
+          "base": "sage green and muted olive",
+          "dark": "forest green",
+          "light": "warm ivory / pale stone",
+          "text": "deep forest green or charcoal",
+          "accent": "white rounded panels",
+          "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+        },
+        "background_treatment": {
+          "surface": "sage gradient"
+        },
+        "typography": {
+          "headline": "elegant editorial serif, often title case",
+          "supporting": "small clean sans serif",
+          "body": "compact readable sans serif",
+          "contrast": "dark forest green or charcoal on sage/ivory, white on dark green"
+        },
+        "hero_visual": {
+          "subject": "typographic list without hero photography",
+          "framing": "centered stack"
+        },
+        "graphic_devices": [
+          "white pill cards",
+          "number circles",
+          "consistent gutters"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a muted sage, olive, forest-green, and warm-white palette.",
+          "Combine natural botanical photography with simple flat social-template layouts.",
+          "Use white rounded cards or pills for readable content over busy imagery.",
+          "Keep shadows soft and photography calm, natural, and slightly desaturated.",
+          "Use restrained serif headlines paired with clean sans-serif supporting text.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_16",
+      "working_label": "minimal reminder confirmation dialog",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Dark leafy background; compact white rounded dialog centered with small uppercase reminder title, one-line prompt, and two side-by-side action buttons.",
+        "palette": {
+          "base": "sage green and muted olive",
+          "dark": "forest green",
+          "light": "warm ivory / pale stone",
+          "text": "deep forest green or charcoal",
+          "accent": "white rounded panels",
+          "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+        },
+        "background_treatment": {
+          "surface": "dark tropical foliage"
+        },
+        "typography": {
+          "dialog_title": "small uppercase sans serif",
+          "body": "small centered sans serif",
+          "buttons": "tiny uppercase sans serif"
+        },
+        "hero_visual": {
+          "subject": "dark botanical leaf texture",
+          "framing": "full bleed background"
+        },
+        "graphic_devices": [
+          "white modal card",
+          "two-column action buttons",
+          "subtle shadow"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a muted sage, olive, forest-green, and warm-white palette.",
+          "Combine natural botanical photography with simple flat social-template layouts.",
+          "Use white rounded cards or pills for readable content over busy imagery.",
+          "Keep shadows soft and photography calm, natural, and slightly desaturated.",
+          "Use restrained serif headlines paired with clean sans-serif supporting text.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_17",
+      "working_label": "botanical reminder card variation",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Full-frame broad green leaves; centered white message card with forest-green header strip and short quote/reminder.",
+        "palette": {
+          "base": "sage green and muted olive",
+          "dark": "forest green",
+          "light": "warm ivory / pale stone",
+          "text": "deep forest green or charcoal",
+          "accent": "white rounded panels",
+          "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+        },
+        "background_treatment": {
+          "surface": "botanical photo"
+        },
+        "typography": {
+          "headline": "elegant editorial serif, often title case",
+          "supporting": "small clean sans serif",
+          "body": "compact readable sans serif",
+          "contrast": "dark forest green or charcoal on sage/ivory, white on dark green"
+        },
+        "hero_visual": {
+          "subject": "large glossy tropical plant leaves",
+          "framing": "full-bleed"
+        },
+        "graphic_devices": [
+          "white card",
+          "green header bar"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a muted sage, olive, forest-green, and warm-white palette.",
+          "Combine natural botanical photography with simple flat social-template layouts.",
+          "Use white rounded cards or pills for readable content over busy imagery.",
+          "Keep shadows soft and photography calm, natural, and slightly desaturated.",
+          "Use restrained serif headlines paired with clean sans-serif supporting text.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_18",
+      "working_label": "hello January editorial greeting",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Centered small introductory word above large serif month title; vertical lifestyle photograph in the middle; dark translucent green overlay and generous margins.",
+        "palette": {
+          "base": "sage green and muted olive",
+          "dark": "forest green",
+          "light": "warm ivory / pale stone",
+          "text": "deep forest green or charcoal",
+          "accent": "white rounded panels",
+          "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+        },
+        "background_treatment": {
+          "surface": "darkened sage/olive photo"
+        },
+        "typography": {
+          "headline": "large elegant serif",
+          "intro": "small lowercase serif"
+        },
+        "hero_visual": {
+          "subject": "quiet wellness or interior lifestyle photo",
+          "framing": "narrow vertical image centered"
+        },
+        "graphic_devices": [
+          "translucent green overlay",
+          "centered narrow image"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a muted sage, olive, forest-green, and warm-white palette.",
+          "Combine natural botanical photography with simple flat social-template layouts.",
+          "Use white rounded cards or pills for readable content over busy imagery.",
+          "Keep shadows soft and photography calm, natural, and slightly desaturated.",
+          "Use restrained serif headlines paired with clean sans-serif supporting text.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_19",
+      "working_label": "lifestyle photo with lower text panel",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Top half is a bright lifestyle photograph showing hands arranging home or wellness items; lower third is a solid forest-green panel with serif heading and short body copy.",
+        "palette": {
+          "base": "sage green and muted olive",
+          "dark": "forest green",
+          "light": "warm ivory / pale stone",
+          "text": "deep forest green or charcoal",
+          "accent": "white rounded panels",
+          "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+        },
+        "background_treatment": {
+          "surface": "photo above, solid green below"
+        },
+        "typography": {
+          "headline": "elegant editorial serif, often title case",
+          "supporting": "small clean sans serif",
+          "body": "compact readable sans serif",
+          "contrast": "dark forest green or charcoal on sage/ivory, white on dark green"
+        },
+        "hero_visual": {
+          "subject": "hands arranging a calm home or self-care scene",
+          "framing": "wide horizontal photo across upper half"
+        },
+        "graphic_devices": [
+          "hard horizontal split between photo and green text panel"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a muted sage, olive, forest-green, and warm-white palette.",
+          "Combine natural botanical photography with simple flat social-template layouts.",
+          "Use white rounded cards or pills for readable content over busy imagery.",
+          "Keep shadows soft and photography calm, natural, and slightly desaturated.",
+          "Use restrained serif headlines paired with clean sans-serif supporting text.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_20",
+      "working_label": "social post mockup pet variation",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Light neutral background with a white rounded social-post card, small header row, large square sleeping-pet photo, and small heart icon.",
+        "palette": {
+          "base": "sage green and muted olive",
+          "dark": "forest green",
+          "light": "warm ivory / pale stone",
+          "text": "deep forest green or charcoal",
+          "accent": "white rounded panels",
+          "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+        },
+        "background_treatment": {
+          "surface": "ivory with soft diagonal shadow"
+        },
+        "typography": {
+          "interface": "minimal sans serif UI"
+        },
+        "hero_visual": {
+          "subject": "sleeping orange cat on cream bedding",
+          "framing": "square photo in centered social-media card"
+        },
+        "graphic_devices": [
+          "white rounded card",
+          "tiny profile icon",
+          "heart interaction icon"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a muted sage, olive, forest-green, and warm-white palette.",
+          "Combine natural botanical photography with simple flat social-template layouts.",
+          "Use white rounded cards or pills for readable content over busy imagery.",
+          "Keep shadows soft and photography calm, natural, and slightly desaturated.",
+          "Use restrained serif headlines paired with clean sans-serif supporting text.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_21",
+      "working_label": "reminder confirmation dialog variation",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Centered white modal on a very dark tropical foliage background; compact reminder heading, short prompt, and two outlined or divided action buttons.",
+        "palette": {
+          "base": "sage green and muted olive",
+          "dark": "forest green",
+          "light": "warm ivory / pale stone",
+          "text": "deep forest green or charcoal",
+          "accent": "white rounded panels",
+          "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+        },
+        "background_treatment": {
+          "surface": "near-black botanical photo"
+        },
+        "typography": {
+          "dialog_title": "small uppercase sans serif",
+          "body": "small centered sans serif",
+          "buttons": "compact sans serif"
+        },
+        "hero_visual": {
+          "subject": "near-black green leaves",
+          "framing": "full bleed"
+        },
+        "graphic_devices": [
+          "white rounded modal",
+          "thin button divider"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a muted sage, olive, forest-green, and warm-white palette.",
+          "Combine natural botanical photography with simple flat social-template layouts.",
+          "Use white rounded cards or pills for readable content over busy imagery.",
+          "Keep shadows soft and photography calm, natural, and slightly desaturated.",
+          "Use restrained serif headlines paired with clean sans-serif supporting text.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_22",
+      "working_label": "circular lifestyle portrait variation",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Centered serif headline and subtitle; circular portrait slightly below center; pale mint curved shape and a thin flowing line decorate the lower area.",
+        "palette": {
+          "base": "sage green and muted olive",
+          "dark": "forest green",
+          "light": "warm ivory / pale stone",
+          "text": "deep forest green or charcoal",
+          "accent": "white rounded panels",
+          "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+        },
+        "background_treatment": {
+          "surface": "forest green"
+        },
+        "typography": {
+          "headline": "elegant editorial serif, often title case",
+          "supporting": "small clean sans serif",
+          "body": "compact readable sans serif",
+          "contrast": "dark forest green or charcoal on sage/ivory, white on dark green"
+        },
+        "hero_visual": {
+          "subject": "woman in soft natural-light portrait",
+          "framing": "centered circular crop"
+        },
+        "graphic_devices": [
+          "mint organic shape",
+          "fine curved line"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a muted sage, olive, forest-green, and warm-white palette.",
+          "Combine natural botanical photography with simple flat social-template layouts.",
+          "Use white rounded cards or pills for readable content over busy imagery.",
+          "Keep shadows soft and photography calm, natural, and slightly desaturated.",
+          "Use restrained serif headlines paired with clean sans-serif supporting text.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_23",
+      "working_label": "question search bar variation",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Neutral botanical-texture background with a single white rounded search bar centered across the canvas; magnifying glass at left and short prompt.",
+        "palette": {
+          "base": "sage green and muted olive",
+          "dark": "forest green",
+          "light": "warm ivory / pale stone",
+          "text": "deep forest green or charcoal",
+          "accent": "white rounded panels",
+          "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+        },
+        "background_treatment": {
+          "surface": "pale sage and beige texture"
+        },
+        "typography": {
+          "interface": "clean sans serif"
+        },
+        "hero_visual": {
+          "subject": "soft leaf-shadow texture",
+          "framing": "background-only"
+        },
+        "graphic_devices": [
+          "white pill search field",
+          "magnifying glass icon"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a muted sage, olive, forest-green, and warm-white palette.",
+          "Combine natural botanical photography with simple flat social-template layouts.",
+          "Use white rounded cards or pills for readable content over busy imagery.",
+          "Keep shadows soft and photography calm, natural, and slightly desaturated.",
+          "Use restrained serif headlines paired with clean sans-serif supporting text.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_24",
+      "working_label": "stacked green option buttons",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Dark leafy photo background; centered white rounded rectangle with serif heading and four dark-green pill-shaped option rows.",
+        "palette": {
+          "base": "sage green and muted olive",
+          "dark": "forest green",
+          "light": "warm ivory / pale stone",
+          "text": "deep forest green or charcoal",
+          "accent": "white rounded panels",
+          "image_treatment": "natural lifestyle photography with soft, desaturated greens"
+        },
+        "background_treatment": {
+          "surface": "dark green botanical photograph"
+        },
+        "typography": {
+          "headline": "elegant editorial serif, often title case",
+          "supporting": "small clean sans serif",
+          "body": "compact readable sans serif",
+          "contrast": "dark forest green or charcoal on sage/ivory, white on dark green"
+        },
+        "hero_visual": {
+          "subject": "tropical leaf photography",
+          "framing": "full bleed"
+        },
+        "graphic_devices": [
+          "white panel",
+          "four green pill rows",
+          "subtle card shadow"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a muted sage, olive, forest-green, and warm-white palette.",
+          "Combine natural botanical photography with simple flat social-template layouts.",
+          "Use white rounded cards or pills for readable content over busy imagery.",
+          "Keep shadows soft and photography calm, natural, and slightly desaturated.",
+          "Use restrained serif headlines paired with clean sans-serif supporting text.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    }
+  ]
+}

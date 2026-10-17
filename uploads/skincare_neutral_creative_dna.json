@@ -1,0 +1,830 @@
+{
+  "schema_version": "1.0",
+  "file_title": "Warm Neutral Skincare Social Creative DNA",
+  "source_reference": "48653.jpg",
+  "purpose": "AI-agent-ready creative DNA for 15 individual creatives visible in the supplied reference collage.",
+  "scope": {
+    "included": [
+      "layout",
+      "visual style",
+      "palette",
+      "typography",
+      "background treatment",
+      "hero imagery",
+      "graphic devices",
+      "visual hierarchy",
+      "generation rules"
+    ],
+    "excluded": [
+      "logos",
+      "brand names",
+      "social handles",
+      "contact details",
+      "URLs",
+      "watermarks",
+      "creator attribution"
+    ]
+  },
+  "agent_instruction": "Treat each creative_dna entry as a separate design recipe. Generate only the selected tile's visual structure, adapt copy to the user's requested topic, and do not reproduce any logo, handle, URL, watermark, or contact detail. When source text is unreadable, use user-provided copy instead of guessing.",
+  "overall_collection_dna": {
+    "style": "warm neutral skincare and beauty editorial",
+    "core_palette": {
+      "base": "warm ivory / cream",
+      "primary_text": "warm taupe and muted charcoal",
+      "accent": "mushroom beige / cocoa brown",
+      "image_treatment": "soft, warm, low-contrast editorial photography",
+      "contrast": "gentle and elegant"
+    },
+    "visual_language": [
+      "cream and taupe",
+      "soft product photography",
+      "script plus uppercase sans serif",
+      "rounded badges and cards",
+      "organic curves",
+      "natural light",
+      "airy composition"
+    ],
+    "common_avoidances": [
+      "bright saturated colors",
+      "heavy black shadows",
+      "busy backgrounds",
+      "unrequested brand marks"
+    ]
+  },
+  "creatives": [
+    {
+      "id": "creative_01",
+      "working_label": "new skincare product with circular still life",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Top-centered script headline; small subtitle; centered square product still life with a circular discount badge; shallow beige organic shape along the bottom.",
+        "palette": {
+          "base": "warm ivory / cream",
+          "primary_text": "warm taupe and muted charcoal",
+          "accent": "mushroom beige / cocoa brown",
+          "image_treatment": "soft, warm, low-contrast editorial photography",
+          "contrast": "gentle and elegant"
+        },
+        "background_treatment": {
+          "surface": "warm off-white paper",
+          "texture": "subtle paper grain",
+          "ornament": "thin taupe contour curves and pale beige organic blobs",
+          "negative_space": "generous"
+        },
+        "typography": {
+          "headline": "delicate handwritten script paired with refined uppercase sans serif",
+          "supporting": "small uppercase or regular sans serif, widely tracked",
+          "hierarchy": "script supplies softness; uppercase sans serif carries functional information",
+          "alignment": "varies by template, generally balanced and airy"
+        },
+        "hero_visual": {
+          "subject": "minimal skincare jar and lid on a textured stone or woven surface",
+          "framing": "square crop centered in the canvas",
+          "lighting": "soft window light, gentle natural shadow"
+        },
+        "graphic_devices": [
+          "thin hand-drawn contour in upper corner",
+          "round percentage badge",
+          "small taupe pill-shaped label"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a restrained cream, taupe, and cocoa palette.",
+          "Favor natural skincare still-life photography, soft daylight, and gentle shadows.",
+          "Keep typography elegant, with script used for short phrases rather than long paragraphs.",
+          "Use thin curved outlines and simple organic shapes sparingly.",
+          "Avoid saturated colors, harsh contrast, clutter, or heavy 3D effects.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_02",
+      "working_label": "new arrival with sculptural product close-up",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Headline and subtitle in upper-left; small horizontal CTA ribbon below; large circular or oval photo crop occupying right and lower area; small discount circle on left.",
+        "palette": {
+          "base": "warm ivory / cream",
+          "primary_text": "warm taupe and muted charcoal",
+          "accent": "mushroom beige / cocoa brown",
+          "image_treatment": "soft, warm, low-contrast editorial photography",
+          "contrast": "gentle and elegant"
+        },
+        "background_treatment": {
+          "surface": "warm off-white paper",
+          "texture": "subtle paper grain",
+          "ornament": "thin taupe contour curves and pale beige organic blobs",
+          "negative_space": "generous"
+        },
+        "typography": {
+          "headline": "delicate handwritten script paired with refined uppercase sans serif",
+          "supporting": "small uppercase or regular sans serif, widely tracked",
+          "hierarchy": "script supplies softness; uppercase sans serif carries functional information",
+          "alignment": "varies by template, generally balanced and airy"
+        },
+        "hero_visual": {
+          "subject": "close-up skincare container on sculptural natural stone",
+          "framing": "large cropped circle with product detail filling right half",
+          "lighting": "soft directional daylight"
+        },
+        "graphic_devices": [
+          "taupe CTA ribbon",
+          "round discount badge",
+          "pale beige organic circle behind photo"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a restrained cream, taupe, and cocoa palette.",
+          "Favor natural skincare still-life photography, soft daylight, and gentle shadows.",
+          "Keep typography elegant, with script used for short phrases rather than long paragraphs.",
+          "Use thin curved outlines and simple organic shapes sparingly.",
+          "Avoid saturated colors, harsh contrast, clutter, or heavy 3D effects.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_03",
+      "working_label": "product features in rounded information card",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Script heading at top; centered product-feature title; large rounded taupe card containing product photo on left and bullet list with CTA on right.",
+        "palette": {
+          "base": "warm ivory / cream",
+          "primary_text": "warm taupe and muted charcoal",
+          "accent": "mushroom beige / cocoa brown",
+          "image_treatment": "soft, warm, low-contrast editorial photography",
+          "contrast": "gentle and elegant"
+        },
+        "background_treatment": {
+          "surface": "warm off-white paper",
+          "texture": "subtle paper grain",
+          "ornament": "thin taupe contour curves and pale beige organic blobs",
+          "negative_space": "generous"
+        },
+        "typography": {
+          "headline": "fine handwritten script",
+          "section_title": "spaced uppercase sans serif",
+          "body": "small readable sans serif bullets",
+          "button": "white pill with taupe text"
+        },
+        "hero_visual": {
+          "subject": "minimal white skincare tube with soft botanical props",
+          "framing": "small product photo inset inside a wide rounded rectangle",
+          "lighting": "bright diffused studio daylight"
+        },
+        "graphic_devices": [
+          "large rounded taupe panel",
+          "white pill CTA",
+          "small bullet dots"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a restrained cream, taupe, and cocoa palette.",
+          "Favor natural skincare still-life photography, soft daylight, and gentle shadows.",
+          "Keep typography elegant, with script used for short phrases rather than long paragraphs.",
+          "Use thin curved outlines and simple organic shapes sparingly.",
+          "Avoid saturated colors, harsh contrast, clutter, or heavy 3D effects.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_04",
+      "working_label": "special skincare sale with layered product photography",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Script lead-in at upper-left, uppercase sale title beneath; large organic-edged product photograph across lower middle; small round product inset overlapping the main image.",
+        "palette": {
+          "base": "warm ivory / cream",
+          "primary_text": "warm taupe and muted charcoal",
+          "accent": "mushroom beige / cocoa brown",
+          "image_treatment": "soft, warm, low-contrast editorial photography",
+          "contrast": "gentle and elegant"
+        },
+        "background_treatment": {
+          "surface": "warm off-white paper",
+          "texture": "subtle paper grain",
+          "ornament": "thin taupe contour curves and pale beige organic blobs",
+          "negative_space": "generous"
+        },
+        "typography": {
+          "headline": "delicate handwritten script paired with refined uppercase sans serif",
+          "supporting": "small uppercase or regular sans serif, widely tracked",
+          "hierarchy": "script supplies softness; uppercase sans serif carries functional information",
+          "alignment": "varies by template, generally balanced and airy"
+        },
+        "hero_visual": {
+          "subject": "cream jar, natural ingredients and neutral textured surface",
+          "framing": "wide photo crop with circular inset overlapping upper-right",
+          "lighting": "warm daylight with soft shadow"
+        },
+        "graphic_devices": [
+          "thin horizontal divider",
+          "overlapping circular inset",
+          "long rounded taupe text capsule"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a restrained cream, taupe, and cocoa palette.",
+          "Favor natural skincare still-life photography, soft daylight, and gentle shadows.",
+          "Keep typography elegant, with script used for short phrases rather than long paragraphs.",
+          "Use thin curved outlines and simple organic shapes sparingly.",
+          "Avoid saturated colors, harsh contrast, clutter, or heavy 3D effects.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_05",
+      "working_label": "skincare glowing serum product triptych",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Centered uppercase headline with script subheading; three slightly rotated product-photo cards arranged in a compact collage across the middle; slim footer strip.",
+        "palette": {
+          "base": "warm ivory / cream",
+          "primary_text": "warm taupe and muted charcoal",
+          "accent": "mushroom beige / cocoa brown",
+          "image_treatment": "soft, warm, low-contrast editorial photography",
+          "contrast": "gentle and elegant"
+        },
+        "background_treatment": {
+          "surface": "warm off-white paper",
+          "texture": "subtle paper grain",
+          "ornament": "thin taupe contour curves and pale beige organic blobs",
+          "negative_space": "generous"
+        },
+        "typography": {
+          "headline": "spaced uppercase sans serif",
+          "subheading": "delicate script",
+          "caption": "tiny light sans serif"
+        },
+        "hero_visual": {
+          "subject": "three serum and skincare product arrangements",
+          "framing": "three overlapping rectangular cards with fine borders",
+          "lighting": "soft high-key daylight"
+        },
+        "graphic_devices": [
+          "overlapping tilted photo cards",
+          "thin warm-gray borders",
+          "subtle pale beige footer band"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a restrained cream, taupe, and cocoa palette.",
+          "Favor natural skincare still-life photography, soft daylight, and gentle shadows.",
+          "Keep typography elegant, with script used for short phrases rather than long paragraphs.",
+          "Use thin curved outlines and simple organic shapes sparingly.",
+          "Avoid saturated colors, harsh contrast, clutter, or heavy 3D effects.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_06",
+      "working_label": "beauty product promotion with model",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Script headline upper-left; promo label and CTA on left; large circular model photo anchored bottom-right with discount badge overlapping the circle.",
+        "palette": {
+          "base": "warm ivory / cream",
+          "primary_text": "warm taupe and muted charcoal",
+          "accent": "mushroom beige / cocoa brown",
+          "image_treatment": "soft, warm, low-contrast editorial photography",
+          "contrast": "gentle and elegant"
+        },
+        "background_treatment": {
+          "surface": "warm off-white paper",
+          "texture": "subtle paper grain",
+          "ornament": "thin taupe contour curves and pale beige organic blobs",
+          "negative_space": "generous"
+        },
+        "typography": {
+          "headline": "delicate handwritten script paired with refined uppercase sans serif",
+          "supporting": "small uppercase or regular sans serif, widely tracked",
+          "hierarchy": "script supplies softness; uppercase sans serif carries functional information",
+          "alignment": "varies by template, generally balanced and airy"
+        },
+        "hero_visual": {
+          "subject": "beauty model holding a skincare bottle",
+          "framing": "portrait cutout or circular crop in lower-right quadrant",
+          "lighting": "soft beauty lighting, natural skin texture"
+        },
+        "graphic_devices": [
+          "taupe CTA button",
+          "round discount badge",
+          "thin curved line ornament"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a restrained cream, taupe, and cocoa palette.",
+          "Favor natural skincare still-life photography, soft daylight, and gentle shadows.",
+          "Keep typography elegant, with script used for short phrases rather than long paragraphs.",
+          "Use thin curved outlines and simple organic shapes sparingly.",
+          "Avoid saturated colors, harsh contrast, clutter, or heavy 3D effects.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_07",
+      "working_label": "skincare cream close-up with offer",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Large circular photo on left, text stack on right with script heading, short promo copy and oval discount badge; thin arcs frame opposite corners.",
+        "palette": {
+          "base": "warm ivory / cream",
+          "primary_text": "warm taupe and muted charcoal",
+          "accent": "mushroom beige / cocoa brown",
+          "image_treatment": "soft, warm, low-contrast editorial photography",
+          "contrast": "gentle and elegant"
+        },
+        "background_treatment": {
+          "surface": "warm off-white paper",
+          "texture": "subtle paper grain",
+          "ornament": "thin taupe contour curves and pale beige organic blobs",
+          "negative_space": "generous"
+        },
+        "typography": {
+          "headline": "delicate handwritten script paired with refined uppercase sans serif",
+          "supporting": "small uppercase or regular sans serif, widely tracked",
+          "hierarchy": "script supplies softness; uppercase sans serif carries functional information",
+          "alignment": "varies by template, generally balanced and airy"
+        },
+        "hero_visual": {
+          "subject": "hands holding a cream jar",
+          "framing": "large circle crop extending toward left edge",
+          "lighting": "warm soft close-up photography"
+        },
+        "graphic_devices": [
+          "large circular crop",
+          "taupe discount capsule",
+          "fine curved corner arcs"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a restrained cream, taupe, and cocoa palette.",
+          "Favor natural skincare still-life photography, soft daylight, and gentle shadows.",
+          "Keep typography elegant, with script used for short phrases rather than long paragraphs.",
+          "Use thin curved outlines and simple organic shapes sparingly.",
+          "Avoid saturated colors, harsh contrast, clutter, or heavy 3D effects.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_08",
+      "working_label": "face spray launch with model",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Script headline and small new-product pill across top; short benefit checklist on left; large soft circular portrait image on lower-right.",
+        "palette": {
+          "base": "warm ivory / cream",
+          "primary_text": "warm taupe and muted charcoal",
+          "accent": "mushroom beige / cocoa brown",
+          "image_treatment": "soft, warm, low-contrast editorial photography",
+          "contrast": "gentle and elegant"
+        },
+        "background_treatment": {
+          "surface": "warm off-white paper",
+          "texture": "subtle paper grain",
+          "ornament": "thin taupe contour curves and pale beige organic blobs",
+          "negative_space": "generous"
+        },
+        "typography": {
+          "headline": "delicate handwritten script paired with refined uppercase sans serif",
+          "supporting": "small uppercase or regular sans serif, widely tracked",
+          "hierarchy": "script supplies softness; uppercase sans serif carries functional information",
+          "alignment": "varies by template, generally balanced and airy"
+        },
+        "hero_visual": {
+          "subject": "woman holding or using a face mist spray",
+          "framing": "large cropped portrait blended into pale circular shape",
+          "lighting": "bright airy beauty editorial"
+        },
+        "graphic_devices": [
+          "rounded launch badge",
+          "small circular check icons",
+          "large pale circular image backing"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a restrained cream, taupe, and cocoa palette.",
+          "Favor natural skincare still-life photography, soft daylight, and gentle shadows.",
+          "Keep typography elegant, with script used for short phrases rather than long paragraphs.",
+          "Use thin curved outlines and simple organic shapes sparingly.",
+          "Avoid saturated colors, harsh contrast, clutter, or heavy 3D effects.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_09",
+      "working_label": "beauty skincare promo with round product scene",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Script title at upper-left; promo label; large circular product still life centered toward right; round discount badge overlapping photo; compact CTA at bottom-left.",
+        "palette": {
+          "base": "warm ivory / cream",
+          "primary_text": "warm taupe and muted charcoal",
+          "accent": "mushroom beige / cocoa brown",
+          "image_treatment": "soft, warm, low-contrast editorial photography",
+          "contrast": "gentle and elegant"
+        },
+        "background_treatment": {
+          "surface": "warm off-white paper",
+          "texture": "subtle paper grain",
+          "ornament": "thin taupe contour curves and pale beige organic blobs",
+          "negative_space": "generous"
+        },
+        "typography": {
+          "headline": "delicate handwritten script paired with refined uppercase sans serif",
+          "supporting": "small uppercase or regular sans serif, widely tracked",
+          "hierarchy": "script supplies softness; uppercase sans serif carries functional information",
+          "alignment": "varies by template, generally balanced and airy"
+        },
+        "hero_visual": {
+          "subject": "skincare products arranged on a bathroom or vanity surface",
+          "framing": "circular photo crop on right",
+          "lighting": "soft warm daylight"
+        },
+        "graphic_devices": [
+          "taupe CTA rectangle",
+          "overlapping discount circle",
+          "large beige corner shape"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a restrained cream, taupe, and cocoa palette.",
+          "Favor natural skincare still-life photography, soft daylight, and gentle shadows.",
+          "Keep typography elegant, with script used for short phrases rather than long paragraphs.",
+          "Use thin curved outlines and simple organic shapes sparingly.",
+          "Avoid saturated colors, harsh contrast, clutter, or heavy 3D effects.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_10",
+      "working_label": "all beauty skincare last-day sale",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Script headline near top; small centered CTA ribbon; rounded rectangular product photo in lower center; circular price badge overlapping left edge; thin line ornaments.",
+        "palette": {
+          "base": "warm ivory / cream",
+          "primary_text": "warm taupe and muted charcoal",
+          "accent": "mushroom beige / cocoa brown",
+          "image_treatment": "soft, warm, low-contrast editorial photography",
+          "contrast": "gentle and elegant"
+        },
+        "background_treatment": {
+          "surface": "warm off-white paper",
+          "texture": "subtle paper grain",
+          "ornament": "thin taupe contour curves and pale beige organic blobs",
+          "negative_space": "generous"
+        },
+        "typography": {
+          "headline": "delicate handwritten script paired with refined uppercase sans serif",
+          "supporting": "small uppercase or regular sans serif, widely tracked",
+          "hierarchy": "script supplies softness; uppercase sans serif carries functional information",
+          "alignment": "varies by template, generally balanced and airy"
+        },
+        "hero_visual": {
+          "subject": "minimal skincare bottles arranged on a sunlit stone ledge",
+          "framing": "rounded rectangular landscape crop",
+          "lighting": "bright natural sunlight with long soft shadows"
+        },
+        "graphic_devices": [
+          "rounded taupe CTA",
+          "circular price badge",
+          "thin vertical line and beige side blobs"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a restrained cream, taupe, and cocoa palette.",
+          "Favor natural skincare still-life photography, soft daylight, and gentle shadows.",
+          "Keep typography elegant, with script used for short phrases rather than long paragraphs.",
+          "Use thin curved outlines and simple organic shapes sparingly.",
+          "Avoid saturated colors, harsh contrast, clutter, or heavy 3D effects.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_11",
+      "working_label": "skin tips with photo and stacked advice cards",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Script heading centered at top; circular photo on left; four stacked rounded taupe tip cards on right; small skin-type label under image.",
+        "palette": {
+          "base": "warm ivory / cream",
+          "primary_text": "warm taupe and muted charcoal",
+          "accent": "mushroom beige / cocoa brown",
+          "image_treatment": "soft, warm, low-contrast editorial photography",
+          "contrast": "gentle and elegant"
+        },
+        "background_treatment": {
+          "surface": "warm off-white paper",
+          "texture": "subtle paper grain",
+          "ornament": "thin taupe contour curves and pale beige organic blobs",
+          "negative_space": "generous"
+        },
+        "typography": {
+          "headline": "handwritten script",
+          "tips": "small sans serif on rounded beige cards",
+          "label": "small uppercase sans serif"
+        },
+        "hero_visual": {
+          "subject": "hands applying skincare serum or holding a facial product",
+          "framing": "round crop at left-center",
+          "lighting": "clean, diffused daylight"
+        },
+        "graphic_devices": [
+          "four stacked rounded rectangles",
+          "thin organic curves near corners",
+          "small skin-type caption"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a restrained cream, taupe, and cocoa palette.",
+          "Favor natural skincare still-life photography, soft daylight, and gentle shadows.",
+          "Keep typography elegant, with script used for short phrases rather than long paragraphs.",
+          "Use thin curved outlines and simple organic shapes sparingly.",
+          "Avoid saturated colors, harsh contrast, clutter, or heavy 3D effects.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_12",
+      "working_label": "testimonial card beside phone mockup",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Script testimonial heading and star row at upper-left; rounded testimonial card with circular avatar and short quote; tall smartphone/product photo mockup on right.",
+        "palette": {
+          "base": "warm ivory / cream",
+          "primary_text": "warm taupe and muted charcoal",
+          "accent": "mushroom beige / cocoa brown",
+          "image_treatment": "soft, warm, low-contrast editorial photography",
+          "contrast": "gentle and elegant"
+        },
+        "background_treatment": {
+          "surface": "warm off-white paper",
+          "texture": "subtle paper grain",
+          "ornament": "thin taupe contour curves and pale beige organic blobs",
+          "negative_space": "generous"
+        },
+        "typography": {
+          "headline": "delicate script",
+          "stars": "small muted gold stars",
+          "quote": "small warm-gray sans serif",
+          "name": "small uppercase sans serif"
+        },
+        "hero_visual": {
+          "subject": "skincare bottle photographed in a clean bathroom scene",
+          "framing": "vertical phone-like frame partially cropped on right",
+          "lighting": "soft luxury product photography"
+        },
+        "graphic_devices": [
+          "rounded beige testimonial panel",
+          "circular avatar",
+          "thin smartphone frame"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a restrained cream, taupe, and cocoa palette.",
+          "Favor natural skincare still-life photography, soft daylight, and gentle shadows.",
+          "Keep typography elegant, with script used for short phrases rather than long paragraphs.",
+          "Use thin curved outlines and simple organic shapes sparingly.",
+          "Avoid saturated colors, harsh contrast, clutter, or heavy 3D effects.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_13",
+      "working_label": "new beauty podcast episode",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Small eyebrow text above a two-line uppercase title on left; short episode details and CTA below; large circular portrait of a woman applying skincare on right.",
+        "palette": {
+          "base": "warm ivory / cream",
+          "primary_text": "warm taupe and muted charcoal",
+          "accent": "mushroom beige / cocoa brown",
+          "image_treatment": "soft, warm, low-contrast editorial photography",
+          "contrast": "gentle and elegant"
+        },
+        "background_treatment": {
+          "surface": "warm off-white paper",
+          "texture": "subtle paper grain",
+          "ornament": "thin taupe contour curves and pale beige organic blobs",
+          "negative_space": "generous"
+        },
+        "typography": {
+          "headline": "uppercase sans serif paired with script episode word",
+          "details": "small clean sans serif",
+          "button": "taupe rounded rectangle"
+        },
+        "hero_visual": {
+          "subject": "woman with natural curly hair touching her face",
+          "framing": "large right-side circular crop",
+          "lighting": "warm beauty editorial"
+        },
+        "graphic_devices": [
+          "thin circular arcs",
+          "pale botanical watermark shapes",
+          "small CTA button"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a restrained cream, taupe, and cocoa palette.",
+          "Favor natural skincare still-life photography, soft daylight, and gentle shadows.",
+          "Keep typography elegant, with script used for short phrases rather than long paragraphs.",
+          "Use thin curved outlines and simple organic shapes sparingly.",
+          "Avoid saturated colors, harsh contrast, clutter, or heavy 3D effects.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_14",
+      "working_label": "skincare giveaway steps",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Large script title across top; centered circular portrait/product photo; numbered follow and like actions arranged in two side columns; small join-us badge.",
+        "palette": {
+          "base": "warm ivory / cream",
+          "primary_text": "warm taupe and muted charcoal",
+          "accent": "mushroom beige / cocoa brown",
+          "image_treatment": "soft, warm, low-contrast editorial photography",
+          "contrast": "gentle and elegant"
+        },
+        "background_treatment": {
+          "surface": "warm off-white paper",
+          "texture": "subtle paper grain",
+          "ornament": "thin taupe contour curves and pale beige organic blobs",
+          "negative_space": "generous"
+        },
+        "typography": {
+          "headline": "large handwritten script",
+          "steps": "small uppercase numbers with compact sans serif labels",
+          "supporting": "tiny sans serif"
+        },
+        "hero_visual": {
+          "subject": "beauty portrait or skincare application close-up",
+          "framing": "centered circle with thin double border"
+        },
+        "graphic_devices": [
+          "large pale beige corner blobs",
+          "numbered step labels",
+          "small round join-us badge"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a restrained cream, taupe, and cocoa palette.",
+          "Favor natural skincare still-life photography, soft daylight, and gentle shadows.",
+          "Keep typography elegant, with script used for short phrases rather than long paragraphs.",
+          "Use thin curved outlines and simple organic shapes sparingly.",
+          "Avoid saturated colors, harsh contrast, clutter, or heavy 3D effects.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    },
+    {
+      "id": "creative_15",
+      "working_label": "beauty livestream announcement",
+      "creative_dna": {
+        "format": "portrait social media creative",
+        "visual_style": [],
+        "composition": "Phone-shaped portrait image on left; compact uppercase livestream headline and topic on right; speaker rows with tiny circular portraits; date/time line and bottom CTA bar.",
+        "palette": {
+          "base": "warm ivory / cream",
+          "primary_text": "warm taupe and muted charcoal",
+          "accent": "mushroom beige / cocoa brown",
+          "image_treatment": "soft, warm, low-contrast editorial photography",
+          "contrast": "gentle and elegant"
+        },
+        "background_treatment": {
+          "surface": "warm off-white paper",
+          "texture": "subtle paper grain",
+          "ornament": "thin taupe contour curves and pale beige organic blobs",
+          "negative_space": "generous"
+        },
+        "typography": {
+          "headline": "small uppercase sans serif",
+          "topic": "medium sans serif",
+          "speaker_names": "small bold sans serif",
+          "details": "tiny sans serif"
+        },
+        "hero_visual": {
+          "subject": "close-up portrait of a woman with clear natural skin",
+          "framing": "vertical rounded phone frame on left"
+        },
+        "graphic_devices": [
+          "rounded phone frame",
+          "small circular speaker thumbnails",
+          "full-width taupe CTA strip"
+        ],
+        "visual_hierarchy": [
+          "primary headline",
+          "hero image or central graphic",
+          "supporting details",
+          "optional CTA or microcopy"
+        ],
+        "generation_rules": [
+          "Use a restrained cream, taupe, and cocoa palette.",
+          "Favor natural skincare still-life photography, soft daylight, and gentle shadows.",
+          "Keep typography elegant, with script used for short phrases rather than long paragraphs.",
+          "Use thin curved outlines and simple organic shapes sparingly.",
+          "Avoid saturated colors, harsh contrast, clutter, or heavy 3D effects.",
+          "Do not add logos, social handles, watermarks, URLs, or contact information."
+        ]
+      }
+    }
+  ]
+}

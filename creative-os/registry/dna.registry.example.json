@@ -1,0 +1,58 @@
+{
+ "meta": {
+  "schema_version": "1.0",
+  "_comment": "EXAMPLE registry. The production registry is private (it references your reference files). IDs are namespaced per collection. Tombstones are permanently blocked IDs \u2014 the compiler refuses them forever."
+ },
+ "entries": [
+  {
+   "id": "DEMO_01",
+   "collection": "educational_explainers",
+   "status": "active",
+   "approval": "approved by human YYYY-MM-DD",
+   "working_label": "clean editorial explainer with offset panels",
+   "composition_dna": "Light field; small circular badge top; centered heavy headline with ONE accent word; subtitle; two offset rounded panels (outlined + solid) with asterisk bullets and circled arrows; closing pill statement; restrained footer.",
+   "constraints": {
+    "locked": [
+     "offset panel rhythm",
+     "one accent word",
+     "centered hierarchy"
+    ],
+    "flexible": [
+     "topic copy",
+     "accent color -> brand",
+     "badge glyph"
+    ]
+   },
+   "linkage": {
+    "mode": "image",
+    "source_image": "references/your-reference-01.jpg"
+   }
+  },
+  {
+   "id": "DEMO_02",
+   "collection": "sheet_templates",
+   "status": "active",
+   "approval": "approved by human YYYY-MM-DD",
+   "working_label": "template sheet tile example",
+   "linkage": {
+    "mode": "sheet_crop",
+    "sheet": "references/your-template-sheet.jpg",
+    "crop_box": [
+     0,
+     0,
+     400,
+     500
+    ]
+   }
+  },
+  {
+   "id": "DEMO_99",
+   "status": "purged",
+   "tombstone": true,
+   "_comment": "Rejected by the brand owner. NEVER regenerate from this profile. The compiler hard-blocks tombstoned IDs."
+  }
+ ],
+ "unassigned_reference_images": {
+  "_comment": "images awaiting human-approved DNA pairing live here with findings"
+ }
+}

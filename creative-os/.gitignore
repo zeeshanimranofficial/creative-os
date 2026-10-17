@@ -1,0 +1,12 @@
+# runtime state (regenerated per run)
+registry/runs/
+registry/jobs/
+registry/audit-trail.jsonl
+# real (non-sample) brand configs stay private
+config/brand.*.json
+!config/brand.config.example.json
+# generic
+__pycache__/
+*.pyc
+.venv/
+.DS_Store

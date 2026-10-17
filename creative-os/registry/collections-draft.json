@@ -1,0 +1,1085 @@
+{
+ "meta": {
+  "built": "2026-10-17",
+  "status": "DRAFT — each entry requires user approval before entering active library",
+  "policy": "DNA drafted FROM real designer images only; no invention"
+ },
+ "occasions_eid_islamic": {
+  "source": "8 individual creatives in uploads/",
+  "entries": [
+   {
+    "id": "EID_01",
+    "source_image": "uploads/17dc2c0d-514d-4123-a2b4-c92327224a0f.jpeg",
+    "working_label": "minimal mono prayer-beads greeting",
+    "composition_dna": "Minimal white studio; monochrome hand holding tasbih as centered hero; brand-color type block lower-left: bold uppercase EID greeting + script accent word + one small blessing line.",
+    "constraints": {
+     "locked": [
+      "monochrome object photography",
+      "generous white space",
+      "lower-left type block"
+     ],
+     "flexible": [
+      "hero object (beads/lantern/dates)",
+      "occasion wording",
+      "accent color -> brand"
+     ]
+    },
+    "shared_rules": {
+     "palette": "remap accents to target brand hexes",
+     "never_copy": "reference brand names/logos/handles",
+     "calligraphy": "authentic Arabic Eid calligraphy, never pseudo-Arabic glyphs"
+    }
+   },
+   {
+    "id": "EID_02",
+    "source_image": "uploads/44137709-87e3-45b6-be0b-1567d618b6c5.jpeg",
+    "working_label": "split-panel qurbani animal peek",
+    "composition_dna": "Vertical split: clean panel with witty first-person headline (accent word in brand color) + narrow photo strip where a photoreal sacrificial animal peeks with horns/hooves overlapping the panel edge; warm glow; Arabic calligraphy stamp bottom-right.",
+    "constraints": {
+     "locked": [
+      "split composition",
+      "animal overlapping panel edge",
+      "headline-left hierarchy"
+     ],
+     "flexible": [
+      "animal (goat/ram/cow)",
+      "headline copy",
+      "accent color"
+     ]
+    },
+    "shared_rules": {
+     "palette": "remap accents to target brand hexes",
+     "never_copy": "reference brand names/logos/handles",
+     "calligraphy": "authentic Arabic Eid calligraphy, never pseudo-Arabic glyphs"
+    }
+   },
+   {
+    "id": "EID_03",
+    "source_image": "uploads/5a0390ae-062b-49a9-95e9-0376bf7c3106.jpeg",
+    "working_label": "flat-color door peek humor",
+    "composition_dna": "Flat saturated background; stacked playful bold white type with googly-eyes accent; photoreal wooden door ajar with animal peeking and hoof on the edge; social handle chip bottom-left.",
+    "constraints": {
+     "locked": [
+      "flat bg + photoreal door contrast",
+      "type-left / door-right",
+      "humor register"
+     ],
+     "flexible": [
+      "bg color -> brand",
+      "animal",
+      "copy"
+     ]
+    },
+    "shared_rules": {
+     "palette": "remap accents to target brand hexes",
+     "never_copy": "reference brand names/logos/handles",
+     "calligraphy": "authentic Arabic Eid calligraphy, never pseudo-Arabic glyphs"
+    }
+   },
+   {
+    "id": "EID_04",
+    "source_image": "uploads/69bf444b-ab0b-4adc-9ad1-f8603ea32e15.jpeg",
+    "working_label": "editorial monochrome mosque + red calligraphy",
+    "composition_dna": "Vertical monochrome mosque photo strip on light canvas; solid accent sun disc; oversized expressive Arabic calligraphy overlapping strip; one thin congratulations line; small social/barcode footer.",
+    "constraints": {
+     "locked": [
+      "mono photo strip",
+      "oversized calligraphy overlap",
+      "single accent color"
+     ],
+     "flexible": [
+      "mosque image",
+      "accent -> brand red/orange",
+      "occasion (Fitr/Adha)"
+     ]
+    },
+    "shared_rules": {
+     "palette": "remap accents to target brand hexes",
+     "never_copy": "reference brand names/logos/handles",
+     "calligraphy": "authentic Arabic Eid calligraphy, never pseudo-Arabic glyphs"
+    }
+   },
+   {
+    "id": "EID_05",
+    "source_image": "uploads/7eac3653-03b9-4c66-859f-f1ddd176334c.jpeg",
+    "working_label": "notification-card greeting",
+    "composition_dna": "Deep gradient field; large white Arabic calligraphy upper; glossy app-notification card centered with brand logo + short greeting message; quote line + contact footer.",
+    "constraints": {
+     "locked": [
+      "UI notification card as hero",
+      "calligraphy above card",
+      "gradient field"
+     ],
+     "flexible": [
+      "gradient -> brand colors",
+      "card copy",
+      "footer details"
+     ]
+    },
+    "shared_rules": {
+     "palette": "remap accents to target brand hexes",
+     "never_copy": "reference brand names/logos/handles",
+     "calligraphy": "authentic Arabic Eid calligraphy, never pseudo-Arabic glyphs"
+    }
+   },
+   {
+    "id": "EID_06",
+    "source_image": "uploads/8593102e-d351-4cf3-8304-be2fb8fbf7d3.jpeg",
+    "working_label": "flat amber dome lineart + halftone mosque",
+    "composition_dna": "Flat warm field; thin white mosque-dome arch lineart framing Arabic calligraphy; monochrome halftone mosque photo cutout anchored at bottom; one centered blessing line.",
+    "constraints": {
+     "locked": [
+      "dome lineart frame",
+      "halftone mosque base",
+      "flat single-color field"
+     ],
+     "flexible": [
+      "field color -> brand",
+      "blessing copy"
+     ]
+    },
+    "shared_rules": {
+     "palette": "remap accents to target brand hexes",
+     "never_copy": "reference brand names/logos/handles",
+     "calligraphy": "authentic Arabic Eid calligraphy, never pseudo-Arabic glyphs"
+    }
+   },
+   {
+    "id": "EID_07",
+    "source_image": "uploads/91af0a8e-9957-4d24-af1a-9be63615be2a.jpeg",
+    "working_label": "date + crescent shadow still life",
+    "composition_dna": "Warm neutral field; brown Arabic calligraphy + blessing line top; hero still life: single date fruit whose curved shadow forms a crescent moon illusion; brand footer strip.",
+    "constraints": {
+     "locked": [
+      "object+shadow metaphor hero",
+      "calligraphy top, object center",
+      "warm neutral palette"
+     ],
+     "flexible": [
+      "object (date/food/brand product)",
+      "footer"
+     ]
+    },
+    "shared_rules": {
+     "palette": "remap accents to target brand hexes",
+     "never_copy": "reference brand names/logos/handles",
+     "calligraphy": "authentic Arabic Eid calligraphy, never pseudo-Arabic glyphs"
+    }
+   },
+   {
+    "id": "EID_08",
+    "source_image": "uploads/b578a3ba-07c8-421f-886e-62ffaea8b0ce.jpeg",
+    "working_label": "product-cable calligraphy (tech twist)",
+    "composition_dna": "Brand-color field; a product cable (mouse/charger) physically forms the Arabic Eid calligraphy outline, with faint mosque line motif behind; friendly headline + one wish line; profile chip top-right.",
+    "constraints": {
+     "locked": [
+      "brand product forms the calligraphy",
+      "single-color field",
+      "headline above hero"
+     ],
+     "flexible": [
+      "product (by target brand)",
+      "field color",
+      "copy"
+     ]
+    },
+    "shared_rules": {
+     "palette": "remap accents to target brand hexes",
+     "never_copy": "reference brand names/logos/handles",
+     "calligraphy": "authentic Arabic Eid calligraphy, never pseudo-Arabic glyphs"
+    }
+   }
+  ]
+ },
+ "yellow_business_sheet": {
+  "source_image": "uploads/carousel refernce.jpg",
+  "sheet_size": [
+   2000,
+   1566
+  ],
+  "grid": "2 rows x 4 cols, header excluded",
+  "collection_style": "flat vivid yellow/black/white business-analysis carousel: bold condensed headlines, outlined doodle icons, hand-drawn arrows, author strip BL, arrow chip BR",
+  "entries": [
+   {
+    "id": "YBIZ_01",
+    "working_label": "5 critical hard skills cover",
+    "crop_box": [
+     11,
+     282,
+     469,
+     849
+    ]
+   },
+   {
+    "id": "YBIZ_02",
+    "working_label": "data visualization tools",
+    "crop_box": [
+     527,
+     282,
+     984,
+     849
+    ]
+   },
+   {
+    "id": "YBIZ_03",
+    "working_label": "SQL and database management",
+    "crop_box": [
+     1022,
+     282,
+     1484,
+     849
+    ]
+   },
+   {
+    "id": "YBIZ_04",
+    "working_label": "business process modeling (photo variant)",
+    "crop_box": [
+     1533,
+     282,
+     1993,
+     849
+    ]
+   },
+   {
+    "id": "YBIZ_05",
+    "working_label": "business process modeling v2",
+    "crop_box": [
+     11,
+     900,
+     469,
+     1467
+    ]
+   },
+   {
+    "id": "YBIZ_06",
+    "working_label": "statistical analysis",
+    "crop_box": [
+     527,
+     900,
+     984,
+     1467
+    ]
+   },
+   {
+    "id": "YBIZ_07",
+    "working_label": "requirements management",
+    "crop_box": [
+     1022,
+     900,
+     1484,
+     1467
+    ]
+   },
+   {
+    "id": "YBIZ_08",
+    "working_label": "bonus agile methodologies",
+    "crop_box": [
+     1533,
+     900,
+     1993,
+     1467
+    ]
+   }
+  ]
+ },
+ "red_social_sheet": {
+  "source_image": "uploads/post design.png",
+  "sheet_size": [
+   1000,
+   1500
+  ],
+  "grid": "4 rows x 4 cols, header excluded",
+  "collection_style": "bold red/white social branding set: serif+sans mix, chat bubbles, toggles, step pills, big-stat typography, tape/collage accents",
+  "entries": [
+   {
+    "id": "RSOC_01",
+    "working_label": "science behind good design",
+    "crop_box": [
+     0,
+     274,
+     237,
+     580
+    ]
+   },
+   {
+    "id": "RSOC_02",
+    "working_label": "what is personal branding",
+    "crop_box": [
+     247,
+     274,
+     489,
+     580
+    ]
+   },
+   {
+    "id": "RSOC_03",
+    "working_label": "beginners guide step list",
+    "crop_box": [
+     500,
+     274,
+     742,
+     580
+    ]
+   },
+   {
+    "id": "RSOC_04",
+    "working_label": "myth vs fact toggles",
+    "crop_box": [
+     761,
+     274,
+     1000,
+     580
+    ]
+   },
+   {
+    "id": "RSOC_05",
+    "working_label": "quick start guide collage",
+    "crop_box": [
+     0,
+     605,
+     237,
+     911
+    ]
+   },
+   {
+    "id": "RSOC_06",
+    "working_label": "best practices highlight list",
+    "crop_box": [
+     247,
+     605,
+     489,
+     911
+    ]
+   },
+   {
+    "id": "RSOC_07",
+    "working_label": "our services tray hand",
+    "crop_box": [
+     500,
+     605,
+     742,
+     911
+    ]
+   },
+   {
+    "id": "RSOC_08",
+    "working_label": "our services notebook stamps",
+    "crop_box": [
+     761,
+     605,
+     1000,
+     911
+    ]
+   },
+   {
+    "id": "RSOC_09",
+    "working_label": "FAQ chat bubbles",
+    "crop_box": [
+     0,
+     939,
+     237,
+     1242
+    ]
+   },
+   {
+    "id": "RSOC_10",
+    "working_label": "did you know stat card",
+    "crop_box": [
+     247,
+     939,
+     489,
+     1242
+    ]
+   },
+   {
+    "id": "RSOC_11",
+    "working_label": "step-by-step caption pills",
+    "crop_box": [
+     500,
+     939,
+     742,
+     1242
+    ]
+   },
+   {
+    "id": "RSOC_12",
+    "working_label": "numbers dont lie big stat",
+    "crop_box": [
+     761,
+     939,
+     1000,
+     1242
+    ]
+   },
+   {
+    "id": "RSOC_13",
+    "working_label": "simple fixes low engagement",
+    "crop_box": [
+     0,
+     1270,
+     237,
+     1500
+    ],
+    "note": "bottom row partially clipped in source sheet"
+   },
+   {
+    "id": "RSOC_14",
+    "working_label": "Q&A oversized letters",
+    "crop_box": [
+     247,
+     1270,
+     489,
+     1500
+    ],
+    "note": "bottom row partially clipped in source sheet"
+   },
+   {
+    "id": "RSOC_15",
+    "working_label": "why personal branding matters",
+    "crop_box": [
+     500,
+     1270,
+     742,
+     1500
+    ],
+    "note": "bottom row partially clipped in source sheet"
+   },
+   {
+    "id": "RSOC_16",
+    "working_label": "how email marketing works steps",
+    "crop_box": [
+     761,
+     1270,
+     1000,
+     1500
+    ],
+    "note": "bottom row partially clipped in source sheet"
+   }
+  ]
+ },
+ "new_intake_2026_10_17": {
+  "status": "draft_pending_approval — drafted from images per intake policy (no JSONs provided)",
+  "duplicate_analysis": "HOB_01 vs DNA_05 (lightbulb orbital): different composition (hanging row + dashed path vs orbital) — KEEP BOTH. BA_02 vs SKIN collection: product context differs (clipboard proof layout) — KEEP. No conflicts with tombstones or hard rules.",
+  "collections": {
+   "announcements_teasers": [
+    {
+     "id": "ANN_01",
+     "source_image": "uploads/1fcd0581857c907ee882e3d235df9a63.png",
+     "working_label": "curtain-reveal tug-of-war teaser",
+     "composition_dna": "Square canvas split by a realistic white curtain being pulled; dark teaser scene + script type half-hidden behind curtain edge; two photoreal figures in brand-color shirts pulling a rope that cinches the curtain; hashtag announcement block bottom-right.",
+     "constraints": {
+      "locked": [
+       "curtain conceals the reveal",
+       "real figures pulling rope as hero",
+       "teaser copy half-hidden"
+      ],
+      "flexible": [
+       "revealed scene/topic",
+       "figure wardrobe -> brand colors",
+       "announcement copy"
+      ]
+     }
+    }
+   ],
+   "listicle_cards": [
+    {
+     "id": "LST_01",
+     "source_image": "uploads/598db882a7add8e676ed41380ac26852.jpg",
+     "working_label": "tilted numbered myth cards on grid",
+     "composition_dna": "Saturated single-color field with blueprint grid + halftone corners; two large tilted white rounded cards, oversized serif numerals 01/02, gradient text panels with serif-italic myth headline + sans body; dashed connector path between cards; contact header + site footer.",
+     "constraints": {
+      "locked": [
+       "tilted card pair",
+       "oversized numeral hierarchy",
+       "dashed connector",
+       "grid field"
+      ],
+      "flexible": [
+       "field color -> brand",
+       "card count 2-3",
+       "myth/fact copy"
+      ]
+     }
+    }
+   ],
+   "before_after": [
+    {
+     "id": "BA_01",
+     "source_image": "uploads/6fef0717fe2f0b896b33a5b5882058e8.jpg",
+     "working_label": "clipboard week-proof product results",
+     "composition_dna": "Photoreal clipboard flat-lay on marble; two polaroid-style result photos labeled Week 1 / Week 2 stacked right; bold claim headline left with accent words; product bottle breaking frame bottom-left; handwritten annotations + doodle icons with arrows right margin.",
+     "constraints": {
+      "locked": [
+       "clipboard stage",
+       "sequential labeled proof photos",
+       "product breaks frame",
+       "handwritten annotation layer"
+      ],
+      "flexible": [
+       "product & proof imagery",
+       "claim copy",
+       "accent color"
+      ]
+     }
+    },
+    {
+     "id": "BA_02",
+     "source_image": "uploads/3dde3e6e468dd6b3d6f27520a044e34f.jpg",
+     "working_label": "dark editorial BEFORE/AFTER polaroids",
+     "composition_dna": "Black chalk-textured canvas; massive cream condensed BEFORE top / AFTER bottom, letterforms clipped by frame; two taped polaroids — plain product shot vs vivid AI-styled shot — rotated opposing angles; handwritten white labels + sketch arrow; follow chip top-left.",
+     "constraints": {
+      "locked": [
+       "giant clipped BEFORE/AFTER type",
+       "taped polaroid pair",
+       "dark textured field",
+       "handwritten connectors"
+      ],
+      "flexible": [
+       "subject of transformation",
+       "accent styling of AFTER shot",
+       "chip copy"
+      ]
+     }
+    },
+    {
+     "id": "BA_03",
+     "source_image": "uploads/36cb35c7cd576aa02a27ab660c315197.jpg",
+     "working_label": "typographic before/after split (text-selection motif)",
+     "composition_dna": "Horizontal 50/50 split, two near-identical minimal panels: tool icon(s) centered top, giant two-line sans headline with the changing word wrapped in a UI text-selection highlight with drag handles; author chip bottom; contrast comes from icon row growth between panels.",
+     "constraints": {
+      "locked": [
+       "mirrored panel pair",
+       "text-selection highlight motif",
+       "minimal field"
+      ],
+      "flexible": [
+       "before/after wording",
+       "icon row contents (realtime-sourced logos)",
+       "panel tints"
+      ]
+     }
+    },
+    {
+     "id": "BA_04",
+     "source_image": "uploads/83f09dd432cf6bbb02ea6b39272bfda0.png",
+     "working_label": "minimal polaroid before/after pair",
+     "composition_dna": "Light neutral field; two overlapping tilted polaroids — left monochrome (before), right full color (after); oversized accent-color Before and After words anchored to each photo; curved arrows + small benefit captions; corner meta (company, CTA, phone, handle).",
+     "constraints": {
+      "locked": [
+       "mono-vs-color polaroid logic",
+       "oversized word anchors",
+       "curved arrow annotations"
+      ],
+      "flexible": [
+       "photo subject",
+       "accent color -> brand",
+       "captions/meta"
+      ]
+     }
+    },
+    {
+     "id": "BA_05",
+     "source_image": "uploads/0e7e9faa724dff7e917128483fd22e33.jpg",
+     "working_label": "torn-paper emotional split",
+     "composition_dna": "Vertical torn-paper split: left desaturated grey scene with stressed person + clutter props; right saturated brand-color scene with same person celebrating; sticker-style outlined labels on each side; shared desk/laptop bridges both halves; website/social footer.",
+     "constraints": {
+      "locked": [
+       "torn edge divider",
+       "desaturated-vs-brand-color emotional contrast",
+       "same subject both sides",
+       "sticker labels"
+      ],
+      "flexible": [
+       "scenario & props",
+       "label copy",
+       "right-side color -> brand"
+      ]
+     }
+    }
+   ],
+   "mockup_scenes": [
+    {
+     "id": "MCK_01",
+     "source_image": "uploads/5b5af541115e73df20f9417341572865.jpg",
+     "working_label": "giant 3D social-post mockup held outdoors",
+     "composition_dna": "Photoreal outdoor scene (waterfront/city); person holds a giant 3D-extruded Instagram post card; the card is a real UI mockup — header with handle, brand-color body with stacked service copy in rounded inner panel, live engagement row + caption; cracked-ground detail sells the weight; logo top.",
+     "constraints": {
+      "locked": [
+       "giant physical post mockup as hero",
+       "real person interacting",
+       "authentic platform UI anatomy"
+      ],
+      "flexible": [
+       "environment",
+       "platform skin",
+       "card copy -> brand services"
+      ]
+     }
+    }
+   ],
+   "infographics": [
+    {
+     "id": "INF_01",
+     "source_image": "uploads/7ef10e68e424eb51ee17db3f61699c22.jpg",
+     "working_label": "pencil ribbon services infographic",
+     "composition_dna": "Light studio field; giant photoreal pencil center with brand-color ribbon spiraling around it carrying service names; alternating left/right solid bars with white line icons + service labels; hashtag line + website/phone footer bar.",
+     "constraints": {
+      "locked": [
+       "central vertical hero object",
+       "spiral ribbon carrying labels",
+       "alternating side bars with icons"
+      ],
+      "flexible": [
+       "hero object (pencil/rocket/pen)",
+       "service list",
+       "bar color -> brand"
+      ]
+     }
+    },
+    {
+     "id": "INF_02",
+     "source_image": "uploads/6e91c0724c51acced7c919870aa00494.png",
+     "working_label": "tall flat-illustration listicle infographic",
+     "composition_dna": "Tall single-color field with doodle accents; headline block top + intro line; 4-stat icon row; five alternating numbered cards (bold two-tone headlines + short body) each paired with a flat human illustration + mini UI props; dashed connectors; rocket finale.",
+     "constraints": {
+      "locked": [
+       "numbered alternating card rhythm",
+       "flat illustration family",
+       "stat row",
+       "single-hue field"
+      ],
+      "flexible": [
+       "stat values",
+       "card topics",
+       "hue -> brand",
+       "illustration subjects"
+      ]
+     }
+    }
+   ],
+   "occasions_month_transition": [
+    {
+     "id": "MTR_01",
+     "source_image": "uploads/d9e27ca132ca09026e32d51c895b375c.jpg",
+     "working_label": "two-tone wall month transition",
+     "composition_dna": "Vertical split wall in two month colors; giant ghost numerals (outgoing faint on left, incoming bold on right); vertical month names running up each side; photoreal person mid-stride crossing the color boundary; wax-seal logo stamp + greeting block top; handle + hashtag footer.",
+     "constraints": {
+      "locked": [
+       "two-tone wall + walking figure crossing",
+       "vertical month typography",
+       "ghost numerals"
+      ],
+      "flexible": [
+       "month pair + colors (one slot -> brand)",
+       "figure styling",
+       "greeting copy"
+      ]
+     }
+    }
+   ],
+   "hero_objects": [
+    {
+     "id": "HOB_01",
+     "source_image": "uploads/b82d822af4ba75eb65a77491be7487eb.jpg",
+     "working_label": "hanging bulbs — one lit",
+     "composition_dna": "Paper-texture light field; three hanging bulbs, two glass-clear and one brand-color lit with ray ticks; dashed flight path with paper-plane loops down to a highlight-bar headline stack (bar + bold two-tone line + kicker); hashtag line; footer bar with site + socials.",
+     "constraints": {
+      "locked": [
+       "odd-one-lit metaphor",
+       "dashed connector path",
+       "highlight-bar headline stack"
+      ],
+      "flexible": [
+       "bulb color -> brand",
+       "headline copy",
+       "footer"
+      ]
+     },
+     "intake_note": "distinct from DNA_05 (orbital) — kept as separate profile"
+    }
+   ]
+  }
+ },
+ "new_intake_2026_10_17_batch2": {
+  "status": "draft_pending_approval — drafted from images per intake policy (no JSONs provided)",
+  "duplicate_analysis": "INF_05 vs DNA_05: arc-step tabs vs orbital — distinct. ANN_02/ANN_03 vs DNA_01/02/03 calendar family: new mechanisms (giant flip object; torn-reveal UI) — distinct. MCK_02 vs DNA_21/CD2 mockups: statement-led diagonal pair — distinct. HOB_02 vs HOB_01/DNA_05: scale-play rider — distinct. No tombstone conflicts.",
+  "collections": {
+   "infographics_extended": [
+    {
+     "id": "INF_03",
+     "source_image": "uploads/f665c6389b0ab4a2002c31c0abd0db55.jpg",
+     "working_label": "orbital ring satellites infographic",
+     "composition_dna": "Light grey field; large embossed 3D disc center with title; multicolor arc path around it carrying small node dots; 5 ringed satellite circles (each own hue, white core) with bold label + body text, arranged on the lower arc; logo top-right.",
+     "constraints": {
+      "locked": [
+       "central disc + orbiting labeled rings",
+       "arc connector with nodes",
+       "one hue per item"
+      ],
+      "flexible": [
+       "item count 4-6",
+       "hues -> brand tints",
+       "topic labels"
+      ]
+     }
+    },
+    {
+     "id": "INF_04",
+     "source_image": "uploads/9a728083c40c3f4f0a43c1b0d85a8fb0.jpg",
+     "working_label": "past vs future dual-circle comparison",
+     "composition_dna": "Dark textured field; solid brand-color circle (PAST) vs dashed outline circle (FUTURE) side by side; cross-marked claims radiate left, check-marked claims right; glowing hero object below; massive headline block with highlight-bar word; save chip top-right, footer contact pill.",
+     "constraints": {
+      "locked": [
+       "solid-vs-dashed circle metaphor",
+       "cross/check radiating claims",
+       "dark field + single accent"
+      ],
+      "flexible": [
+       "claims copy",
+       "hero object",
+       "accent -> brand"
+      ]
+     }
+    },
+    {
+     "id": "INF_05",
+     "source_image": "uploads/7c74290bc3f1cd3e231a5a92351f7633.jpg",
+     "working_label": "semicircle timeline arrow tabs over photo",
+     "composition_dna": "Blurred photo background; big soft-white circle left with title + body; thin arc through 5 numbered dark arrow tabs stepping down-right, each with white icon circle, title + body; numbered rings on each tab.",
+     "constraints": {
+      "locked": [
+       "arc-stepped arrow tabs",
+       "icon circle per step",
+       "photo-blur backdrop"
+      ],
+      "flexible": [
+       "step count 3-6",
+       "photo subject",
+       "tab tint -> brand"
+      ]
+     }
+    },
+    {
+     "id": "INF_06",
+     "source_image": "uploads/6e0e72ab616a489ab9806ba8a288b20d.jpg",
+     "working_label": "segmented donut wheel listicle",
+     "composition_dna": "Paper-texture light field; donut wheel of alternating brand-color/charcoal segments, each with rotated label + thin line icon; solid center disc with topic title; oversized numeral + kicker text at the wheel gap right; floating glossy social-icon pucks around; hashtag + footer bar.",
+     "constraints": {
+      "locked": [
+       "alternating-segment donut",
+       "rotated in-segment labels",
+       "numeral at gap"
+      ],
+      "flexible": [
+       "segment count",
+       "two alternating colors -> brand pair",
+       "floating pucks optional"
+      ]
+     }
+    },
+    {
+     "id": "INF_07",
+     "source_image": "uploads/291ed612fbfd82d02b3835e23e27d00d.png",
+     "working_label": "editorial data-art paint swirls",
+     "composition_dna": "Off-white speckled art-paper field; serif headline + sub; 7 photoreal paint-swirl balls sitting in concentric ring targets, scattered organically; curved hand-written labels around each; black % flags on bent connector lines all tracing down to a monochrome hand holding them like balloons; tiny scale legend; source line bottom.",
+     "constraints": {
+      "locked": [
+       "objects-in-ring-targets as data points",
+       "connector lines to single anchor",
+       "editorial serif + handwritten mix",
+       "% flags"
+      ],
+      "flexible": [
+       "data objects (paint/coins/leaves)",
+       "values + labels",
+       "palette accents"
+      ]
+     }
+    },
+    {
+     "id": "INF_08",
+     "source_image": "uploads/69fdb5d3a3c2b8d96faadbc3632e8873.jpg",
+     "working_label": "zigzag dotted-path 3 steps",
+     "composition_dna": "Deep brand-color field with flowing light waves; big white headline question; 3 white rounded step cards alternating left/right with glossy icon pucks, giant STEP numerals opposite each card; dotted S-path with ring nodes connecting them; follow/contact footer.",
+     "constraints": {
+      "locked": [
+       "alternating card/numeral zigzag",
+       "dotted path with nodes",
+       "glossy icon pucks"
+      ],
+      "flexible": [
+       "step count 3-4",
+       "field color -> brand",
+       "copy"
+      ]
+     }
+    }
+   ],
+   "occasions_national_days": [
+    {
+     "id": "NAT_01",
+     "source_image": "uploads/f6366c9b940f91e7e85c98e1f08a5121.jpg",
+     "working_label": "numeral-photo fusion national day",
+     "composition_dna": "Textured off-white field; giant date numeral with photoreal worker cutouts emerging from/behind it (bag carrier, wrench hand), vertical month tag; oversized serif DAY wordmark with rotated side word + script-crossed letter; white-on-accent subline bar; faint duotone scene silhouettes at base.",
+     "constraints": {
+      "locked": [
+       "numeral + human cutout fusion",
+       "serif oversized wordmark mix",
+       "faint base silhouettes"
+      ],
+      "flexible": [
+       "occasion + date",
+       "photo subjects",
+       "accent color -> brand"
+      ]
+     }
+    },
+    {
+     "id": "NAT_02",
+     "source_image": "uploads/2febcdab0a1b6392fbbe5dee88213e92.jpg",
+     "working_label": "duotone legend tribute day",
+     "composition_dna": "Warm cream field; letterspaced two-line title (one line accent); central duotone-screened portrait of the honored figure rising from a ghost emblem circle; small label tag at shoulder; rotated photo cards fanned behind on dotted arc; solid ribbon banner with tagline below; serif+sans body line footer.",
+     "constraints": {
+      "locked": [
+       "duotone portrait hero",
+       "fanned photo cards on arc",
+       "ribbon banner"
+      ],
+      "flexible": [
+       "figure + photos",
+       "duotone pair -> brand",
+       "occasion copy"
+      ]
+     }
+    },
+    {
+     "id": "NAT_03",
+     "source_image": "uploads/1a4aa7b409f39c668c16b2ed3bbbd236.png",
+     "working_label": "monument collage independence day",
+     "composition_dna": "Light textured field; monochrome national monuments collage overlapping offset accent-color blocks; country map outline behind; calligraphy wordmark + script subline top-left; waving mono flag; centered italic serif greeting + date + body lines below.",
+     "constraints": {
+      "locked": [
+       "mono monument collage + flat color blocks",
+       "map outline layer",
+       "calligraphy accent"
+      ],
+      "flexible": [
+       "country/monuments",
+       "block color -> brand",
+       "greeting copy"
+      ]
+     }
+    }
+   ],
+   "occasions_fun_days": [
+    {
+     "id": "FUN_01",
+     "source_image": "uploads/e005710baa62b23bf768ae1e7e972ba5.jpg",
+     "working_label": "product-twist fun day wit",
+     "composition_dna": "Deep brand-color field with faint splash/product motifs; italic witty quote lines top; hero: the ocassion object SWAPPED with the profession object (keyboard wrapped in torn chocolate foil); script greeting line below; handle + icons footer.",
+     "constraints": {
+      "locked": [
+       "object-swap visual pun",
+       "foil/wrapper realism",
+       "script greeting"
+      ],
+      "flexible": [
+       "pun objects per occasion/brand",
+       "field color",
+       "quote copy"
+      ]
+     }
+    },
+    {
+     "id": "FUN_02",
+     "source_image": "uploads/2e27b1b42142f1135c535c2be12c4b1d.jpg",
+     "working_label": "ring-box proposal pun",
+     "composition_dna": "Flat deep-red field; illustrated 3D hands opening a velvet ring box; inside sits the brand/food object instead of a ring; split headline \"Will you...\" top / punchline bottom in friendly rounded type; watermark top-left.",
+     "constraints": {
+      "locked": [
+       "ring-box reveal pun",
+       "illustrated hands style",
+       "split question/punchline"
+      ],
+      "flexible": [
+       "boxed object",
+       "field color",
+       "copy"
+      ]
+     }
+    }
+   ],
+   "announcements_extended": [
+    {
+     "id": "ANN_02",
+     "source_image": "uploads/4000fe23698f97c4a3cda80f74182ef8.jpg",
+     "working_label": "giant flip-calendar milestone",
+     "composition_dna": "Vivid single-color studio field with soft light sweeps; giant rounded-triangle desk flip-calendar hero showing month + huge date; headline above with hand-drawn circle around key word; logo top-center.",
+     "constraints": {
+      "locked": [
+       "oversized physical calendar hero",
+       "circled keyword headline",
+       "single-hue studio field"
+      ],
+      "flexible": [
+       "date/month",
+       "field color -> brand",
+       "headline copy"
+      ]
+     }
+    },
+    {
+     "id": "ANN_03",
+     "source_image": "uploads/0e4a708960ffa0680e25a681f72f72f0.png",
+     "working_label": "torn-calendar save the date",
+     "composition_dna": "Dark gradient field; white UI month-grid card centered, paper TORN OPEN at middle revealing accent-color core with script \"It's Official\" + giant date; one grid cell highlighted; bold Save The Date title above; event logo top-left, theme stamp top-right, handle footer.",
+     "constraints": {
+      "locked": [
+       "calendar UI torn-reveal",
+       "highlighted grid cell",
+       "script + giant date in core"
+      ],
+      "flexible": [
+       "event/date",
+       "core color -> brand",
+       "theme stamp"
+      ]
+     }
+    },
+    {
+     "id": "ANN_04",
+     "source_image": "uploads/(2) Instagram.jfif",
+     "working_label": "countdown clock day-to-go",
+     "composition_dna": "White field with accent arc shapes; giant condensed \"1 DAY TO GO\" interlocked with numeral; oversized analog clock breaking bottom frame, event details (date/time/zone) set INSIDE the clock face; small flying motifs; logo + event badge top corners.",
+     "constraints": {
+      "locked": [
+       "numeral+text interlock",
+       "clock face carrying event details",
+       "bottom frame break"
+      ],
+      "flexible": [
+       "countdown number",
+       "clock color -> brand",
+       "event details"
+      ]
+     }
+    },
+    {
+     "id": "ANN_05",
+     "source_image": "uploads/3d5435081d31e62acf4adf3cc3e7a7d0.png",
+     "working_label": "taped tilted date card teaser",
+     "composition_dna": "Cream field with faint grid; bold charcoal \"Something's Brewing...\" top-left; large tilted accent-color rounded card taped with translucent washi strips carrying huge date + day + \"Block your date!\"; dashed doodle arrow; partnership logo footer.",
+     "constraints": {
+      "locked": [
+       "tilted taped date card",
+       "teaser headline",
+       "dashed doodle arrow"
+      ],
+      "flexible": [
+       "date + copy",
+       "card color -> brand",
+       "partner strip"
+      ]
+     }
+    },
+    {
+     "id": "ANN_06",
+     "source_image": "uploads/b49b2010f6a3d08db437115835645c3f.jpg",
+     "working_label": "location-pin city launch",
+     "composition_dna": "Warm neutral field with faint map lines; giant location-pin shape filled with mono city-landmark collage + accent pin core, landmark signboard and local props popping out; bold stacked \"WE ARE COMING TO YOUR CITY!\" right with accent word + city line; dashed journey path with heart loop; brown corner sweep + site footer.",
+     "constraints": {
+      "locked": [
+       "pin-shaped landmark collage",
+       "dashed journey path",
+       "stacked launch copy"
+      ],
+      "flexible": [
+       "city/landmarks",
+       "accent -> brand",
+       "copy"
+      ]
+     }
+    },
+    {
+     "id": "ANN_07",
+     "source_image": "uploads/1793d6d0bb192d62c11549ccae6cc7d1.jpg",
+     "working_label": "3D numeral anniversary",
+     "composition_dna": "Clean white field; glossy 3D numeral on draped pedestal with ribbon swirls + falling confetti right; left text stack: script \"Celebrating\", highlighted numeral-days chip, boxed keyword, plain sub + contact; logo top-left.",
+     "constraints": {
+      "locked": [
+       "3D numeral + ribbon hero",
+       "script/highlight/box type stack",
+       "white field"
+      ],
+      "flexible": [
+       "milestone number",
+       "accent -> brand",
+       "copy"
+      ]
+     }
+    }
+   ],
+   "community_giveaway": [
+    {
+     "id": "COM_01",
+     "source_image": "uploads/d6d256e1d8b18424bb9490da7e897b40.jpg",
+     "working_label": "winner announcement pinned polaroids",
+     "composition_dna": "Plastic-wrap textured cream top / solid accent bottom split; stacked highlight-bar title \"IT'S WINNER TIME!\"; three pinned polaroids of winners with rank rosettes (1 center-raised), names below; bunting + confetti doodles; thank-you line + handle/contact pill footer.",
+     "constraints": {
+      "locked": [
+       "pinned ranked polaroids",
+       "highlight-bar stacked title",
+       "two-zone split field"
+      ],
+      "flexible": [
+       "winner count/photos",
+       "accent -> brand",
+       "copy"
+      ]
+     }
+    }
+   ],
+   "mockup_scenes_extended": [
+    {
+     "id": "MCK_02",
+     "source_image": "uploads/903af49755ed8f657e5a525a800f765a.jpg",
+     "working_label": "device-pair trust statement",
+     "composition_dna": "Clean white field; giant left-aligned 3-line statement, trust words in accent color; photoreal laptop top-right + phone bottom-left both showing the SAME real landing page; thin divider + two-line service tagline; hashtag footer.",
+     "constraints": {
+      "locked": [
+       "oversized statement + accent words",
+       "diagonal laptop/phone pair",
+       "real UI on screens"
+      ],
+      "flexible": [
+       "statement copy",
+       "accent -> brand",
+       "screen content"
+      ]
+     }
+    }
+   ],
+   "hero_objects_extended": [
+    {
+     "id": "HOB_02",
+     "source_image": "uploads/5884f5fd927dce4cfe441b069995f2c8.jpg",
+     "working_label": "giant clock-rim rider",
+     "composition_dna": "Soft cream studio field; massive tilted analog clock filling lower half, photoreal delivery rider driving ON the clock rim; layered headline (accent word + bold black + light sub); three icon-benefit chips along bottom; logo top-center.",
+     "constraints": {
+      "locked": [
+       "vehicle-on-clock-rim scale play",
+       "lower-half giant object",
+       "benefit chip row"
+      ],
+      "flexible": [
+       "rider/product",
+       "accent -> brand",
+       "benefit copy"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "_MERGED": "All entries promoted to dna.registry.json APPROVED by user (bulk) 2026-10-17; this file retained as drafting history."
+}

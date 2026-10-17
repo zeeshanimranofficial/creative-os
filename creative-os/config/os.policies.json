@@ -1,0 +1,103 @@
+{
+ "schema_version": "1.0",
+ "_comment": "OS-level operating policies (user-ordered 2026-10-17). These sit ABOVE brand configs and cannot be overridden by onboarding.",
+ "reference_intake_policy": {
+  "rule": "A new reference is NEVER saved from an image alone or a DNA JSON alone.",
+  "flow": [
+   "1. If only one half is provided (image OR json), ask the user for the other half — or offer to draft the missing DNA from the image for approval.",
+   "2. ANALYZE the pair against the existing library + rules BEFORE saving: schema validity, duplicate/near-duplicate check vs existing DNA, conflict check vs hard rules (purged-DNA tombstones, brand restrictions, platform policies), and image<->json agreement (the JSON must actually describe THAT image).",
+   "3. Only after the analysis passes AND the user approves does the entry enter the active registry; otherwise it stays in pending_intake with findings reported."
+  ],
+  "never": "silently merge new references into the active library"
+ },
+ "icon_sourcing_policy": {
+  "rule": "Icons/logos of software, tools, social platforms, TV channels, or well-known people are sourced in REALTIME from the web (official vectors/PNGs preferred, e.g. Iconify/simple-icons/brand press kits) — never drawn from memory or invented.",
+  "recolor": "Generic icons and vectors MAY be recolored to brand colors. Third-party company logos keep official colors unless the design is explicitly monochrome — never distort or redraw a trademark.",
+  "selection": "Pick the variant most suitable for the design (weight, style, filled/outline) and keep all icons in one design from one consistent style family.",
+  "notes": "Iconify requires a Mozilla User-Agent header. Engagement trio (Save/Repost/Like) always uses the brand's own icon set, never sourced."
+ },
+ "background_system_policy": {
+  "status": "APPROVED by user 2026-10-17",
+  "rule": "Each brand locks exactly 3 background variants; every creative uses one. ONE variant family per carousel (QA 26). DNA gates what each variant may be.",
+  "variant_A_primary": "Default/dominant background of the series — the recognizable visual foundation. May be a solid brand color, a neutral, a texture, or an image-led background depending on the approved DNA.",
+  "variant_B_contrast": "A charcoal, light, or complementary variation ALREADY permitted by the DNA. For emphasis, contrast, or alternating sections — never a different design language.",
+  "variant_C_expressive": "A texture, collage, photographic scene, gradient, or other treatment — ONLY if the selected DNA allows it. Not an excuse to mix in an unrelated style.",
+  "sample_brand_defaults": {
+   "A": "warm cream #F5EFE6 flat / subtle paper grain",
+   "B": "charcoal #1A1A1A dark studio",
+   "C": "DNA-gated expressive (orange #FF5A00 field, paper texture, collage, duotone photo — per selected DNA)"
+  }
+ },
+ "pending_intake": {
+  "batch_2026-10-17": {
+   "status": "MERGED to registry (bulk approval 2026-10-17)",
+   "files": {
+    "N00": [
+     "uploads/1fcd0581857c907ee882e3d235df9a63.png",
+     "curtain-reveal teaser announcement (tug-of-war figures)",
+     "announcement/teaser"
+    ],
+    "N01": [
+     "uploads/598db882a7add8e676ed41380ac26852.jpg",
+     "tilted numbered myth-cards on blue grid",
+     "myth-busting listicle"
+    ],
+    "N02": [
+     "uploads/6fef0717fe2f0b896b33a5b5882058e8.jpg",
+     "clipboard week1/week2 results + product bottle",
+     "before-after proof (product)"
+    ],
+    "N03": [
+     "uploads/3dde3e6e468dd6b3d6f27520a044e34f.jpg",
+     "black collage BEFORE/AFTER polaroids, AI product shot",
+     "before-after (dark editorial)"
+    ],
+    "N04": [
+     "uploads/36cb35c7cd576aa02a27ab660c315197.jpg",
+     "split 'Designers before/after AI' text-selection motif",
+     "before-after (typographic split)"
+    ],
+    "N05": [
+     "uploads/83f09dd432cf6bbb02ea6b39272bfda0.png",
+     "light-grey before/after polaroid pair",
+     "before-after (minimal)"
+    ],
+    "N06": [
+     "uploads/0e7e9faa724dff7e917128483fd22e33.jpg",
+     "torn-paper split sad-grey vs happy-red person",
+     "before-after (torn split, people)"
+    ],
+    "N07": [
+     "uploads/5b5af541115e73df20f9417341572865.jpg",
+     "giant 3D Instagram-post mockup held by person outdoors",
+     "giant-mockup services"
+    ],
+    "N08": [
+     "uploads/7ef10e68e424eb51ee17db3f61699c22.jpg",
+     "pencil with ribbon banners services infographic",
+     "data/services infographic"
+    ],
+    "N09": [
+     "uploads/d9e27ca132ca09026e32d51c895b375c.jpg",
+     "two-tone wall month transition Sep->Oct, walking figure",
+     "occasion month-transition"
+    ],
+    "N10": [
+     "uploads/b82d822af4ba75eb65a77491be7487eb.jpg",
+     "hanging bulbs one lit purple, next-level headline",
+     "hero-object growth"
+    ],
+    "N11": [
+     "uploads/6e91c0724c51acced7c919870aa00494.png",
+     "blue SEO listicle infographic with flat illustrations",
+     "tall infographic listicle"
+    ]
+   },
+   "gap_coverage": "fills previous gaps: before/after (5), data-infographics (2), announcement/teaser, month-transition occasion"
+  },
+  "batch2_2026-10-17": {
+   "status": "MERGED to registry (bulk approval 2026-10-17)",
+   "ids": "INF_03-08, NAT_01-03, FUN_01-02, ANN_02-07, COM_01, MCK_02, HOB_02"
+  }
+ }
+}

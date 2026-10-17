@@ -1,0 +1,1701 @@
+{
+ "design_dna_library": [
+  {
+   "design_id": "DNA_01",
+   "design_name": "Dark Editorial Calendar Announcement",
+   "reference_concept": "Monthly announcement using a physical calendar page",
+   "design_style": [
+    "premium editorial",
+    "minimalist",
+    "photorealistic 3D",
+    "dark luxury",
+    "Swiss grid design"
+   ],
+   "canvas": {
+    "orientation": "portrait",
+    "aspect_ratio": "4:5",
+    "background": "near-black charcoal",
+    "composition": "center-weighted with generous negative space"
+   },
+   "color_palette": {
+    "background": "#111111",
+    "grid_lines": "#555555",
+    "primary_text": "#F5F5F5",
+    "secondary_text": "#A8A8A8",
+    "accent_orange": "#FF7900",
+    "accent_teal": "#16A99B",
+    "paper": "#F0EFEB"
+   },
+   "background_dna": {
+    "base": "matte black textured surface",
+    "structure": "large calendar grid extending beyond the canvas",
+    "grid": "thin gray horizontal and vertical lines",
+    "lighting": "subtle central illumination with darkened corners",
+    "atmosphere": "cinematic, sophisticated, understated"
+   },
+   "hero_object": {
+    "object": "single off-white paper calendar note",
+    "shape": "large rounded rectangle",
+    "rotation": "slightly tilted clockwise",
+    "material": "fine-grain textured paper",
+    "attachment": "translucent green pushpin",
+    "rendering": "photorealistic 3D with realistic contact shadows",
+    "placement": "center of the canvas, overlapping calendar grid numbers"
+   },
+   "typography": {
+    "headline": "large expressive handwritten script paired with bold sans-serif",
+    "supporting_text": "small clean geometric sans-serif",
+    "hierarchy": [
+     "calendar message on paper",
+     "large surrounding calendar numerals",
+     "small upper announcement",
+     "bottom supporting sentence"
+    ],
+    "treatment": "high contrast, carefully controlled line spacing"
+   },
+   "graphic_elements": {
+    "calendar_numbers": "oversized cropped white and gray numerals",
+    "decorative_marks": "minimal geometric symbol shapes without identity elements",
+    "shadows": "soft, directional shadows beneath paper and pin"
+   },
+   "layout_rules": [
+    "Keep the central paper note as the dominant focal point.",
+    "Use calendar grid lines to establish structure and depth.",
+    "Allow oversized numerals to be partially hidden by the paper.",
+    "Maintain ample empty space in the upper and lower areas.",
+    "Use accent colors sparingly.",
+    "Place the supporting sentence near the bottom with centered alignment."
+   ],
+   "lighting_and_rendering": {
+    "key_light": "soft overhead studio light",
+    "ambient_light": "very low",
+    "shadow_quality": "soft but visible",
+    "depth": "strong foreground-background separation",
+    "finish": "premium photorealistic compositing"
+   },
+   "best_use_cases": [
+    "monthly announcements",
+    "milestone reminders",
+    "campaign launches",
+    "event countdowns"
+   ],
+   "avoid": [
+    "flat paper without texture",
+    "bright gradients",
+    "excessive decorative elements",
+    "too many accent colors",
+    "crowded supporting text"
+   ]
+  },
+  {
+   "design_id": "DNA_02",
+   "design_name": "Tactile Calendar Editorial Collage",
+   "reference_concept": "Appointment or booking announcement integrated into a calendar",
+   "design_style": [
+    "editorial collage",
+    "analog print",
+    "Swiss typography",
+    "handwritten annotations",
+    "photographic cutout"
+   ],
+   "canvas": {
+    "orientation": "portrait",
+    "aspect_ratio": "4:5",
+    "background": "warm white paper",
+    "composition": "diagonal editorial arrangement"
+   },
+   "color_palette": {
+    "paper_white": "#F5F4F0",
+    "grid_charcoal": "#292929",
+    "headline_black": "#171923",
+    "annotation_red": "#D9474B",
+    "shadow_gray": "#B7B5B0"
+   },
+   "background_dna": {
+    "base": "white paper with subtle fibrous grain",
+    "structure": "oversized calendar cells separated by dark lines",
+    "perspective": "slightly rotated and cropped calendar grid",
+    "texture": "visible tactile paper grain",
+    "mood": "creative, tactile, editorial"
+   },
+   "composition": {
+    "primary_element": "large uppercase headline positioned left of center",
+    "secondary_element": "red handwritten call-to-action overlapping the headline area",
+    "photographic_element": "monochrome megaphone and hand cutout entering from the right",
+    "supporting_copy": "handwritten-style paragraph positioned diagonally below the headline",
+    "calendar_details": "small date numerals near grid intersections",
+    "visual_flow": "upper-left headline to upper-right annotation to lower-center copy"
+   },
+   "typography": {
+    "headline": "heavy condensed or bold sans-serif, uppercase",
+    "call_to_action": "loose red brush lettering",
+    "body": "thin handwritten cursive",
+    "date_labels": "small regular sans-serif",
+    "contrast": "bold typesetting against fine handwritten details"
+   },
+   "graphic_elements": {
+    "megaphone": "grayscale photographic cutout",
+    "annotation": "hand-drawn red emphasis strokes",
+    "outline_shape": "large red hand-drawn punctuation or geometric outline near the lower-left",
+    "grid_lines": "strong charcoal strokes with perspective"
+   },
+   "layout_rules": [
+    "Treat the calendar grid as the foundational layout system.",
+    "Use oversized uppercase type as the main attention anchor.",
+    "Allow handwritten text to overlap or sit close to the headline.",
+    "Use one grayscale photographic object to contrast with the flat typography.",
+    "Keep red annotations energetic but limited to selected areas.",
+    "Create an imperfect handmade appearance without sacrificing legibility."
+   ],
+   "lighting_and_rendering": {
+    "lighting": "soft neutral illumination",
+    "photography": "high-contrast grayscale cutout",
+    "shadows": "subtle natural paper and cutout shadows",
+    "finish": "printed editorial collage"
+   },
+   "best_use_cases": [
+    "appointment booking",
+    "limited-time offers",
+    "event promotions",
+    "deadline reminders",
+    "service announcements"
+   ],
+   "avoid": [
+    "perfectly symmetrical composition",
+    "glossy digital gradients",
+    "excessive photographic objects",
+    "overly decorative handwriting",
+    "weak headline contrast"
+   ]
+  },
+  {
+   "design_id": "DNA_03",
+   "design_name": "Photographic Calendar Event Poster",
+   "reference_concept": "Celebration announcement with an oversized digital calendar",
+   "design_style": [
+    "photorealistic composite",
+    "modern editorial",
+    "event photography",
+    "bold typography",
+    "digital interface design"
+   ],
+   "canvas": {
+    "orientation": "portrait",
+    "aspect_ratio": "4:5",
+    "background": "full-frame overhead event photograph",
+    "composition": "centered floating calendar interface"
+   },
+   "color_palette": {
+    "background_red": "#853323",
+    "carpet_dark": "#47231D",
+    "calendar_white": "#FFFFFF",
+    "text_black": "#111111",
+    "highlight_lime": "#C8FF00",
+    "secondary_gray": "#D5D5D5"
+   },
+   "background_dna": {
+    "subject": "overhead crowd and patterned floor or carpet",
+    "camera_angle": "bird's-eye view",
+    "depth": "foreground people slightly blurred to create motion",
+    "texture": "rich photographic detail with visible patterned surfaces",
+    "treatment": "warm cinematic color grading"
+   },
+   "hero_object": {
+    "object": "large white digital calendar card",
+    "shape": "rounded rectangle",
+    "position": "centered and occupying most of the canvas",
+    "surface": "clean white interface",
+    "depth": "slight shadow separating it from the photograph",
+    "header": "year and month navigation with small interface symbols",
+    "body": "seven-column calendar grid",
+    "emphasis": "large fluorescent lime highlight behind the main event label"
+   },
+   "typography": {
+    "main_message": "oversized bold black sans-serif",
+    "date_number": "large clean numerals",
+    "month_label": "large medium-weight sans-serif",
+    "event_qualifier": "smaller bold uppercase text",
+    "hierarchy": [
+     "highlighted event label",
+     "month and year",
+     "calendar dates",
+     "small interface labels"
+    ]
+   },
+   "graphic_elements": {
+    "calendar_photos": "small tilted photographic prints overlapping calendar cells",
+    "date_emphasis": "hand-drawn circular outline around one selected date",
+    "interface_symbols": "thin black search, navigation, and utility icons",
+    "highlight": "flat neon-lime rectangular bar"
+   },
+   "layout_rules": [
+    "Use the photograph as a full-bleed background.",
+    "Place the calendar card directly in the center.",
+    "Make the event name dramatically larger than ordinary date numbers.",
+    "Use a bright highlight strip for the primary announcement.",
+    "Keep the calendar interface crisp and visually organized.",
+    "Use small photographs as secondary storytelling details."
+   ],
+   "lighting_and_rendering": {
+    "background": "natural ambient event lighting",
+    "calendar": "bright neutral white",
+    "shadow": "subtle floating-card shadow",
+    "finish": "realistic photograph combined with polished interface graphics"
+   },
+   "best_use_cases": [
+    "religious celebrations",
+    "community events",
+    "public holidays",
+    "festival announcements",
+    "date-specific campaigns"
+   ],
+   "avoid": [
+    "unreadable calendar numerals",
+    "incorrect date alignment",
+    "oversized secondary interface icons",
+    "too many bright highlight colors",
+    "flat background photography"
+   ]
+  },
+  {
+   "design_id": "DNA_04",
+   "design_name": "Oversized Typography Testimonial",
+   "reference_concept": "Customer review presented as a bold graphic composition",
+   "design_style": [
+    "typographic maximalism",
+    "Swiss-inspired editorial",
+    "minimalist testimonial design",
+    "high-contrast graphic art",
+    "oversized typography"
+   ],
+   "canvas": {
+    "orientation": "portrait",
+    "aspect_ratio": "4:5",
+    "background": "deep forest green",
+    "composition": "giant cropped typography behind a central testimonial card"
+   },
+   "color_palette": {
+    "forest_green": "#075D39",
+    "cream": "#FFF8CF",
+    "text_green": "#075D39",
+    "star_gold": "#F2C84B",
+    "card_cream": "#FFF9D9"
+   },
+   "background_dna": {
+    "base": "solid saturated green",
+    "typography": "enormous cream-colored lowercase letterforms",
+    "cropping": "letters extend beyond all four edges",
+    "scale": "background letters occupy most of the canvas",
+    "contrast": "strong contrast between cream and green"
+   },
+   "hero_object": {
+    "object": "large testimonial card",
+    "shape": "wide rounded rectangle",
+    "position": "centered horizontally, slightly above the vertical midpoint",
+    "surface": "solid pale cream",
+    "depth": "subtle dark green shadow",
+    "content_structure": [
+     "small circular customer portrait",
+     "customer name",
+     "five-star rating",
+     "short review paragraph"
+    ]
+   },
+   "typography": {
+    "background": "ultra-large heavy lowercase sans-serif",
+    "customer_name": "bold dark green or near-black sans-serif",
+    "review_body": "regular sans-serif with comfortable line spacing",
+    "micro_labels": "small bold sans-serif",
+    "hierarchy": [
+     "oversized background letterforms",
+     "testimonial card",
+     "customer name",
+     "star rating",
+     "review copy"
+    ]
+   },
+   "graphic_elements": {
+    "quotation_marks": "oversized decorative cream quotation marks",
+    "hashtags": "small rotated text embedded into background letterforms",
+    "portrait": "small circular photographic crop",
+    "rating": "five small gold stars"
+   },
+   "layout_rules": [
+    "Use giant cropped typography as the background architecture.",
+    "Keep the testimonial card horizontally dominant.",
+    "Create strong separation between background and review text.",
+    "Limit the review to a concise paragraph.",
+    "Use rounded card corners to soften the oversized geometric typography.",
+    "Preserve ample inner padding around the testimonial."
+   ],
+   "lighting_and_rendering": {
+    "lighting": "flat graphic lighting",
+    "shadows": "subtle card elevation",
+    "surface_finish": "mostly matte",
+    "depth": "created through scale, overlap, and shadow rather than 3D objects"
+   },
+   "best_use_cases": [
+    "customer testimonials",
+    "review highlights",
+    "social proof",
+    "customer success stories",
+    "reputation-building posts"
+   ],
+   "avoid": [
+    "small background typography",
+    "busy photographic backgrounds",
+    "too many testimonial cards",
+    "low-contrast review text",
+    "excessive shadows"
+   ]
+  },
+  {
+   "design_id": "DNA_05",
+   "design_name": "Minimal White 3D Service Orbital",
+   "reference_concept": "Multiple service categories organized around a central glowing object",
+   "design_style": [
+    "minimalist 3D",
+    "futuristic corporate",
+    "clean product visualization",
+    "soft glassmorphism",
+    "premium technology advertising"
+   ],
+   "canvas": {
+    "orientation": "portrait",
+    "aspect_ratio": "4:5",
+    "background": "white with subtle light gray falloff",
+    "composition": "centered vertical product scene"
+   },
+   "color_palette": {
+    "background_white": "#FFFFFF",
+    "text_black": "#171717",
+    "accent_lime": "#B9F51B",
+    "glass_white": "#F5F7F0",
+    "soft_gray": "#E4E5DF"
+   },
+   "background_dna": {
+    "base": "clean white studio environment",
+    "gradient": "very subtle gray around the edges",
+    "negative_space": "large empty upper and side areas",
+    "mood": "bright, clean, innovative"
+   },
+   "hero_object": {
+    "object": "three-dimensional lightbulb with a stylized brain inside",
+    "position": "centered in the lower-middle area",
+    "material": "translucent glass with glossy reflections",
+    "internal_detail": "neon-lime brain combining organic contours and circuit patterns",
+    "base": "metallic threaded bulb base",
+    "lighting": "soft internal glow",
+    "support": "thin tablet or screen beneath the bulb"
+   },
+   "secondary_objects": {
+    "elements": "seven translucent floating spheres",
+    "arrangement": "orbiting around the central bulb",
+    "material": "clear glass with subtle reflections and refraction",
+    "labels": "short uppercase service category labels",
+    "depth": "different sphere sizes and slight differences in distance"
+   },
+   "typography": {
+    "headline": "heavy black sans-serif",
+    "headline_treatment": "two stacked phrases inside rectangular label treatments",
+    "primary_highlight": "lime-green rectangle behind the first phrase",
+    "secondary_label": "white rectangle with a thin gray outline",
+    "sphere_labels": "bold uppercase sans-serif",
+    "alignment": "centered"
+   },
+   "graphic_elements": {
+    "headline_frames": "simple rectangular shapes",
+    "floating_spheres": "glossy transparent glass objects",
+    "light_effect": "soft lime glow beneath the bulb",
+    "floor": "subtle reflective studio surface"
+   },
+   "layout_rules": [
+    "Reserve the top section for a large two-part headline.",
+    "Place the 3D hero object in the lower half.",
+    "Arrange secondary service labels in an orbit around the hero.",
+    "Make the central object larger than every surrounding sphere.",
+    "Use green as the primary visual accent.",
+    "Keep all labels readable and avoid sphere overlap with the headline."
+   ],
+   "lighting_and_rendering": {
+    "key_light": "large diffused studio light",
+    "rim_light": "subtle green reflections",
+    "materials": "clear glass, polished metal, and smooth plastic",
+    "shadow": "soft contact shadow beneath the tablet",
+    "render_quality": "high-resolution photorealistic 3D"
+   },
+   "best_use_cases": [
+    "service overviews",
+    "technology offerings",
+    "digital agency capabilities",
+    "AI product explanations",
+    "multi-service promotional graphics"
+   ],
+   "avoid": [
+    "dark or dramatic backgrounds",
+    "opaque plastic spheres",
+    "oversaturated neon effects",
+    "cluttered service labels",
+    "unrealistic floating-object shadows"
+   ]
+  },
+  {
+   "design_id": "DNA_06",
+   "design_name": "Blue Modular Service Blocks",
+   "reference_concept": "A service portfolio communicated through interlocking rectangular modules",
+   "design_style": [
+    "Swiss graphic design",
+    "minimal corporate",
+    "geometric editorial",
+    "modular information design",
+    "bold vector graphics"
+   ],
+   "canvas": {
+    "orientation": "portrait",
+    "aspect_ratio": "4:5",
+    "background": "white with subtle embossed paper texture",
+    "composition": "centered headline, horizontal modular arrangement, bottom slogan"
+   },
+   "color_palette": {
+    "background_white": "#FAFAFA",
+    "primary_blue": "#273B82",
+    "secondary_blue": "#344DC1",
+    "text_black": "#111111",
+    "text_white": "#FFFFFF",
+    "texture_gray": "#E9EAF0"
+   },
+   "background_dna": {
+    "base": "off-white lightly textured surface",
+    "texture": "subtle embossed or fibrous paper grain",
+    "decoration": "large blue curved shapes partially cropped at canvas edges",
+    "visual_weight": "low compared with central modules"
+   },
+   "composition": {
+    "headline": "centered in the upper third",
+    "main_graphic": "horizontal row of adjacent blue rectangular blocks",
+    "special_module": "one contrasting blue rectangle extending downward from the central row",
+    "closing_line": "centered near the lower third",
+    "edge_shapes": "oversized cropped blue curves in opposing corners"
+   },
+   "typography": {
+    "headline": "large blue sans-serif",
+    "highlighted_words": "white bold text inside a dark blue rectangle",
+    "module_labels": "bold white sans-serif rotated 90 degrees",
+    "closing_line": "black and blue mixed-weight sans-serif",
+    "hierarchy": [
+     "headline",
+     "modular service blocks",
+     "closing statement"
+    ]
+   },
+   "graphic_elements": {
+    "blocks": "solid blue vector rectangles with small corner radii at outer ends",
+    "separators": "thin white vertical dividers",
+    "offset_module": "single blue block overlapping the main horizontal alignment",
+    "decorative_shapes": "cropped blue rings and curved forms",
+    "shadows": "minimal, with subtle elevation on the offset module"
+   },
+   "layout_rules": [
+    "Use a centered headline with one emphasized phrase.",
+    "Organize service names inside a connected horizontal structure.",
+    "Keep the primary blocks aligned along a common baseline.",
+    "Use a single offset module to create visual tension.",
+    "Rotate service labels consistently.",
+    "Keep the bottom slogan separate from the modular graphic."
+   ],
+   "lighting_and_rendering": {
+    "style": "primarily flat vector design",
+    "shadows": "soft and restrained",
+    "texture": "subtle paper grain",
+    "depth": "small overlap and shadow effects only"
+   },
+   "best_use_cases": [
+    "service lists",
+    "agency capabilities",
+    "software features",
+    "training offerings",
+    "business solution portfolios"
+   ],
+   "avoid": [
+    "uneven module spacing",
+    "inconsistent text rotation",
+    "too many shades of blue",
+    "complex illustrations",
+    "heavy gradients or deep 3D extrusion"
+   ]
+  },
+  {
+   "design_id": "DNA_07",
+   "design_name": "Red Photorealistic Social Advertising Composite",
+   "reference_concept": "High-impact promotional creative showing a team overwhelmed by customer communications",
+   "design_style": [
+    "bold social media advertising",
+    "photorealistic compositing",
+    "high-contrast commercial design",
+    "3D prop photography",
+    "UI overlay graphics"
+   ],
+   "canvas": {
+    "orientation": "portrait",
+    "aspect_ratio": "4:5",
+    "background": "solid vivid red",
+    "composition": "top and bottom human subjects surrounding a central white text panel"
+   },
+   "color_palette": {
+    "background_red": "#F3162B",
+    "panel_white": "#FFFFFF",
+    "text_black": "#111111",
+    "accent_red": "#D92235",
+    "ui_white": "#FFFFFF",
+    "shadow_gray": "#C9C9C9"
+   },
+   "background_dna": {
+    "base": "uniform vivid red",
+    "finish": "clean and saturated",
+    "visual_role": "creates urgency and separates foreground cutouts"
+   },
+   "hero_objects": {
+    "top_subject": "professional customer-service worker wearing a white shirt and headset",
+    "bottom_subject": "second professional customer-service worker holding an overflowing basket of paper",
+    "main_prop": "large red cylindrical container filled with loose sheets",
+    "secondary_prop": "black woven basket with paper spilling out",
+    "photographic_style": "commercial studio photography with realistic skin and fabric detail",
+    "placement": "human subjects positioned above and below the central message panel"
+   },
+   "central_panel": {
+    "shape": "wide white horizontal rectangle with softly rounded corners",
+    "position": "across the middle of the canvas",
+    "content": "short promotional headline with selected red-highlighted words",
+    "depth": "subtle drop shadow",
+    "role": "main text readability zone"
+   },
+   "typography": {
+    "headline": "large black bold sans-serif",
+    "emphasis": "red words or phrases embedded within the headline",
+    "secondary_labels": "small black bold sans-serif",
+    "line_spacing": "tight but readable",
+    "alignment": "left aligned inside the central panel"
+   },
+   "graphic_elements": {
+    "floating_ui": "small white pill-shaped interface labels",
+    "icons": "simple red communication and workflow symbols",
+    "paper": "multiple realistic sheets with natural bends and overlaps",
+    "shadows": "soft shadows beneath UI labels and foreground objects"
+   },
+   "layout_rules": [
+    "Use a vivid red background across the entire canvas.",
+    "Create a strong central white panel that crosses the composition.",
+    "Place human subjects above and below the panel.",
+    "Use an oversized physical object to communicate the core problem visually.",
+    "Position floating interface labels around the hero objects.",
+    "Keep the headline dominant and the supporting labels secondary.",
+    "Ensure foreground subjects do not obscure the central message."
+   ],
+   "lighting_and_rendering": {
+    "key_light": "soft commercial studio lighting",
+    "subject_lighting": "bright, natural skin tones",
+    "shadows": "realistic contact and object shadows",
+    "materials": "detailed paper, woven basket, painted metal, and fabric",
+    "finish": "photorealistic advertising composite"
+   },
+   "best_use_cases": [
+    "software product advertising",
+    "workflow automation",
+    "customer service solutions",
+    "sales team tools",
+    "business process promotions"
+   ],
+   "avoid": [
+    "flat cartoon characters",
+    "low-resolution people",
+    "too many floating interface labels",
+    "text placed over complex photographic areas",
+    "red-on-red text without contrast"
+   ]
+  },
+  {
+   "design_id": "DNA_08",
+   "design_name": "Minimal Blue Paper Note",
+   "reference_concept": "Short brand strategy insight presented as a physical note on a geometric background",
+   "design_style": [
+    "minimal editorial",
+    "Swiss grid design",
+    "paper collage",
+    "corporate thought leadership",
+    "restrained 3D"
+   ],
+   "canvas": {
+    "orientation": "portrait",
+    "aspect_ratio": "4:5",
+    "background": "white grid paper",
+    "composition": "large tilted note with a blue geometric object in the upper-left"
+   },
+   "color_palette": {
+    "paper_white": "#FFFFFF",
+    "grid_gray": "#E1E3E7",
+    "primary_blue": "#1554E8",
+    "text_black": "#202020",
+    "shadow_gray": "#D3D3D3"
+   },
+   "background_dna": {
+    "base": "white graph paper",
+    "grid": "thin pale gray lines at regular intervals",
+    "upper_left_object": "large cropped blue folder or geometric paper shape",
+    "negative_space": "wide open margins around the main note"
+   },
+   "hero_object": {
+    "object": "large white paper note",
+    "shape": "portrait-oriented rectangular sheet",
+    "rotation": "slight clockwise tilt",
+    "material": "smooth matte paper",
+    "attachment": "small metallic paper clip near the upper-left edge",
+    "shadow": "soft realistic shadow beneath the sheet",
+    "placement": "centered and occupying most of the canvas"
+   },
+   "typography": {
+    "headline": "large bold blue lowercase sans-serif",
+    "body": "regular black sans-serif",
+    "headline_alignment": "left aligned",
+    "body_alignment": "left aligned",
+    "hierarchy": [
+     "short blue headline",
+     "one short black subheading",
+     "brief explanatory paragraph"
+    ],
+    "spacing": "generous separation between text groups"
+   },
+   "graphic_elements": {
+    "paper_clip": "photorealistic metallic clip",
+    "background_folder": "bold cobalt-blue geometric form cropped by canvas edges",
+    "grid": "thin low-contrast lines",
+    "shadow": "natural paper elevation"
+   },
+   "layout_rules": [
+    "Make the white note the main content surface.",
+    "Use blue only for the headline and major background geometry.",
+    "Place the headline in the upper-middle region of the note.",
+    "Keep the supporting paragraph compact and easy to scan.",
+    "Leave generous blank space around the note.",
+    "Use slight rotation to make the composition feel physical rather than flat."
+   ],
+   "lighting_and_rendering": {
+    "lighting": "soft neutral studio light",
+    "material_finish": "matte paper with metallic clip highlights",
+    "shadows": "soft ambient occlusion",
+    "depth": "subtle layered paper construction"
+   },
+   "best_use_cases": [
+    "branding advice",
+    "marketing insights",
+    "business lessons",
+    "short educational posts",
+    "thought leadership"
+   ],
+   "avoid": [
+    "busy backgrounds",
+    "excessive decoration",
+    "long blocks of text",
+    "strong gradients",
+    "heavy shadows"
+   ]
+  },
+  {
+   "design_id": "DNA_09",
+   "design_name": "Clean Blue Editorial Explainer",
+   "reference_concept": "Educational social post explaining how audiences evaluate content",
+   "design_style": [
+    "modern editorial",
+    "minimalist corporate",
+    "Swiss typography",
+    "flat vector UI",
+    "information design"
+   ],
+   "canvas": {
+    "orientation": "portrait",
+    "aspect_ratio": "4:5",
+    "background": "white with very subtle cool blue edge gradients",
+    "composition": "centered headline, two conversational panels, closing statement"
+   },
+   "color_palette": {
+    "background_white": "#FFFFFF",
+    "primary_blue": "#2149BD",
+    "deep_blue": "#1839A4",
+    "text_black": "#171717",
+    "panel_white": "#FFFFFF",
+    "outline_blue": "#6478B7",
+    "pale_blue": "#EEF2FF"
+   },
+   "background_dna": {
+    "base": "clean white",
+    "gradient": "subtle cool blue tint near outer edges",
+    "decoration": "small partially cropped social interface symbols at the edges",
+    "negative_space": "large clean margins"
+   },
+   "composition": {
+    "top_icon": "small blue circular question-mark symbol",
+    "headline": "large centered multi-line statement",
+    "highlight": "one keyword rendered in vivid blue",
+    "subtitle": "short centered explanatory line",
+    "information_panels": "two offset rounded rectangles",
+    "closing_statement": "centered concluding statement with a blue-highlighted phrase",
+    "footer": "small restrained text at the bottom"
+   },
+   "typography": {
+    "headline": "heavy black geometric sans-serif",
+    "highlighted_keyword": "same typeface in vivid blue",
+    "subtitle": "medium-weight black sans-serif",
+    "panel_text": "medium sans-serif with selected blue symbols",
+    "closing_text": "large regular sans-serif with bold emphasis",
+    "hierarchy": [
+     "headline",
+     "subtitle",
+     "question panels",
+     "closing statement"
+    ]
+   },
+   "graphic_elements": {
+    "first_panel": "white rounded rectangle with thin blue outline",
+    "second_panel": "solid blue rounded rectangle with white text",
+    "directional_icons": "simple black arrows inside thin circular outlines",
+    "bullet_symbols": "small blue asterisk-like marks",
+    "shadows": "very subtle blue-gray shadows"
+   },
+   "layout_rules": [
+    "Center the main headline in the upper section.",
+    "Emphasize one important keyword using blue.",
+    "Use two offset panels to create a conversational visual rhythm.",
+    "Keep the outlined panel visually lighter than the filled blue panel.",
+    "Use arrows to guide the reader between the two panels.",
+    "Separate the conclusion from the information panels with clear whitespace.",
+    "Keep the entire design easy to scan in a few seconds."
+   ],
+   "lighting_and_rendering": {
+    "style": "flat vector with subtle interface depth",
+    "shadows": "light and diffuse",
+    "surface_finish": "clean and digital",
+    "contrast": "strong black, blue, and white separation"
+   },
+   "best_use_cases": [
+    "educational carousels",
+    "marketing psychology",
+    "audience behavior",
+    "branding insights",
+    "digital strategy explainers"
+   ],
+   "avoid": [
+    "too many text panels",
+    "unnecessary illustrations",
+    "oversized decorative icons",
+    "weak typographic hierarchy",
+    "long unbroken paragraphs"
+   ]
+  },
+  {
+   "design_id": "DNA_10",
+   "design_name": "Blue Clipboard Typography Poster",
+   "reference_concept": "Educational carousel cover using a physical paper sheet and oversized headline",
+   "design_style": [
+    "bold editorial",
+    "physical paper collage",
+    "Swiss design",
+    "modern social media graphic",
+    "3D stationery mockup"
+   ],
+   "canvas": {
+    "orientation": "portrait",
+    "aspect_ratio": "4:5",
+    "background": "saturated cobalt blue grid",
+    "composition": "large central paper sheet layered over offset pages"
+   },
+   "color_palette": {
+    "background_blue": "#1268D8",
+    "grid_blue": "#3882E6",
+    "paper_white": "#F8F7F3",
+    "headline_black": "#050505",
+    "highlight_navy": "#0D1C34",
+    "selection_blue": "#79A9E8",
+    "tape_beige": "#D8CCB5"
+   },
+   "background_dna": {
+    "base": "vivid cobalt-blue field",
+    "grid": "thin lighter-blue square grid",
+    "depth": "subtle tonal variation",
+    "mood": "energetic, modern, organized"
+   },
+   "hero_object": {
+    "object": "large off-white clipboard-style paper sheet",
+    "shape": "portrait rectangle with rounded corners",
+    "position": "centered and covering most of the background",
+    "material": "slightly textured thick paper",
+    "layers": "additional white sheets offset behind the main page",
+    "attachment": "metal binder clip attached to the right edge",
+    "upper_attachment": "large metallic paper clip near the top-left corner",
+    "shadow": "realistic soft shadows between layered sheets"
+   },
+   "typography": {
+    "headline": "very large bold condensed sans-serif",
+    "case": "uppercase and title case mixed according to phrase structure",
+    "emphasis": "selected words placed inside pale blue outlined rectangular frames",
+    "secondary_heading": "bold black condensed sans-serif",
+    "supporting_line": "small regular sans-serif",
+    "alignment": "centered overall, with strong stacked headline lines",
+    "hierarchy": [
+     "oversized headline",
+     "secondary explanatory phrase",
+     "small directional call-to-action"
+    ]
+   },
+   "graphic_elements": {
+    "selection_frames": "thin pale-blue rectangular outlines with small circular corner handles",
+    "megaphone": "small dimensional blue megaphone near the upper-right area",
+    "motion_marks": "short blue radiating lines",
+    "tape_strip": "beige torn-paper strip behind the small bottom message",
+    "binder_clip": "realistic silver metal clip",
+    "paper_clip": "realistic reflective metal wire"
+   },
+   "layout_rules": [
+    "Use the blue grid as a consistent background system.",
+    "Layer a large paper sheet over the background.",
+    "Build the headline from several large stacked lines.",
+    "Use selection-box graphics to make selected words feel actively editable.",
+    "Add one small 3D object to reinforce the communication theme.",
+    "Place the supporting line on a small tape-like strip near the bottom.",
+    "Maintain strong text contrast and a clear central alignment."
+   ],
+   "lighting_and_rendering": {
+    "key_light": "soft upper-left studio lighting",
+    "metal": "realistic reflective highlights",
+    "paper": "matte texture with gentle surface grain",
+    "shadows": "layered contact shadows",
+    "render_quality": "high-resolution 3D stationery mockup combined with vector typography"
+   },
+   "best_use_cases": [
+    "carousel cover slides",
+    "educational marketing posts",
+    "copywriting lessons",
+    "content strategy",
+    "checklists and frameworks"
+   ],
+   "avoid": [
+    "thin or weak headline typography",
+    "too many stationery objects",
+    "excessive paper layers",
+    "low-contrast blue-on-blue details",
+    "misaligned headline frames",
+    "unreadable small supporting text"
+   ]
+  },
+  {
+   "design_id": "DNA_11",
+   "design_name": "Purple Layered Social Media Challenge Poll",
+   "reference_concept": "A question-led social post with four numbered challenge options, layered purple bars and a looping path graphic.",
+   "design_style": "Modern social-media editorial; clean corporate design with soft dimensional cards and a faint business-planning backdrop.",
+   "canvas": {
+    "aspect_ratio": "4:5 portrait",
+    "recommended_pixels": "1080x1350",
+    "safe_margins": "Keep headline and all four options comfortably inside the canvas."
+   },
+   "color_palette": [
+    {
+     "name": "deep navy",
+     "hex": "#10104B",
+     "role": "primary text and darkest option cards"
+    },
+    {
+     "name": "vivid purple",
+     "hex": "#7133A4",
+     "role": "alternating option cards and looping line"
+    },
+    {
+     "name": "violet",
+     "hex": "#8A43B8",
+     "role": "secondary purple surfaces"
+    },
+    {
+     "name": "soft white",
+     "hex": "#F8F7FA",
+     "role": "background and card text"
+    },
+    {
+     "name": "pale grey",
+     "hex": "#E9E7ED",
+     "role": "faint background sketches"
+    }
+   ],
+   "background_dna": "Near-white background with extremely low-contrast business doodles, faint grid/planning marks and a subtle paper-like haze. Background detail must remain barely visible.",
+   "hero_object": "No single photorealistic hero. The four horizontal option cards are the hero system, connected visually by a large flowing purple ribbon or route line.",
+   "typography": {
+    "headline": "Large bold rounded geometric sans-serif, centered across two lines; emphasize one key word in italic purple while the rest remains deep navy.",
+    "options": "Medium-weight friendly sans-serif in white, with circled numerals at the left.",
+    "hierarchy": "Headline first, then four option cards, with generous contrast and clear mobile readability."
+   },
+   "graphic_elements": [
+    "Four rounded rectangular bars, alternating purple and deep navy",
+    "Thin-to-medium purple line looping behind and between bars",
+    "Circled numbers 1 to 4 integrated at the start of each label",
+    "Soft shadows beneath bars",
+    "Faint low-opacity business-planning icons in background"
+   ],
+   "layout_rules": [
+    "Headline occupies upper quarter to third of canvas.",
+    "Stack four broad option cards in the middle and lower-middle with slight horizontal offsets and subtle rotations.",
+    "Keep line art behind cards, never crossing text in a confusing way.",
+    "Use consistent vertical rhythm and similar card heights.",
+    "No footer branding area; reserve bottom only if the content needs breathing room."
+   ],
+   "lighting_and_rendering": "Flat editorial layout with restrained drop shadows, soft translucent overlays and very low-contrast background texture. Avoid glassy over-rendering.",
+   "best_use_cases": [
+    "Audience polls",
+    "Engagement questions",
+    "Content-strategy challenges",
+    "Lead-in posts for educational carousels"
+   ],
+   "avoid": [
+    "Do not include logos, email addresses, handles, websites or social icons.",
+    "Do not use more than four choices unless requested.",
+    "Do not reduce text contrast with excessive transparency.",
+    "Do not add unrelated 3D objects."
+   ]
+  },
+  {
+   "design_id": "DNA_12",
+   "design_name": "Affordable Design Mascot Poster",
+   "reference_concept": "A playful 3D animal mascot wearing a red blazer presents an affordable design service headline.",
+   "design_style": "High-energy commercial social creative combining bold typography, a humorous mascot and a clean studio backdrop.",
+   "canvas": {
+    "aspect_ratio": "4:5 portrait recommended",
+    "recommended_pixels": "1080x1350"
+   },
+   "color_palette": [
+    {
+     "name": "signal red",
+     "hex": "#ED1C2E",
+     "role": "headline emphasis and corner accents"
+    },
+    {
+     "name": "white",
+     "hex": "#FAFAFA",
+     "role": "background"
+    },
+    {
+     "name": "black",
+     "hex": "#111111",
+     "role": "main headline"
+    },
+    {
+     "name": "light grey",
+     "hex": "#E7E7E7",
+     "role": "secondary text and subtle shadows"
+    }
+   ],
+   "background_dna": "Bright white background with cropped red corner shapes and minimal grey supporting text.",
+   "hero_object": "A full-body, friendly raccoon-like mascot in a vivid red blazer and black shirt, standing upright and raising one hand. Keep the pose expressive, polished and slightly humorous.",
+   "typography": {
+    "headline": "Heavy italic sans-serif with compact line spacing. Black words establish the message; one core service word is red.",
+    "support": "Small uppercase sans-serif subheading.",
+    "microcopy": "Short, compact supporting copy in a small text block."
+   },
+   "graphic_elements": [
+    "Oversized 3D mascot",
+    "Red cropped corner brackets",
+    "Thin horizontal red divider",
+    "Small circular arrow motif if needed"
+   ],
+   "layout_rules": [
+    "Place headline in the upper-left quadrant.",
+    "Mascot dominates the right half and extends toward the lower half.",
+    "Supporting copy sits beneath a red divider in the lower-left.",
+    "Maintain open negative space around the mascot and title."
+   ],
+   "lighting_and_rendering": "Studio-lit high-quality 3D character with realistic fur, tailored fabric and a soft floor shadow. Bright, clean commercial finish.",
+   "best_use_cases": [
+    "Affordable creative services",
+    "Agency service promotion",
+    "Playful brand-awareness posts"
+   ],
+   "avoid": [
+    "No logos, company names, URLs, handles or watermarks.",
+    "Do not make the mascot frightening or overly cartoon-flat.",
+    "Do not crowd the headline with extra copy."
+   ]
+  },
+  {
+   "design_id": "DNA_13",
+   "design_name": "Brand Spotlight With Press Microphones",
+   "reference_concept": "A brand-focused headline is paired with multiple reporters’ microphones pointing upward from the bottom edge.",
+   "design_style": "Minimal editorial advertising poster with a press-conference metaphor and strong red-and-white contrast.",
+   "canvas": {
+    "aspect_ratio": "4:5 portrait recommended",
+    "recommended_pixels": "1080x1350"
+   },
+   "color_palette": [
+    {
+     "name": "white",
+     "hex": "#F7F7F7",
+     "role": "background"
+    },
+    {
+     "name": "signal red",
+     "hex": "#E91D2D",
+     "role": "headline panels and corner accents"
+    },
+    {
+     "name": "black",
+     "hex": "#151515",
+     "role": "primary text"
+    },
+    {
+     "name": "warm grey",
+     "hex": "#B7B7B7",
+     "role": "secondary outlines"
+    }
+   ],
+   "background_dna": "White background with red corner crops and a restrained editorial feel.",
+   "hero_object": "A cluster of realistic handheld press microphones in varied colors rises from the lower edge and points toward the headline.",
+   "typography": {
+    "headline": "Bold sans-serif. Set the opening phrase in black, then place the key phrase inside a slightly tilted red rectangle with white lettering.",
+    "support": "Smaller black sans-serif sentence below the main statement."
+   },
+   "graphic_elements": [
+    "Several 3D microphones with black handles and colorful foam heads",
+    "Red slanted rectangle behind key words",
+    "Minimal red edge accents"
+   ],
+   "layout_rules": [
+    "Keep the headline centered in the upper-middle.",
+    "Let microphones enter from the bottom at different angles without covering text.",
+    "Keep object scale large enough to read as microphones at phone size.",
+    "Use one focal message only."
+   ],
+   "lighting_and_rendering": "Photorealistic product rendering, clean studio highlights on metal and foam, realistic hand grips, soft contact shadows.",
+   "best_use_cases": [
+    "Brand awareness",
+    "Publicity and visibility",
+    "Marketing campaign headlines"
+   ],
+   "avoid": [
+    "No press logos, brand marks, URLs or handles.",
+    "Avoid cluttering the microphone cluster.",
+    "Do not let props compete with the key phrase."
+   ]
+  },
+  {
+   "design_id": "DNA_14",
+   "design_name": "360 Degree Solutions Typography Wheel",
+   "reference_concept": "A stacked service list uses red highlight strips and a technical semicircular measuring-wheel graphic to communicate an all-in-one offer.",
+   "design_style": "Typographic service infographic, minimal white editorial style with a subtle technical diagram.",
+   "canvas": {
+    "aspect_ratio": "4:5 portrait recommended",
+    "recommended_pixels": "1080x1350"
+   },
+   "color_palette": [
+    {
+     "name": "white",
+     "hex": "#FAFAFA",
+     "role": "background"
+    },
+    {
+     "name": "signal red",
+     "hex": "#E91D2D",
+     "role": "highlight strips"
+    },
+    {
+     "name": "black",
+     "hex": "#111111",
+     "role": "service typography"
+    },
+    {
+     "name": "pale grey",
+     "hex": "#CFCFCF",
+     "role": "technical diagram"
+    }
+   ],
+   "background_dna": "Plain white background with small red cropped corner marks. No texture beyond a faint paper finish.",
+   "hero_object": "A large pale-grey semicircular protractor or radial technical chart behind a vertical list of service words.",
+   "typography": {
+    "headline": "Black sans-serif for short lead-in.",
+    "key phrase": "White text inside a wide red angled rectangle.",
+    "service list": "Mixed sizes of clean sans-serif, with selected keywords reversed out in red bars. Keep line spacing tight but readable."
+   },
+   "graphic_elements": [
+    "Semi-circular radial measurement graphic",
+    "Red highlight strips behind selected service words",
+    "Tiny arrow or scale marks within the technical diagram",
+    "Red cropped corner accents"
+   ],
+   "layout_rules": [
+    "Place the main red banner near the top.",
+    "Align the service stack vertically in the central column.",
+    "Position the pale technical semicircle behind and to the right of the text.",
+    "Text remains dominant; diagram is secondary and low contrast."
+   ],
+   "lighting_and_rendering": "Mostly flat vector composition with precise linework and subtle print-like softness.",
+   "best_use_cases": [
+    "Service menus",
+    "360-degree agency offers",
+    "Capability overviews"
+   ],
+   "avoid": [
+    "No logos, web addresses or company names.",
+    "Do not turn the diagram into a dense chart.",
+    "Do not use more than two highlight colors."
+   ]
+  },
+  {
+   "design_id": "DNA_15",
+   "design_name": "Red Chain Link Brand Growth Poster",
+   "reference_concept": "A realistic chain with one red link illustrates connection, strength and digital growth beneath a large typographic headline.",
+   "design_style": "Conceptual 3D advertising poster with industrial product photography and editorial typography.",
+   "canvas": {
+    "aspect_ratio": "4:5 portrait recommended",
+    "recommended_pixels": "1080x1350"
+   },
+   "color_palette": [
+    {
+     "name": "white",
+     "hex": "#FAFAFA",
+     "role": "background"
+    },
+    {
+     "name": "signal red",
+     "hex": "#E91D2D",
+     "role": "single emphasized chain link and headline blocks"
+    },
+    {
+     "name": "chrome silver",
+     "hex": "#BFC2C7",
+     "role": "metal chain"
+    },
+    {
+     "name": "black",
+     "hex": "#111111",
+     "role": "headline"
+    }
+   ],
+   "background_dna": "White studio background with red corner fragments and a clean high-contrast layout.",
+   "hero_object": "Oversized polished metal chain running diagonally across the lower half; one link is glossy red and becomes the focal point.",
+   "typography": {
+    "headline": "Large black sans-serif mixed with white italic or bold text inside red rectangular strips.",
+    "support": "Short, smaller black supporting line beneath headline."
+   },
+   "graphic_elements": [
+    "Large interlocking chrome links",
+    "One glossy red link",
+    "Red headline banner",
+    "Fine grey contact shadows"
+   ],
+   "layout_rules": [
+    "Headline fills upper-left and mid-left.",
+    "Chain enters from the lower-left and moves diagonally to the right.",
+    "Keep the red link near the main text focal point.",
+    "Allow chain to crop beyond edges for scale and movement."
+   ],
+   "lighting_and_rendering": "Photorealistic polished chrome with realistic reflections, bevels and soft studio shadows. Red link should have lacquered metal finish.",
+   "best_use_cases": [
+    "Brand positioning",
+    "Partnership and connection",
+    "Growth and engagement messaging"
+   ],
+   "avoid": [
+    "No logos, URLs or handles.",
+    "Avoid extra floating objects.",
+    "Do not let the chain obscure the headline."
+   ]
+  },
+  {
+   "design_id": "DNA_18",
+   "design_name": "Relaxed Cat Astronaut Campaign",
+   "reference_concept": "A calm cat wearing an astronaut helmet and headphones sits beside a bold brand-growth message, contrasting effort with relaxed confidence.",
+   "design_style": "Playful photorealistic 3D mascot advertising combined with editorial typography and a white/red layout.",
+   "canvas": {
+    "aspect_ratio": "4:5 portrait recommended",
+    "recommended_pixels": "1080x1350"
+   },
+   "color_palette": [
+    {
+     "name": "white",
+     "hex": "#FAFAFA",
+     "role": "background"
+    },
+    {
+     "name": "signal red",
+     "hex": "#E91D2D",
+     "role": "emphasis and corner graphics"
+    },
+    {
+     "name": "black",
+     "hex": "#111111",
+     "role": "headline"
+    },
+    {
+     "name": "silver grey",
+     "hex": "#C9C9C9",
+     "role": "helmet and secondary details"
+    }
+   ],
+   "background_dna": "White studio background, cropped red corner shapes, faint shadows.",
+   "hero_object": "A fluffy light-colored cat in a transparent astronaut helmet or oversized headphones, seated comfortably with a relaxed expression.",
+   "typography": {
+    "headline": "Bold italic black sans-serif. Put the main promise inside a red rectangle with white text.",
+    "body": "Small black text in a narrow block, no more than three short lines."
+   },
+   "graphic_elements": [
+    "3D cat mascot with astronaut-inspired helmet/headphones",
+    "Red slanted headline strip",
+    "Small red accent shapes",
+    "Subtle floor shadow"
+   ],
+   "layout_rules": [
+    "Headline is placed in the upper-left.",
+    "Mascot fills the lower-right or lower-center.",
+    "Keep body copy compact and secondary.",
+    "The mascot should feel relaxed and charming rather than childish."
+   ],
+   "lighting_and_rendering": "Detailed realistic fur, glossy transparent helmet, soft studio highlights, gentle shadowing and a polished commercial render.",
+   "best_use_cases": [
+    "Relaxed service promotion",
+    "Brand growth and outsourcing",
+    "Lighthearted marketing posts"
+   ],
+   "avoid": [
+    "No logos, URLs or handles.",
+    "Do not use a real person.",
+    "Avoid overly busy space or sci-fi scenery."
+   ]
+  },
+  {
+   "design_id": "DNA_20",
+   "design_name": "Friendly Red Service Mascot",
+   "reference_concept": "A simple glossy red one-eyed or two-eyed character stands beside a compact list of digital services.",
+   "design_style": "Minimal character-led service explainer with bold red accents, white background and compact typography.",
+   "canvas": {
+    "aspect_ratio": "4:5 portrait recommended",
+    "recommended_pixels": "1080x1350"
+   },
+   "color_palette": [
+    {
+     "name": "white",
+     "hex": "#FAFAFA",
+     "role": "background"
+    },
+    {
+     "name": "signal red",
+     "hex": "#E91D2D",
+     "role": "mascot and title underline"
+    },
+    {
+     "name": "black",
+     "hex": "#111111",
+     "role": "headline and service list"
+    },
+    {
+     "name": "pale grey",
+     "hex": "#E5E5E5",
+     "role": "soft shadows"
+    }
+   ],
+   "background_dna": "Clean white background with red cropped corner shapes and a narrow red rule beneath the title.",
+   "hero_object": "A tall, smooth, glossy red abstract character with oversized expressive eyes and a friendly stance, placed at the right.",
+   "typography": {
+    "headline": "Clean black sans-serif, medium-to-bold weight.",
+    "service list": "Small, tightly spaced black sans-serif lines aligned to the left.",
+    "accent": "Thin red underline or short red highlight."
+   },
+   "graphic_elements": [
+    "Glossy red mascot",
+    "Thin red underline",
+    "Red corner brackets",
+    "Soft grounding shadow"
+   ],
+   "layout_rules": [
+    "Heading at upper-left.",
+    "Service list in the lower-left quadrant.",
+    "Mascot fills the right third and reaches close to the bottom edge.",
+    "Use enough spacing to separate each service line."
+   ],
+   "lighting_and_rendering": "Smooth, high-gloss 3D character with soft studio reflections and a natural floor shadow.",
+   "best_use_cases": [
+    "Service lists",
+    "Digital agency capability posts",
+    "Friendly explainer content"
+   ],
+   "avoid": [
+    "No logo, company name, URL or handles.",
+    "Do not let the mascot cover service text.",
+    "Avoid additional decorative objects."
+   ]
+  },
+  {
+   "design_id": "DNA_21",
+   "design_name": "Purple Oversized Trust Statement With Device Mockups",
+   "reference_concept": "A short trust-building statement is split into oversized stacked purple words, supported by small angled laptop and phone mockups.",
+   "design_style": "Ultra-minimal digital-agency poster with oversized typography, white space and realistic device mockups.",
+   "canvas": {
+    "aspect_ratio": "4:5 portrait",
+    "recommended_pixels": "1080x1350"
+   },
+   "color_palette": [
+    {
+     "name": "white",
+     "hex": "#FFFFFF",
+     "role": "background"
+    },
+    {
+     "name": "rich purple",
+     "hex": "#5B249B",
+     "role": "oversized headline"
+    },
+    {
+     "name": "violet",
+     "hex": "#A45AE1",
+     "role": "small secondary accent"
+    },
+    {
+     "name": "deep ink",
+     "hex": "#211A32",
+     "role": "supporting text"
+    }
+   ],
+   "background_dna": "Pure white background with no visible texture and generous empty space.",
+   "hero_object": "Two small floating digital devices: an open laptop near the upper-right and a tilted smartphone near the lower-left, both displaying generic web-page UI.",
+   "typography": {
+    "headline": "Extremely large, heavy geometric sans-serif in rich purple. Stack a short phrase over four or five lines, with tight line spacing and a full stop as a strong terminal shape.",
+    "support": "Small thin sans-serif sentence near the lower-right.",
+    "footer": "A restrained short follow prompt may sit near the bottom, but no branding."
+   },
+   "graphic_elements": [
+    "Laptop mockup with a generic website screen",
+    "Angled smartphone mockup",
+    "Soft device shadows",
+    "Optional short purple call-to-action phrase"
+   ],
+   "layout_rules": [
+    "Headline dominates the center-left and runs vertically down the page.",
+    "Laptop floats at upper-right, overlapping open space but not obscuring the message.",
+    "Phone sits lower-left and tilts slightly.",
+    "Supporting sentence sits to the lower-right of the final headline line.",
+    "Keep wide margins and abundant negative space."
+   ],
+   "lighting_and_rendering": "Realistic device mockups with soft directional shadows and slightly angled perspective. Keep screens legible as generic UI, not tiny unreadable text.",
+   "best_use_cases": [
+    "Trust-building posts",
+    "Digital marketing service promotion",
+    "Agency positioning",
+    "Minimal typographic campaigns"
+   ],
+   "avoid": [
+    "No logo, company name, website, handle or hashtag.",
+    "Do not add extra interface elements.",
+    "Avoid shrinking the headline to make room for devices."
+   ]
+  },
+  {
+   "design_id": "DNA_23",
+   "design_name": "Start Creating Astronaut Editorial Collage",
+   "reference_concept": "A seated astronaut on a barren moon surface is paired with a bold call to stop waiting and start creating.",
+   "design_style": "Surreal editorial collage, mostly monochrome with orange emphasis, sparse technical annotations and cinematic negative space.",
+   "canvas": {
+    "aspect_ratio": "4:5 portrait recommended",
+    "recommended_pixels": "1080x1350",
+    "series_role": "carousel slide"
+   },
+   "color_palette": [
+    {
+     "name": "warm white",
+     "hex": "#F3F1EC",
+     "role": "background"
+    },
+    {
+     "name": "charcoal",
+     "hex": "#3A3A3A",
+     "role": "headline and astronaut"
+    },
+    {
+     "name": "slate blue-grey",
+     "hex": "#7D8AA2",
+     "role": "secondary headline words"
+    },
+    {
+     "name": "amber orange",
+     "hex": "#F49A17",
+     "role": "emphasis words and small marks"
+    }
+   ],
+   "background_dna": "Textured off-white paper with faint diagram scribbles, tiny captions and cutout fragments.",
+   "hero_object": "A photorealistic astronaut seated on a moon-like rocky surface, with a small flower or organic object nearby to create a surreal contrast.",
+   "typography": {
+    "headline": "Tall condensed uppercase type; stack short imperative phrases. Use charcoal/slate for most words and orange for the action words.",
+    "support": "Small centered or left-aligned explanatory copy, kept to a few lines."
+   },
+   "graphic_elements": [
+    "Seated astronaut cutout",
+    "Moon surface or rocky foreground",
+    "Small vivid flower as unexpected accent",
+    "Thin orbital scribbles and tiny annotations"
+   ],
+   "layout_rules": [
+    "Headline fills the upper-left to center.",
+    "Astronaut occupies the lower-left or center-left.",
+    "Leave the opposite side relatively open for supporting copy.",
+    "Maintain a visual reading path from headline to astronaut to small supporting note."
+   ],
+   "lighting_and_rendering": "Photorealistic monochrome astronaut and lunar surface, subtle grain, layered cutout depth, soft cast shadows and minimal orange accents.",
+   "best_use_cases": [
+    "Creative motivation",
+    "Starting a project",
+    "Entrepreneurship and self-development"
+   ],
+   "avoid": [
+    "No branding or signatures.",
+    "Avoid colorful space backgrounds or stars.",
+    "Do not overfill the page with technical labels."
+   ]
+  },
+  {
+   "design_id": "DNA_24",
+   "design_name": "Build Your Own Platform Pixel Disintegration",
+   "reference_concept": "A human silhouette made of floating geometric blocks dissolves upward, symbolizing building something original from scratch.",
+   "design_style": "Conceptual 3D editorial poster combining fragmented geometry, technical sketch lines and restrained orange highlights.",
+   "canvas": {
+    "aspect_ratio": "4:5 portrait recommended",
+    "recommended_pixels": "1080x1350",
+    "series_role": "carousel slide"
+   },
+   "color_palette": [
+    {
+     "name": "warm white",
+     "hex": "#F4F2ED",
+     "role": "background"
+    },
+    {
+     "name": "charcoal",
+     "hex": "#383838",
+     "role": "main type and fragments"
+    },
+    {
+     "name": "slate blue-grey",
+     "hex": "#8290A7",
+     "role": "supporting headline words"
+    },
+    {
+     "name": "amber orange",
+     "hex": "#F59A16",
+     "role": "emphasis words and small details"
+    }
+   ],
+   "background_dna": "Warm white paper background with very faint technical linework and tiny editorial notes.",
+   "hero_object": "A tall human-like silhouette composed of many small grey cubes, with cubes breaking away and floating upward. A small tactile button cluster can serve as a secondary object.",
+   "typography": {
+    "headline": "Condensed uppercase sans-serif with orange action words and charcoal/slate supporting words.",
+    "support": "Compact sentence-case copy in a narrow block beneath headline."
+   },
+   "graphic_elements": [
+    "Voxel or cube-based human silhouette",
+    "Scattered cubes and geometric debris",
+    "Thin orbital lines",
+    "Small square-button motif",
+    "Micro annotations"
+   ],
+   "layout_rules": [
+    "Place the headline toward upper-left or upper-center.",
+    "Make the fragmented figure the dominant visual on the right or center-right.",
+    "Allow a few cubes to drift beyond the silhouette.",
+    "Keep supporting copy compact and away from the most detailed area."
+   ],
+   "lighting_and_rendering": "Detailed 3D cubes with soft shadows and monochrome materials, mixed with faint pencil-like technical marks and subtle paper grain.",
+   "best_use_cases": [
+    "Building a platform",
+    "Creative action and initiative",
+    "Technology or maker motivation"
+   ],
+   "avoid": [
+    "No logos or creator signatures.",
+    "Avoid neon cyberpunk colors.",
+    "Do not make the geometry so dense that the silhouette is lost."
+   ]
+  },
+  {
+   "design_id": "DNA_27",
+   "design_name": "Opportunity Torch Editorial Collage",
+   "reference_concept": "A flaming torch-like object and a large motivational headline convey that opportunity is created through action rather than awaited.",
+   "design_style": "Cinematic editorial collage mixing monochrome botanical or sculptural cutouts, a vivid flame and restrained warm gradients.",
+   "canvas": {
+    "aspect_ratio": "4:5 portrait recommended",
+    "recommended_pixels": "1080x1350",
+    "series_role": "carousel slide"
+   },
+   "color_palette": [
+    {
+     "name": "warm white",
+     "hex": "#F3F0EA",
+     "role": "background"
+    },
+    {
+     "name": "charcoal",
+     "hex": "#3A3938",
+     "role": "headline and cutouts"
+    },
+    {
+     "name": "amber orange",
+     "hex": "#F59A17",
+     "role": "action words and flame accents"
+    },
+    {
+     "name": "warm peach",
+     "hex": "#F4AD91",
+     "role": "lower background glow"
+    },
+    {
+     "name": "muted grey",
+     "hex": "#C8C7C2",
+     "role": "collage fragments"
+    }
+   ],
+   "background_dna": "Off-white textured paper with a soft peach/orange glow toward the right or bottom. Add very faint diagrams and scattered micro-labels.",
+   "hero_object": "A tall torch or bundled branch with a vivid, realistic flame, surrounded by a few monochrome abstract or botanical cutouts.",
+   "typography": {
+    "headline": "Large condensed uppercase type, with orange used for the action phrase and charcoal for the main words.",
+    "body": "A compact explanatory paragraph in small sentence-case type, centered or left-aligned beneath the headline."
+   },
+   "graphic_elements": [
+    "Burning torch or flame",
+    "Monochrome organic cutouts",
+    "Faint gears or technical outlines",
+    "Small editorial labels and hand-drawn marks"
+   ],
+   "layout_rules": [
+    "Headline occupies the upper-left or upper-center.",
+    "Torch rises through the center-left or center.",
+    "Place a short explanatory paragraph below the headline, away from the flame.",
+    "Use warm gradient as atmosphere, not as a solid loud background."
+   ],
+   "lighting_and_rendering": "Photorealistic flame and torch texture composited with monochrome cutouts, soft shadow layers, fine grain and a controlled warm glow.",
+   "best_use_cases": [
+    "Action-oriented motivation",
+    "Opportunity and initiative",
+    "Entrepreneurial mindset"
+   ],
+   "avoid": [
+    "No branding or signatures.",
+    "Avoid excessive fire effects or danger imagery.",
+    "Do not make supporting copy too small to read on mobile."
+   ]
+  },
+  {
+   "design_id": "DNA_28",
+   "design_name": "One Percent Action Carousel Cover",
+   "reference_concept": "A warm orange gradient, oversized question about the next one-percent improvement and a large white carousel label create a dramatic closing or cover slide.",
+   "design_style": "High-impact editorial carousel cover with oversized condensed type, warm atmospheric gradient and a restrained script accent.",
+   "canvas": {
+    "aspect_ratio": "4:5 portrait recommended",
+    "recommended_pixels": "1080x1350",
+    "series_role": "carousel cover or closing slide"
+   },
+   "color_palette": [
+    {
+     "name": "amber orange",
+     "hex": "#F59A16",
+     "role": "dominant lower/right gradient"
+    },
+    {
+     "name": "warm peach",
+     "hex": "#F3B49C",
+     "role": "soft atmospheric transition"
+    },
+    {
+     "name": "charcoal",
+     "hex": "#3B3938",
+     "role": "question headline"
+    },
+    {
+     "name": "white",
+     "hex": "#FFFFFF",
+     "role": "large carousel label"
+    },
+    {
+     "name": "warm white",
+     "hex": "#F4F1EB",
+     "role": "upper background"
+    }
+   ],
+   "background_dna": "Off-white top area blending into peach and orange toward the bottom-right, with subtle paper texture and faint abstract cutouts.",
+   "hero_object": "No dominant realistic hero object. The headline, gradient, and layered typographic title are the main visual elements; faint monochrome organic cutouts can sit behind them.",
+   "typography": {
+    "headline": "Large condensed uppercase sans-serif, with “1%” especially oversized in orange.",
+    "cover label": "Very large white condensed sans-serif word across the lower-middle, layered with a small elegant handwritten script word.",
+    "support": "Short question and a small creator-independent descriptor, only if required by the content."
+   },
+   "graphic_elements": [
+    "Warm gradient",
+    "Large “1%” typography",
+    "Oversized white carousel label",
+    "Small script overlay",
+    "Faint monochrome cutout fragments"
+   ],
+   "layout_rules": [
+    "Place the question in the upper-right or upper-center.",
+    "Make “1%” the largest numerical element.",
+    "Let the large white label dominate the lower half and partially overlap the background collage.",
+    "Keep text legible against the gradient with clear contrast.",
+    "Use as a cover or end card, not a dense educational slide."
+   ],
+   "lighting_and_rendering": "Layered paper grain, warm gradient, faint collage shadows and crisp type. Script overlay should remain secondary and not cross essential text.",
+   "best_use_cases": [
+    "Carousel covers",
+    "Motivational series title cards",
+    "Productivity and habit-building themes"
+   ],
+   "avoid": [
+    "No logos, handles, signatures or watermarks.",
+    "Do not add unrelated hero objects.",
+    "Avoid placing white typography over the palest area without contrast."
+   ]
+  }
+ ],
+ "global_recreation_rules": {
+  "purpose": "Recreate the visual DNA of each selected reference while adapting the subject and copy to new content.",
+  "preserve": [
+   "the reference composition and visual hierarchy",
+   "the dominant color relationships",
+   "the characteristic typography treatment",
+   "the use of texture and depth",
+   "the distinctive graphic construction",
+   "the balance between content and negative space"
+  ],
+  "adapt": [
+   "headline wording",
+   "supporting copy",
+   "relevant hero objects",
+   "category labels",
+   "context-specific graphic details"
+  ],
+  "exclude": [
+   "logos",
+   "brand names",
+   "social handles",
+   "website addresses",
+   "watermarks",
+   "unrequested identity elements"
+  ],
+  "quality_requirements": [
+   "Use a portrait 4:5 canvas unless another format is requested.",
+   "Maintain readable typography at mobile-screen size.",
+   "Render physical objects with believable material properties and shadows.",
+   "Keep decorative elements subordinate to the main message.",
+   "Use the selected design DNA consistently throughout the composition.",
+   "Do not combine unrelated reference styles unless explicitly requested.",
+   "Do not invent extra text or branding.",
+   "Keep all generated copy accurate and correctly spelled."
+  ],
+  "agent_execution_protocol": [
+   "Identify the requested design_id.",
+   "Extract its color palette, layout, typography, and rendering rules.",
+   "Map the new content to the existing visual hierarchy.",
+   "Replace reference-specific objects only when the new subject requires it.",
+   "Generate the composition while retaining the chosen design's defining visual characteristics.",
+   "Check typography, alignment, object placement, contrast, and spelling before finalizing."
+  ],
+  "collection_update_note": "The library now includes the original 10 profiles plus new purple poll, nine individual red-and-white service campaign archetypes, one purple trust statement, and six motivational editorial carousel archetypes. Duplicate supplied versions of the purple poll are represented by one reusable DNA profile.",
+  "multi_slide_reference_handling": "When an uploaded contact sheet contains multiple creatives, treat each tile as an independent design DNA profile if its composition or hero metaphor differs. Recreate only the requested tile and do not merge the whole contact sheet into one poster."
+ }
+}
