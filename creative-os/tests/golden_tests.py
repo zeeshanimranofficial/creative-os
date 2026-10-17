@@ -21,19 +21,32 @@ def check(name, ok, detail=""):
     print(("PASS " if ok else "FAIL ") + name + ("  " + str(detail) if detail and not ok else ""))
 
 
-# 1. Known-good finals must pass numeric suite
-for p in sorted(glob.glob(os.path.join(WS, "facebook/week1/f*-post.png"))):
-    img = Image.open(p)
-    r = Q.run_numeric_suite(img, {"expected_size": (1080, 1350), "brand_hexes": BRAND_HEXES})
-    check("golden-good " + os.path.basename(p), all(v["status"] == "pass" for v in r.values()), r)
+def skip(name, why):
+    print("SKIP " + name + "  (" + why + ")")
+
+
+# 1. Known-good finals must pass numeric suite.
+#    Golden fixtures are the maintainer's privately delivered artwork and are
+#    NOT tracked in the public repo — skip (don't fail) when they are absent.
+goldens = sorted(glob.glob(os.path.join(WS, "facebook/week1/f*-post.png")))
+if goldens:
+    for p in goldens:
+        img = Image.open(p)
+        r = Q.run_numeric_suite(img, {"expected_size": (1080, 1350), "brand_hexes": BRAND_HEXES})
+        check("golden-good " + os.path.basename(p), all(v["status"] == "pass" for v in r.values()), r)
+else:
+    skip("golden-good finals", "no golden fixtures at facebook/week1/ — private delivered work, not in repo")
 
 # 2. Known-good series must hold QA26/27 (exclude _overview, exclude final slide)
 seq = sorted(glob.glob(os.path.join(WS, "facebook/week1/seq-f2/f2-slide-*.png")))[:-1]
-slides = [Image.open(p) for p in seq]
-ok, d = Q.check_series_alignment(slides, (900, 30, 1050, 98), polarity="dark")
-check("golden-good seq-f2 QA26", ok, d)
-ok, d = Q.check_scale_lock(slides, (905, 40, 1045, 90), polarity="light")
-check("golden-good seq-f2 QA27", ok, d)
+if len(seq) >= 2:
+    slides = [Image.open(p) for p in seq]
+    ok, d = Q.check_series_alignment(slides, (900, 30, 1050, 98), polarity="dark")
+    check("golden-good seq-f2 QA26", ok, d)
+    ok, d = Q.check_scale_lock(slides, (905, 40, 1045, 90), polarity="light")
+    check("golden-good seq-f2 QA27", ok, d)
+else:
+    skip("golden-good seq-f2 QA26/QA27", "no golden series fixtures — private delivered work, not in repo")
 
 # 3. Synthetic BAD cases must FAIL
 bad = Image.new("RGB", (1080, 1350), (196, 196, 196))  # off-brand grey (t8 v1 drift lesson)
@@ -59,12 +72,18 @@ except ValueError:
     check("tombstone hard-block", True)
 
 entry = PC.get_entry(reg, "HOB_01")
-brand = json.load(open(os.path.join(ROOT, "config", "brand.config.sample.json")))
+# Same fallback as the orchestrator: real sample config is private (gitignored);
+# public clones fall back to the fictional example config.
+_cfg = os.path.join(ROOT, "config", "brand.config.sample.json")
+if not os.path.exists(_cfg):
+    _cfg = os.path.join(ROOT, "config", "brand.config.example.json")
+brand = json.load(open(_cfg))
 c = PC.compile_prompt({"topic": "cold email deliverability", "hero_description": "three hanging envelopes, one glowing orange",
                        "headline": "ONE EMAIL LANDS.", "format": "feed_45"}, brand, entry)
 check("compiler: no pixel numbers leak", "px" not in c["prompt"] and "140" not in c["prompt"])
 check("compiler: anti-artifact clause", "No guide lines" in c["prompt"])
-check("compiler: exact hexes present", "#FF5A00" in c["prompt"] and "#F5EFE6" in c["prompt"])
+_hx = brand["colors"]
+check("compiler: exact hexes present", _hx["primary"] in c["prompt"] and _hx["background"] in c["prompt"])
 check("compiler: reference attached", len(c["reference_images"]) >= 2)
 
 fails = [n for n, ok, _ in results if not ok]
