@@ -20,11 +20,29 @@ def _img2pdf():
     return img2pdf
 
 
-def fit_to_canvas(img, w, h):
-    """Center-crop to the target ratio then Lanczos resize. Stretching prohibited."""
+# Max relative aspect deviation a raw may have before it must be REGENERATED.
+# 1% admits the documented near-target gen pipeline (e.g. 928x1152 -> 4:5 is a
+# 0.7% trim) while hard-blocking cross-format crops (1:1 -> 4:5 is 25%).
+ASPECT_TOL = 0.01
+
+
+def fit_to_canvas(img, w, h, allow_crop=False):
+    """Center-crop to the target ratio then Lanczos resize. Stretching prohibited.
+
+    DOCTRINE GUARD (FC-02 geometry loss / FC-10 cheap fix): a raw whose aspect
+    deviates from the target by more than ASPECT_TOL is a wrong-format
+    generation. It must be regenerated at the target aspect — silently cropping
+    it destroys the composed layout. This function raises instead; pass
+    allow_crop=True only for a deliberate, human-approved crop.
+    """
     img = img.convert("RGB")
     sw, sh = img.size
     tr = w / h
+    if not allow_crop and abs(sw / sh - tr) / tr > ASPECT_TOL:
+        raise ValueError(
+            f"aspect mismatch: raw {sw}x{sh} ({sw/sh:.3f}) vs target {w}x{h} ({tr:.3f}) — "
+            "regenerate the raw at the target aspect; silent cropping is prohibited "
+            "(FC-02; pass allow_crop=True only for a human-approved crop)")
     if sw / sh > tr:
         nw = int(sh * tr)
         img = img.crop(((sw - nw) // 2, 0, (sw - nw) // 2 + nw, sh))

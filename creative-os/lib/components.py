@@ -15,7 +15,19 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WS = os.path.dirname(ROOT)  # /home/user
 
 
-def load_brand(path=os.path.join(ROOT, "config", "brand.config.sample.json")):
+def load_brand(path=None):
+    """Load the brand config. Default resolution falls back
+    brand.config.sample.json (maintainer's private config, not tracked in the
+    public repo) -> brand.config.example.json (public), same as the
+    orchestrator — a fresh clone must never crash on the default path (E1/FC-13)."""
+    if path is None:
+        for cand in ("brand.config.sample.json", "brand.config.example.json"):
+            p = os.path.join(ROOT, "config", cand)
+            if os.path.exists(p):
+                path = p
+                break
+        else:
+            raise FileNotFoundError("no brand config found in config/ — run onboarding or add brand.config.example.json")
     with open(path) as f:
         return json.load(f)
 

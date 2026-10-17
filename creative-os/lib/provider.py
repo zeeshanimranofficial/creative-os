@@ -15,7 +15,16 @@ JOBS = os.path.join(ROOT, "registry", "jobs")
 
 
 def new_job(compiled, dna_id, slide_id, out_path):
-    """Write a job card the host agent executes with its image model."""
+    """Write a job card the host agent executes with its image model.
+
+    Args (all four required — documented contract, E2/FC-13):
+        compiled:  dict returned by prompt_compiler.compile_prompt —
+                   must carry 'prompt', 'reference_images', 'canvas'.
+        dna_id:    the ONE approved DNA id this creative follows.
+        slide_id:  stable slide identifier, e.g. 's03' (used in job_id).
+        out_path:  where the host agent must save the generated raw.
+    Returns: path of the written job-card JSON in registry/jobs/.
+    """
     os.makedirs(JOBS, exist_ok=True)
     job = {
         "job_id": f"{slide_id}-{int(time.time())}",

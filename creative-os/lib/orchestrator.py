@@ -21,7 +21,7 @@ RUNS = os.path.join(ROOT, "registry", "runs")
 
 import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import dna_selector, prompt_compiler, provider, retry_controller
+import dna_selector, prompt_compiler, provider, qa_engine, retry_controller
 
 
 def _default_brand_config():
@@ -88,18 +88,25 @@ def compile_stage(run):
     return _save(run)
 
 
-def report_qa(run, failed_rules, slide_id=None):
-    """Host runs qa_engine (numeric) + answers vision tasks, then reports here."""
+def report_qa(run, failed_rules, slide_id=None, results=None):
+    """Host runs qa_engine (numeric) + answers vision tasks, then reports here.
+
+    Pass the FULL results map as `results` so coverage is audited: a rule
+    nobody evaluated blocks release (FC-09 — unknown is not a pass). Calls
+    that omit `results` are treated as zero-coverage and routed to review."""
     st = run.setdefault("slide_states", {})
     sid = slide_id or run["run_id"]
     s = st.setdefault(sid, {"regens": 0, "recomposites": 0})
     ctl = retry_controller.SlideState(sid)
     ctl.regens, ctl.recomposites = s["regens"], s["recomposites"]
-    action = ctl.decide(failed_rules)
+    unknown = qa_engine.coverage_gaps(results or {})
+    action = ctl.decide(failed_rules, unknown=unknown)
     s["regens"], s["recomposites"] = ctl.regens, ctl.recomposites
     run["stage"] = {"release": "composite", "regenerate": "job_emitted",
-                    "recomposite": "composite", "escalate_to_human": "escalated"}[action]
-    run["history"].append(f"qa report {sid}: failed={failed_rules or 'none'} -> {action}")
+                    "recomposite": "composite", "escalate_to_human": "escalated",
+                    "needs_review": "qa_review"}[action]
+    run["history"].append(f"qa report {sid}: failed={failed_rules or 'none'}"
+                          + (f", unresolved={unknown}" if unknown else "") + f" -> {action}")
     _save(run)
     return action
 

@@ -1,0 +1,574 @@
+{
+ "register": "Creative OS \u2014 Generalised Failure Register",
+ "date": "2026-10-17",
+ "derived_from": "water-bottle-sale carousel (one campaign, one product)",
+ "principle": "Evidence may be concrete. Instructions must not be. A rule that names a colour, a product, a pixel value or a slide number is instance data and belongs in the campaign folder.",
+ "symbols": {
+  "TARGET_SIZE": {
+   "authority": "platform + placement policy",
+   "campaign_instance": "e.g. carousel portrait, 4:5",
+   "note": "never typed by hand; read from platform.policies.json"
+  },
+  "TARGET_ASPECT": {
+   "authority": "derived: TARGET_SIZE w/h",
+   "campaign_instance": "0.800",
+   "note": "never stored separately from TARGET_SIZE"
+  },
+  "ASPECT_TOL": {
+   "authority": "engine default",
+   "campaign_instance": "0.02",
+   "note": "a parameter, not a taste choice"
+  },
+  "SAFE_MARGIN": {
+   "authority": "platform policy minimum margin",
+   "campaign_instance": "30 px",
+   "note": "brand kit may only raise it, never lower it"
+  },
+  "CHROME_BBOX": {
+   "authority": "components registry - each component declares its box when it renders",
+   "campaign_instance": "swipe chip / counter tab / profile strip",
+   "note": "the scene prompt receives these, the rule never names them"
+  },
+  "CHROME_HALO": {
+   "authority": "component registry clearance",
+   "campaign_instance": "12 px",
+   "note": "must be >= SAFE_MARGIN"
+  },
+  "BRAND_PALETTE": {
+   "authority": "brand.config, exact hexes",
+   "campaign_instance": "#2D5BFF / #F7F7F5 / #141414",
+   "note": "never sampled from artwork"
+  },
+  "CANONICAL_ENTITY": {
+   "authority": "campaign asset registry, keyed by role",
+   "campaign_instance": "hero_product",
+   "note": "one asset per role per campaign"
+  },
+  "ENTITY_MANIFEST": {
+   "authority": "campaign brief - the ONLY legal home for product adjectives",
+   "campaign_instance": "material / finish / geometry tokens",
+   "note": "this is where 'matte navy body' belongs"
+  },
+  "LABEL_SET": {
+   "authority": "copy deck per slide",
+   "campaign_instance": "pills + headline strings",
+   "note": "drives the echo rule"
+  },
+  "TYPO_REGION": {
+   "authority": "layout spec per slide",
+   "campaign_instance": "normalised rect",
+   "note": "the only area text may occupy"
+  },
+  "IDENTITY_TAU": {
+   "authority": "per-campaign calibration, positive vs negative separation",
+   "campaign_instance": "must separate, else vision-only",
+   "note": "record both populations"
+  },
+  "BAND_DELTA": {
+   "authority": "engine default",
+   "campaign_instance": "12 luminance levels",
+   "note": "painted-frame detector"
+  },
+  "BAND_WIDTH": {
+   "authority": "engine default",
+   "campaign_instance": "<= 8% of the dimension",
+   "note": "painted-frame detector"
+  },
+  "EVIDENCE_DIR": {
+   "authority": "run record",
+   "campaign_instance": "per-run folder",
+   "note": "vision rules write here"
+  },
+  "INTEGRATION": {
+   "authority": "per-asset declaration",
+   "campaign_instance": "scene | programmatic",
+   "note": "decides which rules are applicable"
+  }
+ },
+ "failure_classes": {
+  "FC-01 IDENTITY_DRIFT": "a locked entity is re-invented or altered between outputs",
+  "FC-02 GEOMETRY_LOSS": "a transform changes the aspect, scale or content extent of the layout",
+  "FC-03 CONSTRAINT_AS_INK": "a constraint stated in a prompt is rendered as visible artwork",
+  "FC-04 CHROME_COLLISION": "deterministic overlay geometry is unknown to generated content",
+  "FC-05 LABEL_ECHO": "a string is duplicated, mirrored or echoed outside its intended instance",
+  "FC-06 DOCTRINE_CONTRADICTION": "a capability, rule or document prescribes what the doctrine forbids",
+  "FC-07 PROXY_QA": "a semantic judgment is published as a numeric test that cannot separate its classes",
+  "FC-08 SCOPE_LEAKAGE": "a rule is evaluated on an asset class it was not written for",
+  "FC-09 UNKNOWN_AS_PASS": "absence of a failure is treated as a pass",
+  "FC-10 CHEAP_FIX_PRESSURE": "a defect is adjusted around rather than corrected at source",
+  "FC-11 CONFIG_DRIFT": "a value that has an authority is typed as a literal instead",
+  "FC-12 EVIDENCE_INTEGRITY": "a verdict rests on evidence that cannot be reproduced",
+  "FC-13 TOOLING_CONTRACT": "an interface's real contract is undocumented or unsafe at its edges",
+  "FC-14 STATUS_ASSERTION": "a completion state is asserted rather than derived"
+ },
+ "summary": {
+  "total": 28,
+  "by_severity": {
+   "P0": 10,
+   "P1": 10,
+   "P2": 8
+  },
+  "by_class": {
+   "FC-01": 1,
+   "FC-02": 4,
+   "FC-03": 1,
+   "FC-04": 2,
+   "FC-05": 1,
+   "FC-06": 3,
+   "FC-07": 1,
+   "FC-08": 2,
+   "FC-09": 3,
+   "FC-10": 1,
+   "FC-11": 2,
+   "FC-12": 2,
+   "FC-13": 3,
+   "FC-14": 2
+  }
+ },
+ "errors": [
+  {
+   "id": "D1",
+   "severity": "P0",
+   "failure_class": "FC-06 DOCTRINE_CONTRADICTION",
+   "caught_by": "user",
+   "title": "Engine ships the exact behaviour its own rule forbids",
+   "evidence": "components.py:4 states 'Python renders ONLY these components; it never rebuilds artwork'. compose_core.py:257 place_product() cuts the product out of canonical-bottle.png and composites it. A build made this way was rejected by the client as 'patching'.",
+   "root_cause": "A capability was implemented before the doctrine was enforced at the API boundary; the pipeline cannot tell an assembled slide from a generated one.",
+   "instruction_to_add": "No pipeline operation may create, cut out, redraw, recolour, warp or composite the artwork of a locked entity. Locked entities enter output only through the generation path, as reference images. When generated output deviates from the canonical entity, regenerate the asset; never repair it. Any capability that contradicts this must fail at import, not merely be discouraged in documentation.",
+   "symbols_used": [
+    "CANONICAL_ENTITY",
+    "INTEGRATION"
+   ],
+   "applies_to": "all assets whose integration is scene",
+   "evidence_artifact": "blocked call + the regenerated replacement",
+   "guard": "place_product() raises unless allow_sprite_compositing is set, and no recipe may set it for a locked-entity role; a self-test asserts the raise."
+  },
+  {
+   "id": "D2",
+   "severity": "P0",
+   "failure_class": "FC-06 DOCTRINE_CONTRADICTION",
+   "caught_by": "me",
+   "title": "A rule's own corrective prescribes a mechanism the doctrine forbids",
+   "evidence": "qa.rules.json QA29 fail_mode read: 'Fix = shoot ONE canonical product PNG and composite it'. That sentence is what produced the rejected build.",
+   "root_cause": "The corrective was written while compositing was still believed to be the correct fix; nothing re-checks rule text against doctrine when doctrine changes.",
+   "instruction_to_add": "Every corrective string is linted against FORBIDDEN_MECHANISMS. A corrective may not name a mechanism the doctrine prohibits. When doctrine changes, rules carrying the old mechanism fail CI until rewritten.",
+   "symbols_used": [],
+   "applies_to": "all rules carrying a fail_mode or corrective",
+   "evidence_artifact": "lint report over the rule file",
+   "guard": "CI step: grep the rule corpus for forbidden mechanism names; non-zero exit on hit."
+  },
+  {
+   "id": "D3",
+   "severity": "P1",
+   "failure_class": "FC-06 DOCTRINE_CONTRADICTION",
+   "caught_by": "me",
+   "title": "Nothing in the pipeline records how an element reached the slide",
+   "evidence": "A pasted build passed every numeric rule because integration method is not modelled as data anywhere in the asset record.",
+   "root_cause": "Integration is an implicit property of the author's intent, not a declared field.",
+   "instruction_to_add": "Every asset declares {{INTEGRATION}}. The gate rejects any asset whose applied operations contradict its declared integration, and every release prints the declaration beside the QA table.",
+   "symbols_used": [
+    "INTEGRATION"
+   ],
+   "applies_to": "all assets",
+   "evidence_artifact": "asset record + release table",
+   "guard": "Schema validation on the asset record; operations audit against the declaration."
+  },
+  {
+   "id": "P1",
+   "severity": "P1",
+   "failure_class": "FC-03 CONSTRAINT_AS_INK",
+   "caught_by": "me",
+   "title": "A margin constraint stated as a boundary makes the model paint a boundary",
+   "evidence": "Slides 1 and 2 returned with a bright band of near-constant colour running the full perimeter, a hard step against the darker interior, and a rounded-rect corner. Four of five slides carried a perimeter band; one did not.",
+   "root_cause": "The prompt described a visible frame instead of empty space. The model rendered the constraint literally as artwork.",
+   "instruction_to_add": "Prompts express absence, never presence. Never name a boundary, frame, band, margin or panel edge as an object. State margins as empty space near the edge and explicitly forbid drawing a frame, band or panel edge. Predicate: no band of near-constant colour may run along most of an edge with a hard step larger than {{BAND_DELTA}} inside a band narrower than {{BAND_WIDTH}}.",
+   "symbols_used": [
+    "BAND_DELTA",
+    "BAND_WIDTH",
+    "SAFE_MARGIN"
+   ],
+   "applies_to": "every generated asset",
+   "evidence_artifact": "edge-band report per slide",
+   "guard": "Painted-frame detector: sample the outer band, compare to the interior; flag uniform band + hard step."
+  },
+  {
+   "id": "P2",
+   "severity": "P0",
+   "failure_class": "FC-02 GEOMETRY_LOSS",
+   "caught_by": "me",
+   "title": "A raw at the wrong aspect ratio is cropped, and cropping silently deletes layout",
+   "evidence": "One slide returned square against a portrait target. The fit step crops, so the headline lost its leading characters and three callout pills were sliced at the right edge. The canvas check still passed, because the canvas was correct after cropping.",
+   "root_cause": "Canvas size and composition integrity are different properties; only the first was verified.",
+   "instruction_to_add": "Every raw is validated against {{TARGET_ASPECT}} before any composite step. Deviation beyond {{ASPECT_TOL}} means regenerate. No transform may crop a declared content box. After any transform, every declared content box must lie inside {{SAFE_MARGIN}}. A passing canvas check is not evidence that the composition survived.",
+   "symbols_used": [
+    "TARGET_ASPECT",
+    "ASPECT_TOL",
+    "SAFE_MARGIN",
+    "TARGET_SIZE"
+   ],
+   "applies_to": "every generated asset entering the composite path",
+   "evidence_artifact": "aspect + content-box report per asset",
+   "guard": "render_asset() raises ASPECT MISMATCH and names regeneration, not cropping."
+  },
+  {
+   "id": "P3",
+   "severity": "P1",
+   "failure_class": "FC-04 CHROME_COLLISION",
+   "caught_by": "me",
+   "title": "Generated scenes are composed without knowing where engine chrome will land",
+   "evidence": "A generated pill row ended a couple of pixels under the swipe chip's top edge. In the previous build an arrow crossed a delivery badge with 768 overlapping pixels.",
+   "root_cause": "Scene prompts are written before component boxes are known, and 'reserve the corner' was expressed as a vague corner rather than a computed region.",
+   "instruction_to_add": "Chrome geometry is computed before the scene prompt is written. The prompt receives the union of {{CHROME_BBOX}} plus {{CHROME_HALO}} expressed in normalised coordinates as the reserved region, and all generated text and artwork must stay outside it. Predicate: zero generated non-background pixels inside the reserved region.",
+   "symbols_used": [
+    "CHROME_BBOX",
+    "CHROME_HALO",
+    "SAFE_MARGIN"
+   ],
+   "applies_to": "every asset carrying chrome components",
+   "evidence_artifact": "reserved-region overlay per slide",
+   "guard": "Reserved-zone check on the raw, before compositing; component registry exports its boxes to the prompt compiler."
+  },
+  {
+   "id": "P4",
+   "severity": "P1",
+   "failure_class": "FC-05 LABEL_ECHO",
+   "caught_by": "me",
+   "title": "Reflective surfaces duplicate legible labels",
+   "evidence": "A floor reflection reproduced a callout pill mirrored and fully readable, reading as a duplicated label rather than a reflection.",
+   "root_cause": "No constraint existed on reflected or shadowed lettering.",
+   "instruction_to_add": "Each string in {{LABEL_SET}} occurs exactly once per slide, right-reading. Reflective, shadowed or refracted surfaces may not carry legible glyphs. Predicate: the multiset of strings detected on the slide equals {{LABEL_SET}}; any additional detection, including a mirrored or vertically flipped echo, is a failure.",
+   "symbols_used": [
+    "LABEL_SET"
+   ],
+   "applies_to": "every asset containing text",
+   "evidence_artifact": "detection list vs copy deck",
+   "guard": "OCR pass compared as a multiset against the copy deck."
+  },
+  {
+   "id": "P5",
+   "severity": "P0",
+   "failure_class": "FC-01 IDENTITY_DRIFT",
+   "caught_by": "user",
+   "title": "The locked entity is re-invented on every slide because it is described in prose",
+   "evidence": "One carousel shipped five different product proportions; measured silhouette ratios were 0.84, 1.01, 1.14, 0.69 and 0.61 against a single product brief.",
+   "root_cause": "The entity was carried by adjectives instead of by a reference asset, so each generation re-imagined it independently.",
+   "instruction_to_add": "Locked entities are never described in prose. Each is carried by {{CANONICAL_ENTITY}} passed as a reference image on every slide, plus one fixed identity sentence composed from {{ENTITY_MANIFEST}}. The manifest is the only place entity adjectives may appear.",
+   "symbols_used": [
+    "CANONICAL_ENTITY",
+    "ENTITY_MANIFEST"
+   ],
+   "applies_to": "every asset containing a locked entity",
+   "evidence_artifact": "reference sheet + per-slide crop sheet",
+   "guard": "Prompt compiler rejects any scene prompt containing manifest adjectives without the reference image attached."
+  },
+  {
+   "id": "P6",
+   "severity": "P2",
+   "failure_class": "FC-02 GEOMETRY_LOSS",
+   "caught_by": "me",
+   "title": "Model-authored text drifts toward the frame and is clipped",
+   "evidence": "One generation pushed the headline into the left edge and cut three pills at the right edge; another placed a row into the chrome band.",
+   "root_cause": "No typographic region was declared, so the model treated the whole canvas as available.",
+   "instruction_to_add": "Each slide declares {{TYPO_REGION}}. The prompt states that region as the only area for text and requires complete words that never touch the canvas edge. Predicate: no glyph pixels outside {{TYPO_REGION}}; no glyph clipped at a region boundary.",
+   "symbols_used": [
+    "TYPO_REGION",
+    "SAFE_MARGIN"
+   ],
+   "applies_to": "every asset containing text",
+   "evidence_artifact": "glyph-mask overlay per slide",
+   "guard": "Detect glyph masks outside the declared region."
+  },
+  {
+   "id": "E1",
+   "severity": "P1",
+   "failure_class": "FC-11 CONFIG_DRIFT",
+   "caught_by": "crash",
+   "title": "A config default points at a file that does not ship",
+   "evidence": "load_brand() defaults to a filename that is absent from the package; the shipped file has a different name. First import fails for every new user.",
+   "root_cause": "A file was renamed without updating the default that referenced it.",
+   "instruction_to_add": "Every default path in the package must resolve in a clean checkout. A resolver that cannot find its file must name the files that do exist.",
+   "symbols_used": [],
+   "applies_to": "package defaults",
+   "evidence_artifact": "CI path-resolution step",
+   "guard": "Test: import the module, call every defaulted loader, assert no FileNotFoundError."
+  },
+  {
+   "id": "E2",
+   "severity": "P2",
+   "failure_class": "FC-13 TOOLING_CONTRACT",
+   "caught_by": "cycle",
+   "title": "A public function's arity is undocumented and keyword-hostile",
+   "evidence": "One provider entry point accepts exactly four positional arguments and rejects keyword use; this is not stated anywhere.",
+   "root_cause": "Signature evolved without documentation.",
+   "instruction_to_add": "Every public entry point accepts keyword arguments for its parameters and states its contract in the docstring, which is the same text surfaced in --help.",
+   "symbols_used": [],
+   "applies_to": "public API",
+   "evidence_artifact": "generated API reference",
+   "guard": "Docstring test that every parameter is named in the docstring."
+  },
+  {
+   "id": "E3",
+   "severity": "P2",
+   "failure_class": "FC-13 TOOLING_CONTRACT",
+   "caught_by": "cycle",
+   "title": "A CLI silently depends on absolute paths",
+   "evidence": "A verification CLI fails confusingly when given relative paths.",
+   "root_cause": "Paths are used as supplied, with no base resolution.",
+   "instruction_to_add": "Path-taking CLIs resolve relative paths against the spec file's directory and state the rule in --help.",
+   "symbols_used": [],
+   "applies_to": "CLIs",
+   "evidence_artifact": "--help output",
+   "guard": "Path resolution helper used by all CLIs."
+  },
+  {
+   "id": "E4",
+   "severity": "P1",
+   "failure_class": "FC-04 CHROME_COLLISION",
+   "caught_by": "crash",
+   "title": "A clearance check crashes when the box exceeds the image",
+   "evidence": "Measuring a small raw against full-canvas coordinates raises instead of reporting a verdict.",
+   "root_cause": "No ROI clamping in the check.",
+   "instruction_to_add": "Region-of-interest operations clamp to image bounds and return a structured result; a box that falls outside the canvas is a reported failure, not an exception.",
+   "symbols_used": [],
+   "applies_to": "all geometric checks",
+   "evidence_artifact": "error path test",
+   "guard": "Clamp ROI; unit test with an out-of-bounds box."
+  },
+  {
+   "id": "E5",
+   "severity": "P1",
+   "failure_class": "FC-09 UNKNOWN_AS_PASS",
+   "caught_by": "me",
+   "title": "Applicability was ignored and the verdict was computed after mutating the record",
+   "evidence": "Rules that did not apply reported failures, and the pass flag was derived after the key it depended on was removed, producing wrong verdicts.",
+   "root_cause": "Status assembly order and applicability handling were both wrong.",
+   "instruction_to_add": "Evaluate applicability first, then compute the verdict, then mutate the record. An inapplicable rule yields N/A with a justification recorded in {{EVIDENCE_DIR}}; it never silently becomes pass or fail.",
+   "symbols_used": [
+    "EVIDENCE_DIR"
+   ],
+   "applies_to": "status assembly",
+   "evidence_artifact": "verdict table with justifications",
+   "guard": "Pure function: (applicable, results) -> verdict, no mutation."
+  },
+  {
+   "id": "E6",
+   "severity": "P0",
+   "failure_class": "FC-02 GEOMETRY_LOSS",
+   "caught_by": "me",
+   "title": "The size adapter crops to any target without validation",
+   "evidence": "Root cause of the destroyed layout described in P2: a crop-to-fit adapter with no aspect precondition.",
+   "root_cause": "The adapter was written to 'fit', and cropping was the chosen mechanism.",
+   "instruction_to_add": "Size adaptation is aspect-verified before it runs and must be content-preserving. An adapter that cannot preserve content must refuse the input rather than approximate the request.",
+   "symbols_used": [
+    "TARGET_ASPECT",
+    "ASPECT_TOL"
+   ],
+   "applies_to": "all size adaptation",
+   "evidence_artifact": "adapter contract test",
+   "guard": "Precondition raises on aspect mismatch."
+  },
+  {
+   "id": "E7",
+   "severity": "P2",
+   "failure_class": "FC-08 SCOPE_LEAKAGE",
+   "caught_by": "cycle",
+   "title": "A margin check is O(pixels) in Python and assumes a flat field",
+   "evidence": "A per-pixel Python loop runs across every slide, and on photographic scenes it reports enormous counts that mean nothing because there is no flat background to be measured against.",
+   "root_cause": "Written for one asset class and applied to all.",
+   "instruction_to_add": "Checks are vectorised and declare a performance budget per asset. A check whose premise depends on an asset property must declare that property in its scope and is not evaluated otherwise.",
+   "symbols_used": [
+    "INTEGRATION"
+   ],
+   "applies_to": "all checks",
+   "evidence_artifact": "timing record",
+   "guard": "Vectorised implementation; scope field required on every rule."
+  },
+  {
+   "id": "E8",
+   "severity": "P2",
+   "failure_class": "FC-13 TOOLING_CONTRACT",
+   "caught_by": "cycle",
+   "title": "A failed run can skip its own record write",
+   "evidence": "An interrupted script leaves the run record inconsistent, requiring manual recovery.",
+   "root_cause": "Record writes are not guarded.",
+   "instruction_to_add": "Writes that establish run state occur in a finally block or a transaction, so a failure is recorded as a failure rather than as absence.",
+   "symbols_used": [],
+   "applies_to": "run records",
+   "evidence_artifact": "interrupted-run test",
+   "guard": "try/finally around marker writes."
+  },
+  {
+   "id": "Q1",
+   "severity": "P0",
+   "failure_class": "FC-09 UNKNOWN_AS_PASS",
+   "caught_by": "user",
+   "title": "Most rules were never automated, yet the run was reported as passing QA",
+   "evidence": "The first release shipped with five different products, an inconsistent swipe marker, chrome crossed by artwork and a missing locked trait - all inside a run labelled as passing QA. Only a small minority of the rule corpus was mechanically run at the time.",
+   "root_cause": "Unautomated rules were inspected informally and their silence treated as a pass.",
+   "instruction_to_add": "The verdict is derived from a complete partition of the rule corpus: every rule is pass, N/A with justification, or not_run with an owner. A rule that did not run is never a pass, and the release gate refuses any partition that does not cover every rule.",
+   "symbols_used": [
+    "EVIDENCE_DIR"
+   ],
+   "applies_to": "release gate",
+   "evidence_artifact": "complete verdict table",
+   "guard": "pass = all(applicable pass) and not any(not_run); coverage asserted against the rule corpus size."
+  },
+  {
+   "id": "Q2",
+   "severity": "P1",
+   "failure_class": "FC-07 PROXY_QA",
+   "caught_by": "me",
+   "title": "A semantic judgment was published as a numeric test that could not separate its classes",
+   "evidence": "Three numeric approaches were tried for entity identity: a colour mask that captured background at matching luminance, an edge-template match that scored the defective corpus slightly higher than the correct one, and a keypoint count too sparse to threshold. A fourth, a silhouette correlation, separated correctly but only as an advisory signal.",
+   "root_cause": "A vision judgment was forced into a numeric proxy until one produced a number that looked like rigour.",
+   "instruction_to_add": "A rule whose decision depends on semantic similarity declares method: vision. Vision rules require a human-checkable evidence artefact in {{EVIDENCE_DIR}} and may cite numeric signals only as advisory. A numeric proxy is accepted only if it separates a positive from a negative calibration set; otherwise it is rejected and the rejection is recorded with both populations.",
+   "symbols_used": [
+    "EVIDENCE_DIR",
+    "IDENTITY_TAU"
+   ],
+   "applies_to": "rules whose decision is semantic",
+   "evidence_artifact": "calibration populations + per-slide crop sheet",
+   "guard": "Rule schema forbids method: numeric for any rule tagged semantic."
+  },
+  {
+   "id": "Q3",
+   "severity": "P1",
+   "failure_class": "FC-08 SCOPE_LEAKAGE",
+   "caught_by": "me",
+   "title": "A rule was applied outside the asset class it was written for",
+   "evidence": "A clean-ring collision check returned near-total violation on every photographic slide. The ring is scene content; there is no background for it to be clean of. The result is noise that trains reviewers to ignore the rule.",
+   "root_cause": "No applicability scope existed, so every rule ran on every asset.",
+   "instruction_to_add": "Every rule declares scope over asset properties such as {{INTEGRATION}} and background type. Out-of-scope rules are recorded as N/A with justification and are neither evaluated nor counted. Adding a rule without a scope is a schema error.",
+   "symbols_used": [
+    "INTEGRATION"
+   ],
+   "applies_to": "rule schema",
+   "evidence_artifact": "scope coverage report",
+   "guard": "Schema requires applies_to; loader rejects rules without it."
+  },
+  {
+   "id": "Q4",
+   "severity": "P1",
+   "failure_class": "FC-12 EVIDENCE_INTEGRITY",
+   "caught_by": "me",
+   "title": "A pixel-identity check sampled the background through the component's corners",
+   "evidence": "Chips that were pixel-identical reported as different, because the compared region included rounded corners where each slide's own background shows through.",
+   "root_cause": "A bounding box was used as if it were the component.",
+   "instruction_to_add": "Identity checks on rounded, masked or transparent components compare the component's interior mask, never its bounding box. The sampling region is derived from the component, not assumed.",
+   "symbols_used": [
+    "CHROME_BBOX"
+   ],
+   "applies_to": "components with non-rectangular or transparent geometry",
+   "evidence_artifact": "mask overlay used for comparison",
+   "guard": "Inset/mask parameter required by the comparison helper."
+  },
+  {
+   "id": "Q5",
+   "severity": "P2",
+   "failure_class": "FC-02 GEOMETRY_LOSS",
+   "caught_by": "me",
+   "title": "Quality checks ran against the source file instead of the exported artefact",
+   "evidence": "A margin check failed because it measured the raw while the coordinates described the final canvas.",
+   "root_cause": "Rule execution was not bound to a lifecycle stage.",
+   "instruction_to_add": "Every rule declares the artefact stage it evaluates. Default is the exported output; a rule may only inspect a raw if its scope says so explicitly.",
+   "symbols_used": [
+    "EVIDENCE_DIR"
+   ],
+   "applies_to": "all rules",
+   "evidence_artifact": "stage field on every rule",
+   "guard": "Rule schema requires stage; harness passes only that artefact."
+  },
+  {
+   "id": "Q6",
+   "severity": "P2",
+   "failure_class": "FC-12 EVIDENCE_INTEGRITY",
+   "caught_by": "me",
+   "title": "Hand-drawn regions were treated as evidence",
+   "evidence": "Manually boxed regions for an identity check included shadows and water, making the resulting signature meaningless while still producing a confident-looking verdict.",
+   "root_cause": "A human-selected region was accepted as measurement without provenance.",
+   "instruction_to_add": "Evidence must be reproducible from declared inputs. If a human selects a region, the selection, its author and its rationale are recorded with the artefact; a verdict may not rest on an unrecorded selection.",
+   "symbols_used": [
+    "EVIDENCE_DIR"
+   ],
+   "applies_to": "all rules producing evidence",
+   "evidence_artifact": "provenance record",
+   "guard": "Evidence objects carry a provenance field; release refuses unprovenanced evidence."
+  },
+  {
+   "id": "R1",
+   "severity": "P0",
+   "failure_class": "FC-14 STATUS_ASSERTION",
+   "caught_by": "me",
+   "title": "A build was released before it was verified",
+   "evidence": "A full slide set shipped and the defects were found afterwards. The gate existed, but it was not what released the asset.",
+   "root_cause": "Release was a human action that could precede the gate.",
+   "instruction_to_add": "Release is a function of the gate result and cannot be invoked independently of it. If the gate has not produced a complete verdict table, no release path exists.",
+   "symbols_used": [
+    "EVIDENCE_DIR"
+   ],
+   "applies_to": "release",
+   "evidence_artifact": "gate output bound to the release record",
+   "guard": "Release CLI takes the verdict artefact as a required argument."
+  },
+  {
+   "id": "R2",
+   "severity": "P0",
+   "failure_class": "FC-09 UNKNOWN_AS_PASS",
+   "caught_by": "me",
+   "title": "A green verdict was printed from a gate that covered a fraction of the rules",
+   "evidence": "A pass flag was computed from two rules while several others - including ones that later failed - were never evaluated.",
+   "root_cause": "The verdict summarised the rules that happened to run, not the rules that applied.",
+   "instruction_to_add": "The verdict summarises the applicable rule set, not the executed rule set. Execution coverage is asserted against the corpus before any verdict is printed; a partial run reports partial coverage and cannot pass.",
+   "symbols_used": [],
+   "applies_to": "gate",
+   "evidence_artifact": "coverage ratio in the verdict",
+   "guard": "Assert executed \u2287 applicable before printing pass."
+  },
+  {
+   "id": "R3",
+   "severity": "P0",
+   "failure_class": "FC-14 STATUS_ASSERTION",
+   "caught_by": "me",
+   "title": "A report asserted a completion state that had not been reached",
+   "evidence": "A report described the build as released while several slides still had visible defects. It was corrected in the same session, but the assertion preceded the check.",
+   "root_cause": "Status was typed by the author rather than derived from artefacts.",
+   "instruction_to_add": "Status is computed, never typed: it is the conjunction of the gate verdict, a recorded visual sign-off, and the presence of the released artefacts. A report that cannot show all three states its status as incomplete.",
+   "symbols_used": [
+    "EVIDENCE_DIR"
+   ],
+   "applies_to": "every status field in any report",
+   "evidence_artifact": "computed status with its three inputs",
+   "guard": "Report renderer refuses a literal status string."
+  },
+  {
+   "id": "R4",
+   "severity": "P0",
+   "failure_class": "FC-10 CHEAP_FIX_PRESSURE",
+   "caught_by": "user",
+   "title": "Defects were adjusted instead of regenerated",
+   "evidence": "Cropping, nudging spacers and re-placing a sprite were all used to avoid regenerating a defective scene. The client named it directly.",
+   "root_cause": "Adjustment is cheaper than regeneration, which is precisely why it gets used; nothing made regeneration the only available path.",
+   "instruction_to_add": "A defect in generated artwork is corrected by a new generation with a corrected prompt. The pipeline exposes no editing operation on generated regions, so adjustment is not merely discouraged but unavailable.",
+   "symbols_used": [],
+   "applies_to": "every generated region",
+   "evidence_artifact": "regeneration diff in the run record",
+   "guard": "No post-generation paint API on scene assets."
+  },
+  {
+   "id": "R5",
+   "severity": "P2",
+   "failure_class": "FC-11 CONFIG_DRIFT",
+   "caught_by": "me",
+   "title": "A brand value was sampled from artwork and then hard-coded",
+   "evidence": "A field colour was sampled from a render, written into the pipeline as a literal, and drifted from the configured brand value; widening the tolerance then concealed real drift.",
+   "root_cause": "Sampling was used where configuration already existed.",
+   "instruction_to_add": "All brand values resolve from {{BRAND_PALETTE}} at runtime. No literal colour, size, coordinate or threshold appears in a rule or pipeline step; each is a named symbol with a declared authority.",
+   "symbols_used": [
+    "BRAND_PALETTE"
+   ],
+   "applies_to": "all rules and pipeline steps",
+   "evidence_artifact": "symbol binding table",
+   "guard": "Linter rejects numeric/hex literals in rule and recipe files."
+  }
+ ]
+}

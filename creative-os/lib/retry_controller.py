@@ -45,8 +45,17 @@ class SlideState:
     def __init__(self, slide_id):
         self.slide_id, self.regens, self.recomposites = slide_id, 0, 0
 
-    def decide(self, failed_rules):
-        """failed_rules: [rule_id]. Returns action string; logs every decision."""
+    def decide(self, failed_rules, unknown=None):
+        """failed_rules: [rule_id]; unknown: unresolved rule ids from
+        qa_engine.coverage_gaps(results). Returns action string; logs every
+        decision.
+
+        FC-09 guard: an empty failure list is NOT sufficient to release —
+        every rule must be accounted for. Callers pass coverage_gaps();
+        any unknown rule routes to human review, never to release."""
+        if unknown:
+            log("release_blocked_unknown", slide=self.slide_id, unknown=list(unknown))
+            return "needs_review"
         if not failed_rules:
             log("release_gate_pass", slide=self.slide_id)
             return "release"

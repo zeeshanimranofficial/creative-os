@@ -109,6 +109,33 @@ def check_scale_lock(slides, text_box, max_ratio_drift=0.05, polarity="dark"):
     return drift <= max_ratio_drift, f"heights {heights} drift {drift:.1%}"
 
 
+# ---------- release-gate coverage (FC-09: unknown is NOT a pass) ----------
+
+RESOLVED_STATUSES = {"pass", "fail", "not_applicable"}
+
+
+def coverage_gaps(results):
+    """A release verdict must account for EVERY rule in qa.rules.json.
+
+    results: {rule_id or rule_id.N: {"status": ..., ...}}
+    A rule counts as resolved only if its status is pass, fail, or
+    not_applicable WITH a justification ("why"). Rules with no entry, and
+    vision_task entries that were never answered, are UNKNOWN — and an
+    unknown rule blocks release (FC-09: absence of failure is not a pass).
+
+    Returns sorted list of unresolved rule ids (empty == full coverage).
+    """
+    rules = load_rules()["rules"]
+    seen = {}
+    for k, v in results.items():
+        base = k.split(".")[0]
+        status = v.get("status") if isinstance(v, dict) else str(v)
+        ok = status in RESOLVED_STATUSES and (status != "not_applicable" or (isinstance(v, dict) and v.get("why")))
+        # a rule with several sub-checks is resolved only if ALL are resolved
+        seen[base] = seen.get(base, True) and ok
+    return sorted(r["id"] for r in rules if not seen.get(r["id"], False))
+
+
 # ---------- vision task emission ----------
 
 def vision_task(rule_id, question, crops):

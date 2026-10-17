@@ -121,6 +121,48 @@ _hx = brand["colors"]
 check("compiler: exact hexes present", _hx["primary"] in c["prompt"] and _hx["background"] in c["prompt"])
 check("compiler: reference attached", len(c["reference_images"]) >= 2)
 
+# 5. Hardening guards (from the water-bottle external-agent error register)
+import exporter as X
+import components as CM
+import retry_controller as RC
+RC.AUDIT = "/tmp/golden-test-audit.jsonl"  # keep test logs out of the repo tree
+
+# FC-02/FC-10: wrong-aspect raw must be REJECTED (regenerate, never crop) ...
+try:
+    X.fit_to_canvas(Image.new("RGB", (1080, 1080)), 1080, 1350)
+    check("exporter: wrong-aspect raw rejected", False)
+except ValueError:
+    check("exporter: wrong-aspect raw rejected", True)
+# ... while the documented near-target trim pipeline still passes
+out = X.fit_to_canvas(Image.new("RGB", (928, 1152)), 1080, 1350)
+check("exporter: near-target aspect accepted", out.size == (1080, 1350))
+
+# E1/FC-13: default brand-config path must resolve in ANY clone
+try:
+    CM.load_brand()
+    check("components: brand config default resolves", True)
+except FileNotFoundError as e:
+    check("components: brand config default resolves", False, e)
+
+# FC-09: unknown is NOT a pass — partial coverage blocks release ...
+gaps = Q.coverage_gaps({"QA01": {"status": "pass"}, "QA03a": {"status": "pass"}})
+st = RC.SlideState("golden-fc09")
+check("gate: partial coverage blocks release", bool(gaps) and st.decide([], unknown=gaps) == "needs_review")
+# ... and full resolved coverage still releases
+full = {r["id"]: {"status": "pass"} for r in Q.load_rules()["rules"]}
+check("gate: full coverage releases", Q.coverage_gaps(full) == [] and RC.SlideState("golden-fc09b").decide([], unknown=[]) == "release")
+
+# Leakage linter: the generalised failure corpus must stay instance-free ...
+sys.path.insert(0, os.path.join(ROOT, "tools"))
+import lint_rules as LR
+lex = LR.load_lexicon(None)
+corpus = json.load(open(os.path.join(ROOT, "config", "failure-classes.json")))
+leaks = [l for e in corpus["errors"] for l in LR.lint_text(e.get("instruction_to_add", ""), lex)]
+check("lint: failure-class corpus has zero instance leaks", not leaks, leaks[:5])
+# ... and the linter itself still catches a seeded leak
+seeded = LR.lint_text("Keep the bottom 200px clear and never use #2D5BFF on slide 3", lex)
+check("lint: seeded leak detected", len(seeded) >= 2, seeded)
+
 fails = [n for n, ok, _ in results if not ok]
 print(f"\n{len(results) - len(fails)}/{len(results)} golden tests passed" + (f" — FAILURES: {fails}" if fails else ""))
 sys.exit(1 if fails else 0)
